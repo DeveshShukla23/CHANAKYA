@@ -20,6 +20,7 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-LSTM-orange?style=flat&logo=tensorflow)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red?style=flat&logo=streamlit)
 ![Groq](https://img.shields.io/badge/Groq-LLaMA%203.3%2070B-green?style=flat)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-blue?style=flat&logo=scikit-learn)
 
 </div>
 
@@ -47,7 +48,7 @@ That's **CHANAKYA** — a 100% original end-to-end AI Commerce Intelligence Plat
 
 ---
 
-## 🖥️ Streamlit Live App — Dashboard
+## 🖥️ Streamlit Live App
 
 ![CHANAKYA Streamlit Dashboard](assets/dashboard.png)
 
@@ -67,13 +68,13 @@ ARTHA doesn't just answer questions. It **thinks**, **analyzes**, and **visualiz
 
 > Dark theme | 6 KPIs | 5 Visuals | 7 DAX Measures | 3 Interactive Slicers
 
-![Power BI Dashboard](assets/Chanakya%20Dashboard.png)
+![Power BI Dashboard](assets/CHANAKYA_Dashboard_HQ.png)
 
 ---
 
-## 📈 Exploratory Data Analysis
+## 📈 Exploratory Data Analysis — Layer 4
 
-> Layer 4 — 16 professional charts revealing real business insights
+> 16 professional charts revealing real business insights
 
 ![Revenue Analysis](layer4_eda/01_revenue_analysis.png)
 
@@ -85,9 +86,9 @@ ARTHA doesn't just answer questions. It **thinks**, **analyzes**, and **visualiz
 
 ---
 
-## 🎬 RFM Customer Segmentation — Animated
+## 🎬 RFM Customer Segmentation — Layer 5
 
-> Layer 5 — 9 customer segments with animated visualization
+> 9 customer segments | Animated visualization
 
 ![RFM Animated](layer5_rfm_segmentation/rfm_bar_animated.gif)
 
@@ -95,9 +96,9 @@ ARTHA doesn't just answer questions. It **thinks**, **analyzes**, and **visualiz
 
 ---
 
-## 🚨 Anomaly Detection
+## 🚨 Anomaly Detection — Layer 6
 
-> Layer 6 — 34 fraud accounts caught using 2 methods
+> 34 fraud accounts caught using Z-Score + Isolation Forest
 
 ![Revenue Anomaly](layer6_anomaly_detection/06_revenue_anomaly.png)
 
@@ -105,25 +106,25 @@ ARTHA doesn't just answer questions. It **thinks**, **analyzes**, and **visualiz
 
 ---
 
-## 🤖 ML Demand Forecasting
+## 🤖 ML Demand Forecasting — Layer 7
 
-> Layer 7 — 4 models compared | Gradient Boosting wins
+> 4 models compared | Gradient Boosting wins with R2: 0.2891
 
 ![ML Forecasting](layer7_ml_forecasting/08_ml_forecasting.png)
 
 ---
 
-## 🧠 Deep Learning — LSTM
+## 🧠 Deep Learning LSTM — Layer 8
 
-> Layer 8 — Time series revenue forecasting
+> Time series revenue forecasting with TensorFlow
 
 ![LSTM Forecasting](layer8_deep_learning/09_lstm_v2.png)
 
 ---
 
-## 📉 Churn Prediction
+## 📉 Churn Prediction — Layer 9
 
-> Layer 9 — 477 at-risk customers identified | Data leakage detected & fixed
+> 477 at-risk customers identified | Data leakage detected & fixed
 
 ![Churn Prediction](layer9_churn_prediction/10_churn_prediction.png)
 
@@ -132,7 +133,7 @@ ARTHA doesn't just answer questions. It **thinks**, **analyzes**, and **visualiz
 ## 💡 Key Business Insights
 ```
 📈  Electronics drives 75% revenue — but has the LOWEST profit margin
-🏆  129 Champion customers generate ₹83.4L — top 13% = 31% revenue  
+🏆  129 Champion customers generate ₹83.4L — top 13% = 31% revenue
 ⚠️  34 fraud accounts detected using Z-Score + Isolation Forest
 📉  477 customers predicted to churn — before they actually left
 🎯  November is peak month — festive season spike clearly visible
