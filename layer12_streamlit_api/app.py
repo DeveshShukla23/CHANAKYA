@@ -13,7 +13,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from PIL import Image
 
-load_dotenv(r'C:\Users\Dell\CHANAKYA\layer12_streamlit_api\.env')
+load_dotenv()
 
 # Page config
 st.set_page_config(
@@ -56,7 +56,7 @@ st.markdown("""
 # Load data
 @st.cache_data
 def load_data():
-    PROCESSED_PATH = r'C:\Users\Dell\CHANAKYA\data\processed'
+    PROCESSED_PATH = 'data/processed'
     df_products = pd.read_csv(f'{PROCESSED_PATH}/products_processed.csv')
     df_customers = pd.read_csv(f'{PROCESSED_PATH}/customers_processed.csv')
     df_orders = pd.read_csv(f'{PROCESSED_PATH}/orders_processed.csv')
@@ -67,8 +67,13 @@ def load_data():
 
 df_products, df_customers, df_orders, df_order_items = load_data()
 
-# ARTHA setup
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+# ARTHA setup - Try Streamlit secrets first, then .env
+try:
+    api_key = st.secrets["GROQ_API_KEY"]
+except:
+    api_key = os.getenv("GROQ_API_KEY")
+
+client = Groq(api_key=api_key)
 delivered = df_order_items[df_order_items['order_status'] == 'Delivered']
 total_revenue = delivered['revenue'].sum()
 top_category = delivered.groupby('category')['revenue'].sum().idxmax()
@@ -112,8 +117,7 @@ def ask_artha(question, history):
 # SIDEBAR
 # ============================================================
 with st.sidebar:
-    # Logo
-    logo_path = r'C:\Users\Dell\CHANAKYA\layer12_streamlit_api\chanakya_logo.png'
+    logo_path = 'layer12_streamlit_api/chanakya_logo.png'
     if os.path.exists(logo_path):
         logo = Image.open(logo_path)
         st.image(logo, use_container_width=True)
@@ -122,13 +126,10 @@ with st.sidebar:
 
     st.markdown("### AI Commerce Intelligence")
     st.markdown("---")
-
     st.markdown("**Navigation**")
     page = st.radio("", ["Dashboard", "ARTHA AI", "Data Explorer"])
-
     st.markdown("---")
 
-    # ARTHA Status Widget in Sidebar
     st.markdown("""
     <div style='background-color: #0D1117; padding: 12px; border-radius: 8px;
     border: 1px solid #00D4AA; text-align: center;'>
@@ -150,8 +151,6 @@ with st.sidebar:
 # DASHBOARD PAGE
 # ============================================================
 if page == "Dashboard":
-
-    # Dashboard Header
     st.markdown("""
     <div style='background-color: #1E1E2E; padding: 20px; border-radius: 10px;
     border-bottom: 2px solid #00D4AA; margin-bottom: 20px;'>
@@ -160,7 +159,6 @@ if page == "Dashboard":
     </div>
     """, unsafe_allow_html=True)
 
-    # KPI Cards
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         st.metric("Total Revenue", "₹26.71M", "+25.91%")
@@ -173,23 +171,18 @@ if page == "Dashboard":
 
     st.markdown("---")
 
-    # ARTHA Quick Access Banner
     st.markdown("""
     <div style='background: #1E1E2E; padding: 15px 20px; border-radius: 10px;
-    border: 1px solid #00D4AA; margin-bottom: 20px;
-    display: flex; align-items: center;'>
-        <div>
-            <span style='color: #00D4AA; font-size: 18px; font-weight: bold;'>
-            ⚡ ARTHA is Active & Ready
-            </span>
-            <p style='color: #888; margin: 4px 0 0 0; font-size: 13px;'>
-            Ask anything about your business data --- Switch to ARTHA AI from the sidebar
-            </p>
-        </div>
+    border: 1px solid #00D4AA; margin-bottom: 20px;'>
+        <span style='color: #00D4AA; font-size: 18px; font-weight: bold;'>
+        ⚡ ARTHA is Active & Ready
+        </span>
+        <p style='color: #888; margin: 4px 0 0 0; font-size: 13px;'>
+        Ask anything about your business data --- Switch to ARTHA AI from the sidebar
+        </p>
     </div>
     """, unsafe_allow_html=True)
 
-    # Charts Row 1
     col1, col2 = st.columns(2)
     with col1:
         monthly = delivered.copy()
@@ -198,59 +191,42 @@ if page == "Dashboard":
         fig1 = px.area(monthly_rev, x='year_month', y='revenue',
                       title='Monthly Revenue Trend',
                       color_discrete_sequence=['#00D4AA'])
-        fig1.update_layout(
-            plot_bgcolor='#1E1E2E', paper_bgcolor='#1E1E2E',
-            font_color='white', title_font_color='#00D4AA',
-            title_font_size=16
-        )
+        fig1.update_layout(plot_bgcolor='#1E1E2E', paper_bgcolor='#1E1E2E',
+                          font_color='white', title_font_color='#00D4AA', title_font_size=16)
         st.plotly_chart(fig1, use_container_width=True)
 
     with col2:
         cat_rev = delivered.groupby('category')['revenue'].sum().reset_index()
         cat_rev = cat_rev.sort_values('revenue', ascending=True)
-        fig2 = px.bar(cat_rev, x='revenue', y='category',
-                     orientation='h', title='Revenue by Category',
-                     color_discrete_sequence=['#00D4AA'])
-        fig2.update_layout(
-            plot_bgcolor='#1E1E2E', paper_bgcolor='#1E1E2E',
-            font_color='white', title_font_color='#00D4AA',
-            title_font_size=16
-        )
+        fig2 = px.bar(cat_rev, x='revenue', y='category', orientation='h',
+                     title='Revenue by Category', color_discrete_sequence=['#00D4AA'])
+        fig2.update_layout(plot_bgcolor='#1E1E2E', paper_bgcolor='#1E1E2E',
+                          font_color='white', title_font_color='#00D4AA', title_font_size=16)
         st.plotly_chart(fig2, use_container_width=True)
 
-    # Charts Row 2
     col3, col4 = st.columns(2)
     with col3:
         status_counts = df_orders['order_status'].value_counts().reset_index()
         fig3 = px.pie(status_counts, values='count', names='order_status',
                      title='Order Status Distribution',
                      color_discrete_sequence=['#00D4AA','#F44336','#FF9800','#2196F3','#9C27B0'])
-        fig3.update_layout(
-            plot_bgcolor='#1E1E2E', paper_bgcolor='#1E1E2E',
-            font_color='white', title_font_color='#00D4AA',
-            title_font_size=16
-        )
+        fig3.update_layout(plot_bgcolor='#1E1E2E', paper_bgcolor='#1E1E2E',
+                          font_color='white', title_font_color='#00D4AA', title_font_size=16)
         st.plotly_chart(fig3, use_container_width=True)
 
     with col4:
         top_prods = delivered.groupby('product_name')['revenue'].sum().nlargest(10).reset_index()
         top_prods = top_prods.sort_values('revenue', ascending=True)
-        fig4 = px.bar(top_prods, x='revenue', y='product_name',
-                     orientation='h', title='Top 10 Products by Revenue',
-                     color_discrete_sequence=['#00D4AA'])
-        fig4.update_layout(
-            plot_bgcolor='#1E1E2E', paper_bgcolor='#1E1E2E',
-            font_color='white', title_font_color='#00D4AA',
-            title_font_size=16
-        )
+        fig4 = px.bar(top_prods, x='revenue', y='product_name', orientation='h',
+                     title='Top 10 Products by Revenue', color_discrete_sequence=['#00D4AA'])
+        fig4.update_layout(plot_bgcolor='#1E1E2E', paper_bgcolor='#1E1E2E',
+                          font_color='white', title_font_color='#00D4AA', title_font_size=16)
         st.plotly_chart(fig4, use_container_width=True)
 
 # ============================================================
 # ARTHA AI PAGE
 # ============================================================
 elif page == "ARTHA AI":
-
-    # ARTHA Branding Header
     st.markdown("""
     <div style='background-color: #1E1E2E; padding: 25px; border-radius: 12px;
     border-left: 5px solid #00D4AA; margin-bottom: 25px;'>
@@ -269,55 +245,43 @@ elif page == "ARTHA AI":
     </div>
     """, unsafe_allow_html=True)
 
-    # Capabilities Row
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        st.markdown("""
-        <div style='background:#0D1117; padding:12px; border-radius:8px;
+        st.markdown("""<div style='background:#0D1117; padding:12px; border-radius:8px;
         border:1px solid #00D4AA; text-align:center;'>
-            <p style='color:#00D4AA; margin:0; font-size:20px;'>💬</p>
-            <p style='color:white; margin:0; font-size:12px; font-weight:bold;'>Natural Language Q&A</p>
-        </div>
-        """, unsafe_allow_html=True)
+        <p style='color:#00D4AA; margin:0; font-size:20px;'>💬</p>
+        <p style='color:white; margin:0; font-size:12px; font-weight:bold;'>Natural Language Q&A</p>
+        </div>""", unsafe_allow_html=True)
     with col2:
-        st.markdown("""
-        <div style='background:#0D1117; padding:12px; border-radius:8px;
+        st.markdown("""<div style='background:#0D1117; padding:12px; border-radius:8px;
         border:1px solid #00D4AA; text-align:center;'>
-            <p style='color:#00D4AA; margin:0; font-size:20px;'>🧠</p>
-            <p style='color:white; margin:0; font-size:12px; font-weight:bold;'>Memory & Context</p>
-        </div>
-        """, unsafe_allow_html=True)
+        <p style='color:#00D4AA; margin:0; font-size:20px;'>🧠</p>
+        <p style='color:white; margin:0; font-size:12px; font-weight:bold;'>Memory & Context</p>
+        </div>""", unsafe_allow_html=True)
     with col3:
-        st.markdown("""
-        <div style='background:#0D1117; padding:12px; border-radius:8px;
+        st.markdown("""<div style='background:#0D1117; padding:12px; border-radius:8px;
         border:1px solid #00D4AA; text-align:center;'>
-            <p style='color:#00D4AA; margin:0; font-size:20px;'>📊</p>
-            <p style='color:white; margin:0; font-size:12px; font-weight:bold;'>Real Data Analysis</p>
-        </div>
-        """, unsafe_allow_html=True)
+        <p style='color:#00D4AA; margin:0; font-size:20px;'>📊</p>
+        <p style='color:white; margin:0; font-size:12px; font-weight:bold;'>Real Data Analysis</p>
+        </div>""", unsafe_allow_html=True)
     with col4:
-        st.markdown("""
-        <div style='background:#0D1117; padding:12px; border-radius:8px;
+        st.markdown("""<div style='background:#0D1117; padding:12px; border-radius:8px;
         border:1px solid #00D4AA; text-align:center;'>
-            <p style='color:#00D4AA; margin:0; font-size:20px;'>💡</p>
-            <p style='color:white; margin:0; font-size:12px; font-weight:bold;'>Business Recommendations</p>
-        </div>
-        """, unsafe_allow_html=True)
+        <p style='color:#00D4AA; margin:0; font-size:20px;'>💡</p>
+        <p style='color:white; margin:0; font-size:12px; font-weight:bold;'>Business Recommendations</p>
+        </div>""", unsafe_allow_html=True)
 
     st.markdown("---")
 
-    # Initialize chat history
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
 
-    # Display chat history
     for chat in st.session_state.chat_history:
         with st.chat_message("user"):
             st.write(chat["user"])
         with st.chat_message("assistant", avatar="⚡"):
             st.write(chat["assistant"])
 
-    # Quick Questions
     st.markdown("**Quick Questions:**")
     col1, col2, col3 = st.columns(3)
     with col1:
@@ -342,7 +306,6 @@ elif page == "ARTHA AI":
             st.session_state.chat_history.append({"user": question, "assistant": answer})
             st.rerun()
 
-    # Chat Input
     if prompt := st.chat_input("Ask ARTHA anything about CHANAKYA data..."):
         with st.spinner("ARTHA is thinking..."):
             answer = ask_artha(prompt, st.session_state.chat_history)
@@ -357,7 +320,6 @@ elif page == "ARTHA AI":
 # DATA EXPLORER PAGE
 # ============================================================
 elif page == "Data Explorer":
-
     st.markdown("""
     <div style='background-color: #1E1E2E; padding: 20px; border-radius: 10px;
     border-bottom: 2px solid #00D4AA; margin-bottom: 20px;'>
