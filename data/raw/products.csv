@@ -1,0 +1,51 @@
+product_id,product_name,category,subcategory,brand,price,cost_price,stock,profit_margin
+P001,Samsung Galaxy M34,Electronics,Smartphones,Samsung,18999,14000,150,26.31
+P002,Realme Narzo 60,Electronics,Smartphones,Realme,12999,9500,200,26.92
+P003,boAt Rockerz 450,Electronics,Headphones,boAt,1499,900,300,39.96
+P004,Zebronics Zeb-County,Electronics,Speakers,Zebronics,799,450,250,43.68
+P005,HP 15s Laptop,Electronics,Laptops,HP,45999,38000,80,17.39
+P006,Lenovo IdeaPad Slim,Electronics,Laptops,Lenovo,38999,32000,60,17.95
+P007,Fire-Boltt Ninja Watch,Electronics,Smartwatches,Fire-Boltt,1999,1200,400,39.97
+P008,Redmi Smart TV 32,Electronics,Television,Redmi,15999,12000,100,25.0
+P009,Allen Solly Men Shirt,Clothing,Men Shirts,Allen Solly,1299,600,500,53.81
+P010,Levis Men Jeans 511,Clothing,Men Jeans,Levis,2499,1200,350,51.98
+P011,W Women Kurta Set,Clothing,Women Ethnic,W,1599,700,450,56.22
+P012,Biba Anarkali Suit,Clothing,Women Ethnic,Biba,2199,1000,300,54.52
+P013,Jockey Men T-Shirt,Clothing,Men Tshirts,Jockey,599,250,600,58.26
+P014,HRX Sports Tracksuit,Clothing,Sportswear,HRX,1799,900,280,49.97
+P015,Prestige Pressure Cooker 5L,Home & Kitchen,Cookware,Prestige,1899,1100,200,42.07
+P016,Philips HL7756 Mixer,Home & Kitchen,Appliances,Philips,2799,1800,180,35.69
+P017,Milton Thermosteel Flask,Home & Kitchen,Bottles,Milton,699,350,400,49.93
+P018,Cello Plastic Storage Set,Home & Kitchen,Storage,Cello,499,220,350,55.91
+P019,Bajaj Room Heater,Home & Kitchen,Appliances,Bajaj,1599,950,150,40.59
+P020,Hawkins Futura Pan Set,Home & Kitchen,Cookware,Hawkins,1299,700,220,46.11
+P021,Data Science Handbook,Books,Tech Books,OReilly,899,400,300,55.51
+P022,Python Crash Course,Books,Tech Books,No Starch,699,300,250,57.08
+P023,Classmate Notebook Pack,Books,Stationery,Classmate,199,90,800,54.77
+P024,Camlin Color Kit,Books,Art Supplies,Camlin,349,160,400,54.15
+P025,Cosco Cricket Kit,Sports,Cricket,Cosco,2999,1800,120,39.98
+P026,Nivia Football Size 5,Sports,Football,Nivia,899,450,200,49.94
+P027,Boldfit Yoga Mat,Sports,Yoga,Boldfit,799,350,300,56.2
+P028,Prokyde Badminton Racket,Sports,Badminton,Prokyde,599,280,250,53.26
+P029,Lakme 9to5 Foundation,Beauty,Makeup,Lakme,549,250,400,54.46
+P030,Dove Body Lotion 400ml,Beauty,Skincare,Dove,299,140,500,53.18
+P031,Himalaya Face Wash,Beauty,Skincare,Himalaya,179,80,600,55.31
+P032,Park Avenue Deo Combo,Beauty,Grooming,Park Avenue,399,180,450,54.89
+P033,Tata Salt 1kg,Grocery,Essentials,Tata,28,18,1000,35.71
+P034,Aashirvaad Atta 5kg,Grocery,Flour,Aashirvaad,249,170,800,31.73
+P035,Amul Butter 500g,Grocery,Dairy,Amul,275,200,600,27.27
+P036,Maggi Noodles 12 Pack,Grocery,Instant Food,Nestle,192,130,700,32.29
+P037,Bru Gold Coffee 200g,Grocery,Beverages,Bru,299,190,400,36.45
+P038,Bata Men Formal Shoes,Footwear,Men Formal,Bata,1999,1100,200,44.97
+P039,Sparx Men Sports Shoes,Footwear,Sports Shoes,Sparx,999,550,300,44.94
+P040,Catwalk Women Heels,Footwear,Women Heels,Catwalk,1499,750,180,49.97
+P041,Funskool Lego Set,Toys,Building Blocks,Funskool,999,550,200,44.94
+P042,Fisher Price Baby Gym,Toys,Baby Toys,Fisher Price,1799,1000,150,44.41
+P043,Nilkamal Plastic Chair,Furniture,Chairs,Nilkamal,899,500,100,44.38
+P044,Pepperfry Wall Clock,Furniture,Decor,Pepperfry,599,280,200,53.26
+P045,Bosch Car Wiper Blade,Automotive,Car Accessories,Bosch,499,250,300,49.9
+P046,Turtle Wax Car Polish,Automotive,Car Care,Turtle Wax,399,180,250,54.89
+P047,Dabur Chyawanprash 1kg,Health,Supplements,Dabur,349,200,400,42.69
+P048,Patanjali Ashwagandha,Health,Ayurveda,Patanjali,199,100,500,49.75
+P049,Omron BP Monitor,Health,Monitoring,Omron,1999,1400,120,29.96
+P050,Dettol Hand Sanitizer 500ml,Health,Hygiene,Dettol,199,100,600,49.75

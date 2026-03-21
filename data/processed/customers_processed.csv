@@ -1,0 +1,1001 @@
+customer_id,customer_name,email,phone,age,gender,city,state,tier,pincode,signup_date,is_premium,age_valid,email_valid,signup_year,signup_month,age_group,etl_processed_at,data_source
+CUST0001,Aryan Maharaj,udantdewan@example.net,918196001338,21,Male,Nagpur,Punjab,Tier 2,838637,2024-09-20,False,True,True,2024,9,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0002,Abeer Dutta,roak@example.org,915116155940,39,Female,Patna,Telangana,Tier 2,816184,2024-07-04,True,True,True,2024,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0003,Rehaan Boase,karibimala@example.org,911647525534,21,Male,Pune,Tamil Nadu,Tier 1,928327,2024-09-03,False,True,True,2024,9,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0004,Theodore Nair,karnikazad@example.com,4139537672,26,Female,Mumbai,Himachal Pradesh,Tier 1,388496,2023-08-13,False,True,True,2023,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0005,Janaki Kanda,yashodharatak@example.org,911226916697,35,Female,Chennai,Mizoram,Tier 1,801845,2024-06-25,True,True,True,2024,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0006,Radhika Dugar,uaggarwal@example.net,8281489325,39,Male,Surat,Tripura,Tier 2,880957,2022-06-23,True,True,True,2022,6,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0007,Janani Mohanty,dalbirkhosla@example.net,911718227824,29,Male,Aligarh,Mizoram,Tier 3,383465,2022-01-31,True,True,True,2022,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0008,Jai Kota,devanshnigam@example.org,8393010310,36,Female,Agra,West Bengal,Tier 2,183473,2023-11-12,False,True,True,2023,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0009,Urvashi Kibe,mray@example.org,916566701065,61,Male,Jaipur,Uttar Pradesh,Tier 2,333872,2024-04-17,False,True,True,2024,4,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0010,Arya Shere,faqidsavant@example.net,910801326773,36,Female,Surat,West Bengal,Tier 2,26064,2023-10-18,False,True,True,2023,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0011,Pallavi Sur,ranveerminhas@example.org,919805009788,22,Male,Bhopal,Goa,Tier 2,812191,2023-12-08,False,True,True,2023,12,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0012,Netra Dar,balveerbumb@example.com,9985435346,26,Male,Delhi,Chhattisgarh,Tier 1,751079,2024-11-14,False,True,True,2024,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0013,Ethan Yogi,yashawinilanka@example.org,1354278498,30,Male,Nagpur,Andhra Pradesh,Tier 2,124118,2024-05-24,False,True,True,2024,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0014,Baghyawati Kade,samar48@example.com,164005242,57,Female,Hyderabad,Telangana,Tier 1,868011,2022-08-30,False,True,True,2022,8,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0015,Balendra Pingle,qushidatta@example.org,5053315869,41,Male,Bangalore,Telangana,Tier 1,322602,2024-12-09,False,True,True,2024,12,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0016,Yuvraj Loke,hritikraja@example.org,3375433036,37,Female,Mathura,Karnataka,Tier 3,145868,2023-06-01,False,True,True,2023,6,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0017,Jack Lal,alkabarad@example.org,6556981693,43,Male,Agra,Himachal Pradesh,Tier 2,608835,2023-05-30,True,True,True,2023,5,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0018,Ganga Murthy,mitalyashica@example.com,6564823662,27,Male,Kolkata,Punjab,Tier 1,680443,2023-11-01,False,True,True,2023,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0019,Udyati Sathe,gkala@example.com,2148951343,28,Female,Jhansi,Uttar Pradesh,Tier 3,200379,2023-10-30,False,True,True,2023,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0020,Oeshi Hayer,ztalwar@example.org,910163287083,32,Male,Allahabad,West Bengal,Tier 3,727889,2022-04-24,False,True,True,2022,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0021,Yamini Sandhu,vdutt@example.com,4348734714,27,Female,Lucknow,Haryana,Tier 2,558122,2023-05-08,False,True,True,2023,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0022,Michael Kala,sachdevanikita@example.com,7603669096,26,Female,Pune,Meghalaya,Tier 1,546688,2022-12-26,False,True,True,2022,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0023,Vinaya Kanda,rajata70@example.com,6272980699,22,Male,Delhi,Sikkim,Tier 1,162720,2024-07-26,False,True,True,2024,7,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0024,Falak Kakar,vnarain@example.com,6417080531,31,Male,Vadodara,Tripura,Tier 2,33092,2023-02-09,False,True,True,2023,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0025,Urvashi Contractor,udyatikunda@example.com,919912419049,34,Female,Mathura,Sikkim,Tier 3,631931,2023-01-06,False,True,True,2023,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0026,Jai Barman,priya51@example.net,5067165726,40,Female,Mumbai,Goa,Tier 1,987769,2024-12-19,False,True,True,2024,12,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0027,Yatan Chadha,shravya37@example.net,6507527354,37,Male,Hyderabad,Karnataka,Tier 1,948083,2023-02-21,False,True,True,2023,2,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0028,Niharika Suresh,vamakshiswaminathan@example.com,911436349578,59,Female,Ahmedabad,Mizoram,Tier 1,685574,2022-05-13,False,True,True,2022,5,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0029,Vihaan Dara,diyadar@example.net,2337498941,25,Female,Jaipur,Uttarakhand,Tier 2,435240,2023-04-22,False,True,True,2023,4,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0030,Anusha Bath,masterjonathan@example.net,1094777520,37,Female,Hyderabad,Himachal Pradesh,Tier 1,116719,2024-04-09,True,True,True,2024,4,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0031,Max Dixit,frederick31@example.net,9993867749,34,Female,Vadodara,Maharashtra,Tier 2,990913,2024-09-04,False,True,True,2024,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0032,Aishani Bumb,wriddhishghose@example.net,912067974034,29,Male,Mumbai,Tamil Nadu,Tier 1,713493,2024-08-29,False,True,True,2024,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0033,Umang Dixit,lucky10@example.org,9947174648,45,Male,Jhansi,Nagaland,Tier 3,719065,2023-10-23,True,True,True,2023,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0034,Atharv Chand,anshluthra@example.net,912787429671,58,Male,Jhansi,Meghalaya,Tier 3,655125,2024-07-26,False,True,True,2024,7,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0035,Bhavya Rattan,shagaurang@example.com,5168087603,42,Female,Delhi,Mizoram,Tier 1,977034,2023-10-02,True,True,True,2023,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0036,Bhavna Sarma,bdara@example.net,3248086131,34,Male,Ahmedabad,Manipur,Tier 1,274846,2024-05-03,False,True,True,2024,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0037,Yagnesh Shan,leelahalder@example.net,2146584044,26,Male,Pune,Uttarakhand,Tier 1,278755,2024-01-20,False,True,True,2024,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0038,Tamanna Nagy,williamrajagopal@example.org,576627028,28,Female,Chennai,Odisha,Tier 1,171870,2024-05-07,False,True,True,2024,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0039,Mohammed Borde,vlanka@example.net,6158657809,33,Male,Ahmedabad,Assam,Tier 1,431611,2022-08-12,False,True,True,2022,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0040,Chandani Balakrishnan,nairdaksh@example.com,5623869222,35,Male,Kolkata,Assam,Tier 1,937923,2023-11-21,False,True,True,2023,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0041,Tripti Kumer,shroffbhavna@example.net,2175946474,37,Male,Delhi,Gujarat,Tier 1,713695,2023-12-18,False,True,True,2023,12,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0042,Chakrika Bains,amaharaj@example.net,974395339,22,Male,Agra,Himachal Pradesh,Tier 2,104709,2024-06-11,False,True,True,2024,6,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0043,Gautam Merchant,ojasvi23@example.org,5884247451,24,Female,Chennai,Manipur,Tier 1,236851,2023-07-21,False,True,True,2023,7,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0044,Aishani Yadav,shajyoti@example.net,4965137098,43,Female,Ahmedabad,Karnataka,Tier 1,174612,2023-09-05,True,True,True,2023,9,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0045,Daksha Tailor,chatterjeewahab@example.net,916758692617,31,Male,Delhi,Punjab,Tier 1,405377,2022-03-12,False,True,True,2022,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0046,Hardik Pillai,darsh64@example.org,917139005329,38,Female,Patna,Gujarat,Tier 2,839335,2023-01-02,True,True,True,2023,1,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0047,Aradhana Dhillon,zashilghosh@example.org,205395024,29,Female,Pune,Arunachal Pradesh,Tier 1,681177,2022-08-18,False,True,True,2022,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0048,Siya Thakur,calebverma@example.com,76617711,32,Male,Chennai,Karnataka,Tier 1,124998,2023-07-17,False,True,True,2023,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0049,Chaitaly Setty,ychaudhary@example.net,918367365766,55,Male,Chennai,Telangana,Tier 1,565452,2023-05-21,False,True,True,2023,5,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0050,Ekalinga Chand,chanderrachana@example.org,5280988516,22,Female,Lucknow,Kerala,Tier 2,49451,2024-12-02,False,True,True,2024,12,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0051,Mohammed Subramaniam,hritikpalla@example.net,1493689980,55,Female,Moradabad,Punjab,Tier 3,24455,2024-06-16,True,True,True,2024,6,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0052,Luke Rattan,dharazaan@example.org,8366752545,26,Male,Ahmedabad,Tripura,Tier 1,22901,2022-01-10,True,True,True,2022,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0053,Panini Sunder,rsachdeva@example.org,1561497840,63,Male,Pune,Haryana,Tier 1,900343,2023-02-27,False,True,True,2023,2,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0054,Bimala Narang,amblewidisha@example.net,2268388516,31,Female,Ahmedabad,West Bengal,Tier 1,607159,2022-08-02,False,True,True,2022,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0055,Omisha Mann,ravelansh@example.com,919751613696,40,Male,Lucknow,Mizoram,Tier 2,645352,2023-10-29,False,True,True,2023,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0056,Yashvi Hari,indali23@example.org,914329212779,35,Male,Moradabad,Tripura,Tier 3,995527,2022-04-29,False,True,True,2022,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0057,Riya Mitter,daksh58@example.org,7700541199,35,Male,Mumbai,Mizoram,Tier 1,798079,2022-04-17,False,True,True,2022,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0058,Ekanta Soni,davidseshadri@example.org,1820377889,60,Male,Bangalore,Goa,Tier 1,546659,2024-10-09,True,True,True,2024,10,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0059,Dominic Narayan,rajubhanumati@example.com,9251925462,39,Male,Kanpur,Punjab,Tier 2,486528,2022-03-23,True,True,True,2022,3,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0060,Yashoda Pathak,patildayamai@example.org,915733221418,27,Female,Meerut,Tripura,Tier 3,592962,2022-05-26,False,True,True,2022,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0061,Noah Sarma,royjanya@example.net,3794738347,35,Male,Pune,Uttarakhand,Tier 1,597746,2022-09-10,False,True,True,2022,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0062,Neel Iyengar,zashilben@example.net,5818141247,40,Male,Chennai,Mizoram,Tier 1,613750,2024-02-21,False,True,True,2024,2,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0063,Meghana Thakkar,warinder61@example.com,910515220472,28,Male,Indore,Tripura,Tier 2,790104,2023-10-07,False,True,True,2023,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0064,Pallavi Choudhry,wazir41@example.org,916971179808,32,Female,Delhi,Odisha,Tier 1,246095,2022-12-02,False,True,True,2022,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0065,Rachit Chada,ekansh88@example.net,8067065405,26,Male,Delhi,Uttar Pradesh,Tier 1,531952,2023-01-09,False,True,True,2023,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0066,Hamsini Gill,osrinivas@example.org,911704303054,50,Male,Jhansi,Mizoram,Tier 3,874034,2022-03-10,True,True,True,2022,3,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0067,Garima Mahajan,pillairajeshri@example.com,7652775841,40,Female,Surat,Telangana,Tier 2,169284,2023-07-09,False,True,True,2023,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0068,Fariq Narang,damini79@example.net,2757059640,18,Female,Indore,Assam,Tier 2,582029,2023-05-14,False,True,True,2023,5,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0069,Bakhshi Date,keerjeevika@example.com,9092755719,57,Male,Indore,Chhattisgarh,Tier 2,654310,2024-11-19,True,True,True,2024,11,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0070,Zarna Ram,lalaabha@example.net,3947312172,34,Male,Delhi,Tamil Nadu,Tier 1,155188,2022-10-17,False,True,True,2022,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0071,Nakul Ghosh,yashoda31@example.org,913705895782,26,Female,Bhopal,Punjab,Tier 2,146786,2023-03-28,False,True,True,2023,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0072,Jeremiah Nadig,senguptaunnati@example.net,5289226801,53,Female,Ahmedabad,Mizoram,Tier 1,422535,2023-09-29,True,True,True,2023,9,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0073,Farhan Krishna,anvidass@example.net,9818299229,28,Male,Pune,Telangana,Tier 1,900109,2024-03-17,False,True,True,2024,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0074,Omaja Balasubramanian,pmann@example.com,3647102767,27,Female,Nagpur,Manipur,Tier 2,592555,2023-02-16,False,True,True,2023,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0075,Kamala Varma,nagarwyatt@example.com,914732104696,19,Male,Pune,Haryana,Tier 1,595327,2023-09-12,False,True,True,2023,9,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0076,Wishi Morar,fbajaj@example.com,7339500479,34,Female,Gwalior,Uttarakhand,Tier 3,480162,2024-03-10,False,True,True,2024,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0077,Neha Pau,rattancharan@example.net,3584168784,24,Male,Bangalore,Uttarakhand,Tier 1,216558,2023-02-15,False,True,True,2023,2,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0078,Rushil Upadhyay,ctella@example.org,912578729825,47,Female,Vadodara,Punjab,Tier 2,269495,2023-07-22,False,True,True,2023,7,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0079,Chandani Soman,pillaygarima@example.net,916940974993,23,Female,Chennai,Telangana,Tier 1,972896,2024-02-28,False,True,True,2024,2,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0080,Azad Choudhary,anirudhsastry@example.com,2636897028,36,Male,Pune,Gujarat,Tier 1,786527,2022-08-18,False,True,True,2022,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0081,Irya Lalla,phanda@example.com,4344375758,62,Female,Agra,Uttar Pradesh,Tier 2,419866,2024-04-08,False,True,True,2024,4,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0082,Bina Basak,farhan57@example.net,7338484219,41,Male,Mumbai,Telangana,Tier 1,308330,2023-06-21,False,True,True,2023,6,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0083,Ganga Sodhi,devanabdul@example.net,916773454019,48,Female,Surat,Haryana,Tier 2,262067,2022-06-05,False,True,True,2022,6,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0084,Baljiwan Andra,hredhaan54@example.com,8872874315,23,Female,Vadodara,Goa,Tier 2,420549,2022-10-17,False,True,True,2022,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0085,Parth Ravi,uvarma@example.org,1227530463,44,Male,Chennai,Manipur,Tier 1,549904,2024-11-13,False,True,True,2024,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0086,Warinder Bhatia,shroffdamyanti@example.org,8414593327,26,Male,Vadodara,Chhattisgarh,Tier 2,956878,2024-10-12,True,True,True,2024,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0087,Yug Bumb,twable@example.com,919108839822,48,Female,Kolkata,Karnataka,Tier 1,139718,2024-10-28,False,True,True,2024,10,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0088,Sudiksha Deo,kshan@example.org,7406403910,31,Female,Nagpur,Maharashtra,Tier 2,180170,2023-11-24,False,True,True,2023,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0089,Pranit Deshmukh,yprasad@example.com,6182512868,24,Female,Bareilly,Chhattisgarh,Tier 3,4786,2023-03-22,True,True,True,2023,3,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0090,Victor Kota,jpal@example.com,911069033119,27,Male,Moradabad,Arunachal Pradesh,Tier 3,903067,2024-04-06,False,True,True,2024,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0091,Daksh Dey,vivaan95@example.net,5342836440,28,Female,Patna,Nagaland,Tier 2,687056,2022-12-31,False,True,True,2022,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0092,Omaja Rege,charitapuri@example.org,7334270866,35,Male,Pune,Nagaland,Tier 1,634351,2024-03-25,False,True,True,2024,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0093,George Wason,charanloyal@example.com,9901398373,55,Male,Mumbai,West Bengal,Tier 1,403317,2023-11-30,False,True,True,2023,11,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0094,Mekhala Khatri,barkha67@example.net,5445877175,38,Male,Patna,Gujarat,Tier 2,560932,2023-01-12,True,True,True,2023,1,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0095,Omisha Merchant,rohannarayan@example.org,9378547772,29,Male,Indore,Telangana,Tier 2,228728,2022-01-26,False,True,True,2022,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0096,Bahadurjit Borde,ahujanitara@example.org,3120387509,28,Male,Bhopal,Rajasthan,Tier 2,700886,2024-09-24,False,True,True,2024,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0097,Anvi Wason,anay86@example.org,911823398454,28,Male,Pune,Uttar Pradesh,Tier 1,156793,2022-01-19,False,True,True,2022,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0098,Charita Buch,chandernidra@example.com,8700217659,39,Female,Bareilly,West Bengal,Tier 3,803397,2024-12-19,False,True,True,2024,12,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0099,Falan Mand,goladivya@example.org,919261429396,34,Male,Hyderabad,Sikkim,Tier 1,621850,2023-02-26,False,True,True,2023,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0100,Vincent Borra,mekhala50@example.net,7735866296,35,Female,Pune,Assam,Tier 1,311426,2022-06-01,False,True,True,2022,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0101,Lopa Nadig,hredhaan10@example.com,5412126788,26,Male,Ahmedabad,Mizoram,Tier 1,101581,2024-09-11,False,True,True,2024,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0102,Lekha Arora,odika61@example.net,3982622444,25,Male,Vadodara,Meghalaya,Tier 2,126464,2024-07-16,False,True,True,2024,7,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0103,Jalsa Krishnamurthy,warhihayre@example.com,912406596575,29,Female,Nagpur,Maharashtra,Tier 2,459375,2024-01-23,False,True,True,2024,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0104,Eiravati Manne,ukibe@example.com,6519398280,26,Male,Indore,Telangana,Tier 2,374167,2022-10-03,True,True,True,2022,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0105,Wyatt Krishnan,pallavipurohit@example.org,9796886805,32,Female,Chennai,Tamil Nadu,Tier 1,135290,2022-08-05,True,True,True,2022,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0106,Garima Sani,anneguneet@example.com,918889937567,37,Male,Pune,Tripura,Tier 1,507146,2024-05-24,False,True,True,2024,5,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0107,Lucky Pall,hemal73@example.net,5717751401,27,Female,Ahmedabad,Andhra Pradesh,Tier 1,123828,2022-05-14,True,True,True,2022,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0108,Pooja Shere,nidhigour@example.org,6609379660,42,Male,Patna,Tamil Nadu,Tier 2,341918,2022-09-06,False,True,True,2022,9,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0109,Eshana Hegde,qcomar@example.net,8596969155,59,Male,Bangalore,West Bengal,Tier 1,924991,2022-10-18,True,True,True,2022,10,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0110,Dhriti Dalal,dalajadada@example.org,2866929662,46,Male,Chennai,Meghalaya,Tier 1,827422,2024-11-10,False,True,True,2024,11,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0111,Chatresh Parmer,sundaramlaban@example.org,8876767721,63,Female,Indore,Odisha,Tier 2,340438,2023-05-04,False,True,True,2023,5,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0112,Tanvi Tandon,comaramrita@example.net,8078361340,36,Female,Meerut,Manipur,Tier 3,517133,2023-03-25,False,True,True,2023,3,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0113,Priya Gandhi,samueljhaveri@example.org,5849825449,34,Female,Surat,Himachal Pradesh,Tier 2,260422,2024-07-02,False,True,True,2024,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0114,Ekanta Kota,jsuri@example.net,4667116845,27,Male,Ahmedabad,Manipur,Tier 1,590175,2023-01-23,False,True,True,2023,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0115,Tejas Sanghvi,wardaloyal@example.com,5892975001,34,Female,Vadodara,Rajasthan,Tier 2,12770,2022-04-09,False,True,True,2022,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0116,Kevin Mittal,anushachander@example.net,4152064361,28,Male,Delhi,Tamil Nadu,Tier 1,37129,2023-10-27,False,True,True,2023,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0117,Aditya Anand,jai62@example.com,913611155426,24,Male,Lucknow,Tripura,Tier 2,218909,2022-12-18,False,True,True,2022,12,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0118,Ria Panchal,maxsabharwal@example.net,7311219656,22,Male,Bhopal,Karnataka,Tier 2,341389,2024-10-06,False,True,True,2024,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0119,Avi Mitra,zarnaupadhyay@example.org,6403761379,26,Male,Pune,Assam,Tier 1,552696,2024-07-21,False,True,True,2024,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0120,Urishilla Bora,birakshay@example.com,910068486661,39,Female,Kanpur,Rajasthan,Tier 2,414183,2023-07-22,False,True,True,2023,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0121,Mahika Bhatti,rajeshri30@example.org,916179904210,18,Male,Pune,Tamil Nadu,Tier 1,27588,2022-08-30,False,True,True,2022,8,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0122,Kamya Date,jacob05@example.com,8149177850,59,Male,Agra,Meghalaya,Tier 2,524191,2023-02-07,False,True,True,2023,2,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0123,Chaitanya Arora,chakradharsodhi@example.com,2208635365,36,Male,Lucknow,Himachal Pradesh,Tier 2,951802,2022-12-21,False,True,True,2022,12,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0124,Nandini Biswas,xmandal@example.com,1870534949,21,Male,Pune,Haryana,Tier 1,597383,2022-12-13,False,True,True,2022,12,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0125,Nimrat Bajwa,hiralandra@example.com,916413836702,25,Male,Pune,Tamil Nadu,Tier 1,103865,2022-08-22,True,True,True,2022,8,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0126,Girish Tiwari,meeraborde@example.net,623445655,21,Male,Nagpur,Manipur,Tier 2,313291,2023-12-14,False,True,True,2023,12,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0127,Nitesh Sengupta,amurthy@example.org,5374741124,37,Male,Mumbai,Uttarakhand,Tier 1,352135,2022-08-30,False,True,True,2022,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0128,Chandani Lad,azaanravel@example.com,8317121003,30,Male,Mumbai,Chhattisgarh,Tier 1,651994,2023-09-08,False,True,True,2023,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0129,Dhruv Hora,fdave@example.com,910702966706,30,Female,Patna,Sikkim,Tier 2,253244,2022-04-27,False,True,True,2022,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0130,Bakhshi Korpal,wishi68@example.com,911462638380,23,Male,Hyderabad,Madhya Pradesh,Tier 1,787598,2023-11-24,False,True,True,2023,11,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0131,Anamika Gole,nagartheodore@example.org,785932133,29,Female,Mathura,Himachal Pradesh,Tier 3,396522,2023-05-15,False,True,True,2023,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0132,Jagrati Bala,lucky93@example.com,4270103930,42,Female,Indore,Mizoram,Tier 2,59325,2023-01-03,True,True,True,2023,1,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0133,Daniel Bains,luckychoudhry@example.net,1569154522,24,Male,Mumbai,Telangana,Tier 1,752895,2022-10-03,False,True,True,2022,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0134,Kritika Mohanty,joshua20@example.net,6902959391,26,Female,Lucknow,Meghalaya,Tier 2,513552,2022-12-13,False,True,True,2022,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0135,Gautami Sekhon,lankashaurya@example.org,1541006762,36,Female,Bangalore,Maharashtra,Tier 1,658617,2024-09-15,True,True,True,2024,9,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0136,Nicholas Seth,bandichaitaly@example.org,4115262181,60,Male,Surat,Karnataka,Tier 2,62962,2024-06-16,True,True,True,2024,6,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0137,Garima Jha,nimratzachariah@example.com,4431069872,39,Female,Hyderabad,Arunachal Pradesh,Tier 1,61497,2022-03-25,False,True,True,2022,3,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0138,Atharv Jhaveri,bishakhabumb@example.com,914677418625,23,Female,Bhopal,Madhya Pradesh,Tier 2,270477,2022-11-07,False,True,True,2022,11,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0139,Amruta Bhatia,gunbirchada@example.net,8693806868,43,Female,Delhi,Sikkim,Tier 1,937416,2023-02-14,False,True,True,2023,2,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0140,Jai Sen,oliverkakar@example.org,910616329451,63,Female,Delhi,Assam,Tier 1,868548,2022-02-23,False,True,True,2022,2,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0141,Oni Chowdhury,jdoctor@example.net,9119148564,30,Male,Pune,Madhya Pradesh,Tier 1,997024,2023-12-13,False,True,True,2023,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0142,Neelima Barad,snarula@example.org,917450544471,45,Male,Agra,West Bengal,Tier 2,247546,2023-09-18,False,True,True,2023,9,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0143,Raghav Sathe,niharikasundaram@example.net,821486289,45,Female,Nagpur,Andhra Pradesh,Tier 2,330307,2024-07-28,False,True,True,2024,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0144,Rushil Mahal,ucchal86@example.net,910357972798,60,Male,Patna,Kerala,Tier 2,241406,2022-03-20,False,True,True,2022,3,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0145,Tanish Kant,samuelluthra@example.net,8007229034,33,Male,Lucknow,Punjab,Tier 2,466574,2022-03-19,False,True,True,2022,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0146,Chasmum Verma,achaudry@example.net,5899441715,46,Female,Hyderabad,Himachal Pradesh,Tier 1,444328,2022-12-05,True,True,True,2022,12,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0147,Netra Nagarajan,atharvtank@example.com,6660993538,27,Male,Jhansi,Rajasthan,Tier 3,584282,2023-01-09,False,True,True,2023,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0148,Urishilla Dave,qadim51@example.org,3465549471,21,Female,Pune,Meghalaya,Tier 1,999173,2023-04-02,True,True,True,2023,4,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0149,Lakshmi Wagle,odika02@example.org,915697252175,44,Male,Chennai,Rajasthan,Tier 1,500743,2024-02-17,False,True,True,2024,2,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0150,Vrishti Chakrabarti,radhasanghvi@example.com,7600835058,27,Male,Bhopal,Gujarat,Tier 2,33542,2022-09-19,False,True,True,2022,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0151,Yahvi Mohan,dhruvbath@example.com,7898562575,40,Male,Delhi,Tripura,Tier 1,260332,2022-06-09,False,True,True,2022,6,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0152,Yamini Gara,peribaljiwan@example.com,4890901001,37,Male,Bhopal,Maharashtra,Tier 2,618472,2022-11-25,False,True,True,2022,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0153,Charvi Salvi,venkateshanamika@example.net,2618914117,26,Female,Delhi,Gujarat,Tier 1,483564,2022-11-16,False,True,True,2022,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0154,Watika Johal,pnarayanan@example.org,911197218114,32,Male,Kanpur,Rajasthan,Tier 2,744701,2022-09-07,False,True,True,2022,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0155,Bina Parsa,pooja11@example.org,912255794155,29,Female,Patna,Goa,Tier 2,667467,2022-09-29,False,True,True,2022,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0156,Isaiah Deo,duttahemang@example.com,7972965902,24,Male,Hyderabad,Meghalaya,Tier 1,167014,2023-10-18,True,True,True,2023,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0157,Advik Vohra,hamsinivenkataraman@example.net,9163756289,42,Male,Jaipur,Arunachal Pradesh,Tier 2,287721,2024-10-14,False,True,True,2024,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0158,Wridesh Narayanan,chandresh83@example.net,6631779717,41,Female,Ahmedabad,Manipur,Tier 1,170166,2024-02-03,False,True,True,2024,2,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0159,Gavin Modi,tanmayiom@example.com,913758997571,23,Male,Hyderabad,Bihar,Tier 1,55488,2022-02-25,False,True,True,2022,2,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0160,Chakradev Gala,tdey@example.net,6149331637,19,Male,Bangalore,Uttarakhand,Tier 1,516091,2023-08-04,False,True,True,2023,8,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0161,Yamini Desai,hagrawal@example.net,918697829221,34,Female,Moradabad,Madhya Pradesh,Tier 3,866934,2023-12-01,True,True,True,2023,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0162,Chaitaly Sethi,lakshitsachar@example.net,8485833394,33,Female,Agra,Sikkim,Tier 2,228851,2023-09-11,False,True,True,2023,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0163,Omisha Walla,pahal08@example.org,916200342442,32,Male,Ahmedabad,Uttarakhand,Tier 1,438057,2023-07-02,True,True,True,2023,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0164,Lopa Khanna,champak66@example.com,5800439735,32,Female,Bareilly,Tripura,Tier 3,347212,2022-06-09,False,True,True,2022,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0165,Krishna Baria,jmallick@example.com,912940572025,37,Male,Delhi,Punjab,Tier 1,947985,2022-09-27,True,True,True,2022,9,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0166,Thomas Gour,tiwarinathaniel@example.com,8615335554,28,Female,Lucknow,Gujarat,Tier 2,801573,2022-04-24,True,True,True,2022,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0167,Balveer Nagi,ycomar@example.com,4085887704,36,Female,Vadodara,Rajasthan,Tier 2,581128,2024-09-24,False,True,True,2024,9,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0168,Dominic Kade,paninichawla@example.org,6120750110,32,Male,Jaipur,Goa,Tier 2,819346,2024-04-08,False,True,True,2024,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0169,Nidhi Sant,anay61@example.net,919190158144,28,Female,Mathura,Punjab,Tier 3,476607,2023-08-26,False,True,True,2023,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0170,Laban Raman,maanas45@example.org,8210099688,58,Male,Patna,Assam,Tier 2,353682,2022-08-31,False,True,True,2022,8,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0171,Timothy Krishnan,ishwargolla@example.net,878141413,25,Male,Indore,Telangana,Tier 2,552314,2022-09-08,True,True,True,2022,9,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0172,Rishi Nadkarni,vseshadri@example.net,4929955620,32,Female,Mumbai,Karnataka,Tier 1,364525,2024-08-20,False,True,True,2024,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0173,Sanaya Parmer,vidhi81@example.org,9142834110,40,Female,Chennai,West Bengal,Tier 1,996930,2024-01-16,False,True,True,2024,1,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0174,Urmi Dixit,manya39@example.net,2788165803,55,Female,Indore,West Bengal,Tier 2,827229,2024-05-06,False,True,True,2024,5,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0175,Veda Parmer,kandavinaya@example.org,914530385677,56,Male,Indore,Arunachal Pradesh,Tier 2,518449,2024-05-28,False,True,True,2024,5,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0176,Krisha Radhakrishnan,faras84@example.com,918655779082,53,Female,Nagpur,Manipur,Tier 2,318432,2024-04-25,True,True,True,2024,4,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0177,Janaki Dani,oeshinarayanan@example.net,917773926030,28,Female,Bangalore,Chhattisgarh,Tier 1,280920,2022-10-18,False,True,True,2022,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0178,Pranit Varughese,ubahl@example.net,4137977236,24,Female,Hyderabad,Punjab,Tier 1,929842,2022-09-16,False,True,True,2022,9,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0179,Sudiksha Biswas,kritikarajan@example.org,910388629127,33,Male,Bareilly,Punjab,Tier 3,881172,2024-12-01,True,True,True,2024,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0180,Raagini Vig,cprabhakar@example.net,6376599162,31,Male,Mumbai,Himachal Pradesh,Tier 1,314986,2024-07-26,False,True,True,2024,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0181,Abdul Amble,venkateshabhimanyu@example.com,3565126944,60,Female,Delhi,West Bengal,Tier 1,959463,2023-02-05,False,True,True,2023,2,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0182,Praneel Prabhakar,tkulkarni@example.net,6213721386,64,Female,Aligarh,Uttar Pradesh,Tier 3,890260,2023-10-04,False,True,True,2023,10,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0183,Urishilla Saran,bhattadya@example.org,1906698490,42,Male,Mumbai,Tripura,Tier 1,770384,2022-05-22,False,True,True,2022,5,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0184,Yashvi Varty,omkaarbanik@example.com,910214656693,25,Female,Allahabad,Mizoram,Tier 3,118489,2022-10-30,False,True,True,2022,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0185,Aradhana Kara,suhaniraval@example.net,914268181845,23,Male,Ahmedabad,Bihar,Tier 1,894769,2023-06-25,False,True,True,2023,6,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0186,Harinakshi Shanker,ebala@example.org,1633565880,47,Male,Indore,Tamil Nadu,Tier 2,341651,2024-01-22,False,True,True,2024,1,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0187,Vamakshi Murthy,tejas94@example.org,3733343333,58,Female,Hyderabad,Uttarakhand,Tier 1,211179,2024-05-11,False,True,True,2024,5,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0188,Vasatika Prabhu,waida94@example.com,918463920867,28,Male,Ahmedabad,Nagaland,Tier 1,856271,2022-01-11,False,True,True,2022,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0189,Diya Anand,kadeladli@example.net,915594284347,33,Female,Pune,Punjab,Tier 1,527636,2024-12-20,False,True,True,2024,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0190,Janya Rattan,shravya29@example.org,3143866322,31,Male,Lucknow,Meghalaya,Tier 2,267288,2024-12-24,False,True,True,2024,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0191,Charita Krishna,raohardik@example.net,910347175455,36,Female,Patna,Nagaland,Tier 2,506159,2023-05-06,False,True,True,2023,5,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0192,Bhavani Pant,yashvi77@example.org,9472256996,56,Male,Lucknow,West Bengal,Tier 2,125355,2022-11-06,False,True,True,2022,11,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0193,Amara Rana,sai59@example.net,6220234132,61,Female,Delhi,Madhya Pradesh,Tier 1,117800,2024-10-11,False,True,True,2024,10,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0194,Hemang Lala,fradoramakrishnan@example.com,913472282005,34,Female,Bangalore,West Bengal,Tier 1,778487,2023-09-09,True,True,True,2023,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0195,Tanmayi Saran,idika78@example.org,917456424008,54,Male,Mathura,Uttarakhand,Tier 3,547807,2022-07-29,True,True,True,2022,7,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0196,Aditya Sani,vihaan08@example.com,916866326634,33,Female,Surat,Assam,Tier 2,389448,2024-01-12,False,True,True,2024,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0197,Raghav Biswas,labanmann@example.org,7974973502,45,Female,Hyderabad,Arunachal Pradesh,Tier 1,214427,2023-02-22,False,True,True,2023,2,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0198,Gautam Dora,takteerth@example.com,4757051204,30,Female,Lucknow,Tripura,Tier 2,187234,2022-01-13,False,True,True,2022,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0199,Jairaj Kothari,psavant@example.net,913718376452,48,Male,Jhansi,Rajasthan,Tier 3,881474,2023-08-16,False,True,True,2023,8,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0200,Charles Kamdar,keerradha@example.com,912491630097,56,Male,Pune,Tamil Nadu,Tier 1,513271,2022-11-05,False,True,True,2022,11,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0201,Darpan Bhasin,mitesh81@example.org,3585730652,28,Female,Hyderabad,Himachal Pradesh,Tier 1,778487,2024-12-01,False,True,True,2024,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0202,Ijaya Naik,mmaharaj@example.net,911827448570,24,Male,Ahmedabad,Tripura,Tier 1,209593,2022-10-22,False,True,True,2022,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0203,Lila Gupta,ndube@example.com,6511810220,34,Male,Lucknow,Gujarat,Tier 2,731096,2023-05-14,False,True,True,2023,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0204,Aahana Bawa,timothy91@example.org,917170586509,39,Female,Chennai,Himachal Pradesh,Tier 1,141381,2024-10-19,False,True,True,2024,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0205,Lekha Gupta,yuvrajgola@example.net,8619576122,22,Female,Vadodara,Nagaland,Tier 2,852897,2022-06-07,False,True,True,2022,6,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0206,Ekta Prabhu,usani@example.com,3983684577,30,Female,Surat,Madhya Pradesh,Tier 2,49082,2023-07-02,False,True,True,2023,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0207,Charita Kapadia,divyabains@example.net,8889921075,33,Male,Firozabad,Chhattisgarh,Tier 3,459334,2023-04-14,False,True,True,2023,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0208,Mugdha Kalla,nairvasudha@example.org,9194096105,48,Female,Kanpur,Kerala,Tier 2,613906,2023-04-12,False,True,True,2023,4,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0209,Benjamin Nagar,etathakkar@example.net,912067998136,32,Female,Jaipur,Jharkhand,Tier 2,225179,2022-03-26,False,True,True,2022,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0210,Adweta Chada,bthaker@example.net,912783769389,24,Male,Indore,Telangana,Tier 2,314659,2022-03-18,False,True,True,2022,3,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0211,Odika Sampath,ijaya35@example.com,425979270,39,Female,Kolkata,Uttarakhand,Tier 1,352110,2022-05-20,False,True,True,2022,5,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0212,Bhavna Atwal,indrajit47@example.com,915383388487,47,Male,Agra,Punjab,Tier 2,69804,2023-01-13,False,True,True,2023,1,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0213,Bhanumati Iyer,chatresh70@example.org,4510463681,42,Female,Bhopal,Karnataka,Tier 2,981238,2022-09-22,True,True,True,2022,9,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0214,Balveer Kota,gauri76@example.net,910555438404,37,Female,Delhi,Madhya Pradesh,Tier 1,843256,2023-12-13,False,True,True,2023,12,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0215,Gagan Raja,omishakhosla@example.net,916495782329,31,Male,Patna,Nagaland,Tier 2,248262,2024-10-17,False,True,True,2024,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0216,Eesha Bir,goureesha@example.org,566474231,32,Female,Agra,Chhattisgarh,Tier 2,99499,2024-10-16,False,True,True,2024,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0217,Vincent Kashyap,parmerfariq@example.net,2897526772,43,Male,Mumbai,Goa,Tier 1,306046,2024-08-09,False,True,True,2024,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0218,Samarth Bhatti,revasuri@example.net,7366096569,34,Female,Bangalore,Telangana,Tier 1,817703,2022-12-12,False,True,True,2022,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0219,Balveer Ram,guptabishakha@example.com,4472649082,23,Female,Bangalore,Manipur,Tier 1,181298,2024-03-16,False,True,True,2024,3,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0220,Odika Naik,lbakshi@example.com,3714521117,54,Male,Chennai,Rajasthan,Tier 1,186892,2022-07-30,False,True,True,2022,7,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0221,Caleb Garde,mason22@example.org,644742123,27,Male,Hyderabad,Andhra Pradesh,Tier 1,77780,2023-08-12,False,True,True,2023,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0222,Wazir Kalla,asetty@example.com,919903849830,39,Male,Gwalior,Goa,Tier 3,50209,2024-08-02,False,True,True,2024,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0223,Garima Chahal,chopraomaja@example.org,914999827950,35,Female,Kolkata,Assam,Tier 1,556168,2024-07-26,False,True,True,2024,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0224,Urishilla Desai,maharajforum@example.net,8339019817,45,Male,Hyderabad,Telangana,Tier 1,695489,2022-04-11,False,True,True,2022,4,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0225,Kai Taneja,ztailor@example.org,3430107139,27,Female,Ahmedabad,Maharashtra,Tier 1,55830,2024-08-26,False,True,True,2024,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0226,Baghyawati Kumar,morarcharita@example.net,5015569902,28,Female,Mathura,Gujarat,Tier 3,577027,2024-09-22,False,True,True,2024,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0227,Gautami Shere,hbhalla@example.com,5880395512,35,Female,Hyderabad,Himachal Pradesh,Tier 1,568299,2022-08-30,False,True,True,2022,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0228,Jackson Morar,azad46@example.org,3574384215,36,Male,Mumbai,Uttar Pradesh,Tier 1,317807,2023-08-29,False,True,True,2023,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0229,Ranveer Oak,tviswanathan@example.com,911823076810,44,Female,Hyderabad,Jharkhand,Tier 1,915701,2024-02-16,False,True,True,2024,2,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0230,Arin Muni,ekaniiyer@example.org,4857142241,36,Female,Nagpur,Andhra Pradesh,Tier 2,385854,2024-03-19,False,True,True,2024,3,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0231,Yash Garg,mukhopadhyayhamsini@example.net,207016016,45,Female,Indore,Madhya Pradesh,Tier 2,997954,2022-08-08,False,True,True,2022,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0232,Farhan Shroff,giriksidhu@example.org,4773329456,28,Male,Nagpur,Goa,Tier 2,577017,2023-06-01,False,True,True,2023,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0233,Varenya Shenoy,barkhapall@example.net,2816158148,23,Male,Patna,Manipur,Tier 2,963938,2022-06-25,False,True,True,2022,6,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0234,Leena Bhatti,sathvik96@example.com,5832197199,24,Male,Bangalore,Manipur,Tier 1,817246,2022-09-05,False,True,True,2022,9,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0235,Ladli Narang,fbhat@example.org,919022784699,54,Female,Jaipur,Manipur,Tier 2,354946,2022-04-19,False,True,True,2022,4,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0236,Abhiram Uppal,sdatta@example.org,8008514036,33,Female,Surat,Tamil Nadu,Tier 2,566668,2023-06-19,False,True,True,2023,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0237,Vaishnavi Dewan,leenaparsa@example.com,914220102762,24,Female,Kolkata,Assam,Tier 1,679692,2022-11-25,True,True,True,2022,11,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0238,Shivani Rajagopalan,upkaar26@example.net,919738468950,47,Female,Moradabad,Arunachal Pradesh,Tier 3,519712,2023-12-07,False,True,True,2023,12,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0239,Udyati Varughese,virkgaurang@example.org,1894905807,44,Male,Moradabad,Manipur,Tier 3,956544,2024-03-28,False,True,True,2024,3,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0240,Daksha Lad,solankiomkaar@example.net,914904712814,34,Male,Mumbai,Himachal Pradesh,Tier 1,944401,2022-09-18,False,True,True,2022,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0241,Matthew Sekhon,parth43@example.com,918051292766,35,Female,Indore,Haryana,Tier 2,239504,2024-07-27,False,True,True,2024,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0242,Oliver Shetty,tsoni@example.com,8366742860,26,Male,Delhi,Jharkhand,Tier 1,658018,2022-06-30,False,True,True,2022,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0243,Rachana Mahajan,anamika41@example.com,9673938525,54,Male,Lucknow,Nagaland,Tier 2,10618,2024-09-17,True,True,True,2024,9,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0244,Indali Kanda,zayan30@example.org,1093911192,53,Male,Surat,Madhya Pradesh,Tier 2,124471,2022-06-11,False,True,True,2022,6,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0245,Aradhana Sane,aarini21@example.com,916650442717,58,Male,Bangalore,Gujarat,Tier 1,271286,2024-09-19,False,True,True,2024,9,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0246,Riya Lad,banerjeeelijah@example.org,4707200642,51,Male,Delhi,Tamil Nadu,Tier 1,690877,2022-12-06,False,True,True,2022,12,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0247,Ekaraj Zachariah,aarushrajagopalan@example.net,1985546015,41,Female,Indore,Nagaland,Tier 2,174328,2023-11-09,False,True,True,2023,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0248,Rayaan Mistry,ochhabra@example.net,7173203093,25,Male,Patna,Meghalaya,Tier 2,184787,2022-03-03,True,True,True,2022,3,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0249,Harinakshi Bhalla,brijesh61@example.org,8782931027,31,Female,Ahmedabad,Rajasthan,Tier 1,790320,2022-01-26,True,True,True,2022,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0250,Damyanti Chatterjee,lgarde@example.org,911799313656,32,Female,Kolkata,Karnataka,Tier 1,982530,2022-09-25,False,True,True,2022,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0251,Gautami Bhatnagar,mahallohit@example.com,915827390219,39,Male,Delhi,Madhya Pradesh,Tier 1,71002,2024-07-10,False,True,True,2024,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0252,Omaja Soni,samueldhar@example.net,8763290927,30,Male,Kolkata,Punjab,Tier 1,456083,2022-05-19,True,True,True,2022,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0253,Girish Pathak,ucchaljoshi@example.com,913127722005,32,Female,Agra,Jharkhand,Tier 2,645970,2022-10-26,False,True,True,2022,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0254,Patrick Dugar,sundaramyutika@example.org,913799563531,20,Female,Kanpur,Karnataka,Tier 2,136363,2022-06-12,False,True,True,2022,6,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0255,Vedhika Bhagat,ndhillon@example.net,2652735435,35,Male,Bangalore,Chhattisgarh,Tier 1,904217,2022-04-25,False,True,True,2022,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0256,Onveer Oza,chakrikadugar@example.net,2983168739,26,Female,Chennai,Meghalaya,Tier 1,406335,2023-12-14,False,True,True,2023,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0257,Manthan Ahluwalia,cbasu@example.com,8068671773,52,Male,Bangalore,Assam,Tier 1,632543,2023-11-06,False,True,True,2023,11,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0258,Amol Srinivasan,neel79@example.net,772625701,24,Male,Bangalore,Madhya Pradesh,Tier 1,804649,2024-10-03,True,True,True,2024,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0259,Faris Nayak,varmajanuja@example.org,916579055281,21,Male,Indore,Nagaland,Tier 2,253817,2024-04-22,False,True,True,2024,4,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0260,Umang Nagi,amara86@example.com,911557788178,29,Male,Chennai,Sikkim,Tier 1,795137,2024-06-20,True,True,True,2024,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0261,Mahika Gola,faraj12@example.com,912723804682,34,Female,Patna,Meghalaya,Tier 2,670431,2022-05-16,False,True,True,2022,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0262,Zinal Nayak,poza@example.net,7988774924,33,Male,Vadodara,Goa,Tier 2,375402,2022-02-04,False,True,True,2022,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0263,Tamanna Ganesan,bhavikagopal@example.org,2231059274,22,Female,Bareilly,Kerala,Tier 3,380552,2023-07-03,False,True,True,2023,7,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0264,Nicholas Walla,jairaj06@example.com,917520885474,32,Female,Jaipur,Tripura,Tier 2,975170,2023-08-03,True,True,True,2023,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0265,Darika Bakshi,ckannan@example.com,915093983430,31,Female,Ahmedabad,Assam,Tier 1,186375,2022-08-05,False,True,True,2022,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0266,Jalsa Rao,prishapingle@example.com,455478137,23,Male,Gwalior,Telangana,Tier 3,742662,2024-07-25,False,True,True,2024,7,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0267,Maanas Johal,vaishnavi85@example.org,6106462879,27,Female,Delhi,Tripura,Tier 1,326487,2024-07-01,False,True,True,2024,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0268,Daksha Tak,bkapur@example.org,914471462730,64,Male,Kolkata,Bihar,Tier 1,719597,2022-03-07,False,True,True,2022,3,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0269,Aarna Soni,prakashyauvani@example.net,429025725,23,Female,Kanpur,Goa,Tier 2,456504,2024-05-28,False,True,True,2024,5,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0270,Yoshita Hari,girindraganesh@example.net,5445189520,42,Female,Indore,Chhattisgarh,Tier 2,576521,2023-03-30,False,True,True,2023,3,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0271,Yahvi Kant,ishaansahni@example.com,911207545279,26,Male,Ahmedabad,Mizoram,Tier 1,240132,2022-12-05,False,True,True,2022,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0272,Utkarsh Mohanty,shauryade@example.org,1107603108,23,Male,Pune,Odisha,Tier 1,714014,2024-12-14,False,True,True,2024,12,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0273,Gopal Dasgupta,ryangoyal@example.net,124955289,24,Female,Kolkata,Haryana,Tier 1,190833,2024-11-03,True,True,True,2024,11,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0274,Aayush Chaudhary,yaminisoman@example.com,9271256638,23,Male,Surat,Haryana,Tier 2,151718,2023-03-14,False,True,True,2023,3,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0275,Jalsa Mani,butalafalak@example.com,916479473864,34,Female,Surat,West Bengal,Tier 2,317520,2022-07-31,False,True,True,2022,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0276,Henry Randhawa,qvirk@example.net,911266912153,24,Male,Kolkata,Karnataka,Tier 1,961367,2024-11-13,False,True,True,2024,11,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0277,Mugdha Parekh,fravel@example.net,2711477320,48,Female,Patna,Bihar,Tier 2,170269,2023-03-09,False,True,True,2023,3,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0278,Michael Mitter,bosezinal@example.com,3477848588,29,Female,Kanpur,Andhra Pradesh,Tier 2,616756,2024-11-21,False,True,True,2024,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0279,Balendra Bali,chavvigala@example.com,2467197889,26,Male,Indore,Meghalaya,Tier 2,828064,2023-11-19,False,True,True,2023,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0280,Ira Mane,darsh09@example.org,915590561655,42,Female,Kolkata,Maharashtra,Tier 1,33349,2024-02-08,False,True,True,2024,2,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0281,Dalaja Contractor,omkaar08@example.com,917698640790,61,Female,Agra,Karnataka,Tier 2,965917,2022-05-12,False,True,True,2022,5,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0282,Gayathri Taneja,ojas94@example.com,3718344049,21,Female,Nagpur,Madhya Pradesh,Tier 2,919195,2022-06-05,False,True,True,2022,6,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0283,Vaishnavi Sane,idikabose@example.net,8468536649,25,Female,Hyderabad,Mizoram,Tier 1,820829,2023-03-01,False,True,True,2023,3,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0284,Unni Loyal,hbhasin@example.org,7232466513,18,Female,Kolkata,West Bengal,Tier 1,442493,2024-02-15,False,True,True,2024,2,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0285,Ishaan Doctor,ayaankorpal@example.com,7866032420,24,Female,Pune,Himachal Pradesh,Tier 1,820700,2023-09-23,True,True,True,2023,9,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0286,Chanchal Bhatt,qpatla@example.net,916231981898,26,Male,Patna,Himachal Pradesh,Tier 2,139155,2022-05-11,False,True,True,2022,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0287,Warinder Sampath,maanaschhabra@example.org,914764907851,40,Female,Kolkata,Karnataka,Tier 1,734257,2024-06-26,False,True,True,2024,6,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0288,Ansh Banerjee,khatrizehaan@example.net,4518376064,22,Male,Delhi,Jharkhand,Tier 1,343275,2023-07-26,False,True,True,2023,7,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0289,Bahadurjit Mahal,swamyurishilla@example.net,5612481569,27,Female,Indore,Telangana,Tier 2,700272,2024-09-28,False,True,True,2024,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0290,Ryan Mody,fitan12@example.org,2965772429,27,Female,Ahmedabad,Uttarakhand,Tier 1,431652,2022-01-05,True,True,True,2022,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0291,Udarsh Bail,karnikgaurav@example.com,914206969421,28,Female,Pune,Kerala,Tier 1,910867,2023-09-04,False,True,True,2023,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0292,Jagat Kapur,rayaanlata@example.com,7626393436,22,Male,Indore,Goa,Tier 2,204439,2024-11-12,False,True,True,2024,11,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0293,Kala Shanker,anneupasna@example.org,6366941180,28,Male,Mumbai,Arunachal Pradesh,Tier 1,375990,2023-12-02,True,True,True,2023,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0294,Yamini Raj,megha52@example.net,919242875721,29,Male,Hyderabad,Karnataka,Tier 1,241502,2022-01-09,False,True,True,2022,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0295,Jalsa Sani,adya94@example.net,6257287032,30,Female,Bangalore,Arunachal Pradesh,Tier 1,207427,2024-02-15,False,True,True,2024,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0296,Warda Baria,tparikh@example.net,7712151342,44,Male,Surat,Uttarakhand,Tier 2,849939,2023-11-09,False,True,True,2023,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0297,Omaja Bose,wishichandra@example.com,914165915201,20,Female,Mumbai,Manipur,Tier 1,749050,2022-01-07,False,True,True,2022,1,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0298,Ekta Dayal,chanakyamandal@example.com,911896164236,35,Female,Kanpur,Assam,Tier 2,326642,2024-10-16,False,True,True,2024,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0299,Vritti Sankaran,karan51@example.com,3776749961,20,Male,Delhi,Tripura,Tier 1,592661,2022-07-07,False,True,True,2022,7,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0300,Ubika Kapur,warhivyas@example.net,8147617422,45,Female,Nagpur,Sikkim,Tier 2,386490,2022-03-04,True,True,True,2022,3,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0301,Chakradev Varghese,uppalpavani@example.com,917945491801,27,Female,Agra,Telangana,Tier 2,226016,2024-05-05,False,True,True,2024,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0302,Dipta Sha,vlanka@example.org,912194168006,28,Male,Pune,Bihar,Tier 1,277697,2024-12-30,False,True,True,2024,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0303,Megha Mittal,dasskrishna@example.org,911030372368,33,Male,Bangalore,Gujarat,Tier 1,472760,2023-04-16,False,True,True,2023,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0304,Michael Saxena,bsinha@example.com,3349605016,29,Female,Gwalior,Maharashtra,Tier 3,998407,2022-06-30,False,True,True,2022,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0305,Yochana Sura,darshwable@example.org,9581467179,27,Male,Surat,Rajasthan,Tier 2,760243,2023-09-13,True,True,True,2023,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0306,Raksha Kata,harinakshisidhu@example.org,6657293417,42,Female,Kanpur,Chhattisgarh,Tier 2,329716,2023-12-30,True,True,True,2023,12,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0307,Wahab Kadakia,badamijagrati@example.com,2280156193,33,Female,Vadodara,Bihar,Tier 2,745508,2024-02-06,False,True,True,2024,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0308,Yutika Chawla,sarmatanvi@example.org,919918081213,55,Female,Ahmedabad,Kerala,Tier 1,478712,2023-02-20,False,True,True,2023,2,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0309,Gaurika Devi,jaggireva@example.com,913754821456,48,Female,Nagpur,Kerala,Tier 2,286326,2024-10-02,True,True,True,2024,10,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0310,Tara Varty,ayushman72@example.org,8115562606,32,Male,Delhi,Tripura,Tier 1,290846,2023-10-05,False,True,True,2023,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0311,Dipta Padmanabhan,mammenmanan@example.net,7389975634,33,Male,Mumbai,Assam,Tier 1,856288,2023-09-17,False,True,True,2023,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0312,Girik Vaidya,harini20@example.org,9434681054,45,Male,Mumbai,Rajasthan,Tier 1,101749,2023-03-18,False,True,True,2023,3,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0313,Harinakshi Keer,inayamistry@example.com,9268315893,36,Male,Agra,Uttarakhand,Tier 2,712661,2022-01-09,False,True,True,2022,1,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0314,Pavani De,ckala@example.org,8698864976,43,Female,Lucknow,Manipur,Tier 2,622827,2022-05-24,False,True,True,2022,5,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0315,Yochana Wadhwa,kalatamanna@example.com,912851961159,38,Male,Surat,Jharkhand,Tier 2,821545,2023-12-13,False,True,True,2023,12,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0316,Vedika Bala,luckysama@example.org,4327018510,22,Male,Bangalore,Maharashtra,Tier 1,949756,2023-04-17,False,True,True,2023,4,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0317,Lakshit Thaman,qsengupta@example.com,915199663658,40,Male,Kolkata,Arunachal Pradesh,Tier 1,412094,2024-01-09,True,True,True,2024,1,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0318,Frederick Hans,vigranbir@example.com,182043397,31,Male,Chennai,Assam,Tier 1,690705,2024-05-21,False,True,True,2024,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0319,Oeshi Bajwa,lavanya41@example.org,918242241246,30,Male,Bangalore,Sikkim,Tier 1,95200,2023-11-10,False,True,True,2023,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0320,Hardik Nagarajan,nitaranaik@example.com,1033993788,35,Female,Kolkata,Madhya Pradesh,Tier 1,405786,2023-04-08,False,True,True,2023,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0321,Ayush Reddy,anirudhluthra@example.net,1382496718,23,Female,Delhi,Gujarat,Tier 1,582386,2022-04-12,False,True,True,2022,4,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0322,Benjamin Agarwal,pmann@example.org,910749465398,38,Female,Bhopal,Jharkhand,Tier 2,289141,2024-05-12,False,True,True,2024,5,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0323,Logan Mammen,nkade@example.net,5474355379,35,Male,Kolkata,Karnataka,Tier 1,209700,2023-09-07,False,True,True,2023,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0324,Odika Suresh,fyohannan@example.net,1807156956,39,Male,Moradabad,Goa,Tier 3,175370,2024-11-11,False,True,True,2024,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0325,Avni Parmar,gautammitter@example.net,913750479303,28,Male,Bareilly,Uttarakhand,Tier 3,149872,2022-12-11,False,True,True,2022,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0326,Parth Bhattacharyya,dhruvdatta@example.com,3843089487,38,Female,Surat,Andhra Pradesh,Tier 2,56641,2024-05-07,False,True,True,2024,5,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0327,Warhi Pathak,kapurchampak@example.com,8750635190,34,Female,Indore,Telangana,Tier 2,613325,2024-11-22,False,True,True,2024,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0328,Gunbir Bala,zsankaran@example.org,5431735058,30,Male,Kolkata,Uttar Pradesh,Tier 1,199717,2023-04-28,False,True,True,2023,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0329,Frederick Bhat,purohitdhriti@example.net,912070496110,33,Male,Bareilly,Nagaland,Tier 3,466196,2024-06-18,True,True,True,2024,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0330,Sudiksha Rajagopalan,nsangha@example.net,915078593110,45,Male,Delhi,Punjab,Tier 1,939284,2022-12-29,False,True,True,2022,12,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0331,Vasana Saxena,xavierdevan@example.org,912496854982,50,Male,Surat,Chhattisgarh,Tier 2,495450,2023-07-07,False,True,True,2023,7,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0332,Dakshesh Khanna,samihemangini@example.org,913153779599,24,Male,Vadodara,Karnataka,Tier 2,652170,2024-03-15,True,True,True,2024,3,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0333,Aarush Kapoor,unnatikala@example.org,5636205015,42,Female,Surat,Andhra Pradesh,Tier 2,247395,2024-02-10,True,True,True,2024,2,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0334,Rushil Hora,owen34@example.net,915832302410,31,Female,Ahmedabad,Uttarakhand,Tier 1,615347,2022-03-10,False,True,True,2022,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0335,Kashish Garg,hbhattacharyya@example.org,913386559630,28,Female,Ahmedabad,Tripura,Tier 1,842530,2023-01-09,False,True,True,2023,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0336,Jonathan Trivedi,ukadakia@example.org,9128685787,28,Female,Jaipur,Goa,Tier 2,587774,2024-09-04,False,True,True,2024,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0337,Balhaar Johal,samakshseth@example.org,3466925481,30,Female,Surat,Chhattisgarh,Tier 2,478539,2024-06-21,False,True,True,2024,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0338,Yauvani Nayar,dseshadri@example.com,5754602734,28,Male,Ahmedabad,Rajasthan,Tier 1,514888,2022-03-05,False,True,True,2022,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0339,Aradhana Kari,daniekbal@example.com,918353544439,44,Female,Moradabad,Chhattisgarh,Tier 3,44566,2024-09-26,True,True,True,2024,9,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0340,Urmi Vala,mitalikari@example.org,3738987751,37,Female,Hyderabad,Karnataka,Tier 1,663778,2024-06-19,False,True,True,2024,6,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0341,Liam Dave,aditya75@example.com,916668459090,46,Female,Delhi,Chhattisgarh,Tier 1,599996,2022-02-16,False,True,True,2022,2,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0342,Mahika Bhatt,eguha@example.org,9741218209,27,Female,Vadodara,Meghalaya,Tier 2,231643,2023-08-16,True,True,True,2023,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0343,Ekaraj Sha,pillayzarna@example.org,915662128671,58,Male,Pune,Madhya Pradesh,Tier 1,234672,2022-12-29,False,True,True,2022,12,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0344,Samaksh Thakkar,mmajumdar@example.org,917169385977,21,Male,Kolkata,Manipur,Tier 1,147546,2024-07-26,False,True,True,2024,7,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0345,Ojasvi Krish,rachanashankar@example.com,2916032484,64,Male,Chennai,Sikkim,Tier 1,376815,2024-08-10,True,True,True,2024,8,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0346,Yamini Nanda,kseshadri@example.com,918070176563,45,Female,Varanasi,Madhya Pradesh,Tier 3,41257,2022-04-29,False,True,True,2022,4,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0347,Ekansh Butala,rakshadey@example.com,2209124186,28,Female,Bangalore,Goa,Tier 1,42752,2024-01-24,False,True,True,2024,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0348,Tarak Sathe,virkharshil@example.com,4709006335,40,Male,Bangalore,Haryana,Tier 1,106005,2022-12-03,True,True,True,2022,12,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0349,Thomas Char,oliverbasu@example.com,1558393866,27,Female,Delhi,Bihar,Tier 1,315520,2022-10-26,False,True,True,2022,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0350,Advik Ramachandran,tarakannan@example.org,4950136497,34,Male,Patna,Bihar,Tier 2,419562,2023-09-17,False,True,True,2023,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0351,Eesha Subramaniam,nayakandrew@example.net,7683890309,22,Male,Hyderabad,Tripura,Tier 1,436391,2023-05-31,False,True,True,2023,5,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0352,Kavya Tara,saksham26@example.org,397524508,23,Female,Ahmedabad,Uttar Pradesh,Tier 1,403553,2022-04-04,False,True,True,2022,4,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0353,Yuvraj Kapadia,uverma@example.org,171302321,33,Male,Mumbai,Goa,Tier 1,381674,2022-11-16,True,True,True,2022,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0354,Yash Samra,yuvrajmitter@example.com,7347156627,36,Male,Pune,Manipur,Tier 1,896270,2022-09-13,False,True,True,2022,9,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0355,Fiyaz Mital,parthkurian@example.com,4746897152,23,Female,Indore,Tamil Nadu,Tier 2,323008,2023-08-16,True,True,True,2023,8,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0356,Nidhi Sagar,yprakash@example.com,9160169236,33,Female,Jaipur,Himachal Pradesh,Tier 2,875066,2023-08-05,False,True,True,2023,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0357,Vanya Banerjee,ayaan24@example.net,2439920116,32,Female,Pune,Madhya Pradesh,Tier 1,836264,2023-01-19,False,True,True,2023,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0358,Xiti Walia,umorar@example.com,1195243640,19,Female,Hyderabad,Goa,Tier 1,11686,2024-12-10,False,True,True,2024,12,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0359,Raagini Garde,kavyagrewal@example.net,913728179323,37,Female,Patna,Arunachal Pradesh,Tier 2,346791,2024-10-13,False,True,True,2024,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0360,Fariq Memon,purohitjeet@example.com,915093771004,22,Male,Kolkata,Tripura,Tier 1,901380,2024-09-15,False,True,True,2024,9,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0361,Vedika Solanki,pushti55@example.net,5356690551,43,Male,Bangalore,Andhra Pradesh,Tier 1,620918,2023-08-07,False,True,True,2023,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0362,Jyoti Seth,avarma@example.net,910505057397,44,Male,Nagpur,Madhya Pradesh,Tier 2,567164,2023-03-11,False,True,True,2023,3,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0363,Luke Venkatesh,dattawidisha@example.org,8727178333,28,Male,Ahmedabad,Goa,Tier 1,160256,2024-08-01,True,True,True,2024,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0364,Aarini Soni,deshpandevyanjana@example.org,5399156686,56,Male,Mumbai,Uttar Pradesh,Tier 1,341411,2023-03-12,False,True,True,2023,3,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0365,Raghav D’Alia,joshua56@example.net,409836655,27,Female,Lucknow,Uttar Pradesh,Tier 2,899316,2022-05-19,True,True,True,2022,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0366,Diya Dhillon,theodore77@example.org,4209548149,43,Female,Kolkata,Meghalaya,Tier 1,746052,2022-01-15,False,True,True,2022,1,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0367,Charles Gola,tramanathan@example.net,910865675661,30,Female,Delhi,Mizoram,Tier 1,438612,2022-11-24,False,True,True,2022,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0368,Daksha Shankar,lakshsathe@example.net,4233305912,30,Female,Meerut,Madhya Pradesh,Tier 3,201572,2023-05-18,False,True,True,2023,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0369,Yutika Nigam,odixit@example.net,3013674926,55,Male,Ahmedabad,Tripura,Tier 1,764750,2022-03-23,False,True,True,2022,3,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0370,Fitan Dara,oupadhyay@example.org,9974192676,23,Female,Patna,Jharkhand,Tier 2,151826,2022-07-06,False,True,True,2022,7,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0371,Meera Yadav,hbhatt@example.net,1312920875,29,Male,Lucknow,Bihar,Tier 2,293218,2024-12-24,False,True,True,2024,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0372,Frado Dash,januja82@example.com,340848729,36,Male,Hyderabad,Meghalaya,Tier 1,859883,2023-02-03,False,True,True,2023,2,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0373,Chaitanya Khalsa,guhalucky@example.com,912983954296,22,Female,Kolkata,Assam,Tier 1,462671,2024-12-04,False,True,True,2024,12,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0374,Luke Wason,ekavirluthra@example.net,3598926256,27,Female,Mathura,Madhya Pradesh,Tier 3,931418,2023-01-30,False,True,True,2023,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0375,Dominic Narayan,patilgauri@example.com,913401636112,37,Male,Delhi,Mizoram,Tier 1,971859,2022-06-20,False,True,True,2022,6,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0376,Hardik Bava,eesharamachandran@example.org,8896792408,59,Male,Indore,Tamil Nadu,Tier 2,226940,2023-03-15,False,True,True,2023,3,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0377,Zaid Sahota,cgoswami@example.com,8446834146,22,Male,Vadodara,Tripura,Tier 2,111312,2024-09-19,False,True,True,2024,9,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0378,Frado Mangal,banne@example.net,2778816093,30,Female,Kolkata,Uttarakhand,Tier 1,685389,2024-06-12,False,True,True,2024,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0379,Om Viswanathan,parthborde@example.com,918506762515,58,Male,Indore,Sikkim,Tier 2,814474,2022-03-07,False,True,True,2022,3,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0380,Aarnav Ramesh,dalajavarma@example.org,9705097545,34,Male,Lucknow,Bihar,Tier 2,526501,2023-02-16,False,True,True,2023,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0381,Rudra Chad,nirjadasgupta@example.com,912437654562,23,Female,Chennai,Nagaland,Tier 1,177225,2023-11-01,False,True,True,2023,11,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0382,Jagrati Issac,guptabhavani@example.org,916650237416,35,Male,Pune,Meghalaya,Tier 1,256862,2023-11-06,False,True,True,2023,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0383,Ansh Date,hemanginitella@example.org,3056906744,64,Male,Ahmedabad,Meghalaya,Tier 1,639282,2022-06-20,False,True,True,2022,6,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0384,Ishwar Lall,pushtiissac@example.com,1892392312,24,Female,Ahmedabad,Madhya Pradesh,Tier 1,432609,2023-01-23,False,True,True,2023,1,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0385,Charan Rai,tvohra@example.net,3356708604,32,Male,Meerut,Bihar,Tier 3,545635,2022-11-07,False,True,True,2022,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0386,Banjeet Acharya,nagysimon@example.com,4916247554,29,Male,Agra,Bihar,Tier 2,82555,2022-03-15,True,True,True,2022,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0387,Wazir Majumdar,leenachahal@example.org,919109337118,51,Female,Lucknow,Punjab,Tier 2,473820,2024-07-03,False,True,True,2024,7,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0388,Omya Krishnan,jasmit71@example.com,917688029424,37,Female,Varanasi,Arunachal Pradesh,Tier 3,367881,2022-07-18,False,True,True,2022,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0389,Yashodhara Rajagopalan,mrattan@example.com,912029390878,26,Male,Delhi,Tamil Nadu,Tier 1,434481,2022-09-15,False,True,True,2022,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0390,Chakradev Walla,bishakhabaral@example.net,914240338105,34,Male,Mumbai,Rajasthan,Tier 1,518426,2022-09-23,False,True,True,2022,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0391,Ekta Bhandari,parekhtheodore@example.net,2408916498,36,Male,Lucknow,Gujarat,Tier 2,354396,2024-08-07,False,True,True,2024,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0392,Vincent Saraf,manbir71@example.com,917223972404,40,Male,Mathura,Goa,Tier 3,693121,2022-08-30,False,True,True,2022,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0393,Suhani Rau,vyaslaksh@example.net,919166010023,23,Female,Surat,Tripura,Tier 2,429001,2023-10-25,False,True,True,2023,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0394,Frederick Jain,varshasawhney@example.org,5723084810,39,Male,Ahmedabad,Uttarakhand,Tier 1,184186,2024-04-22,False,True,True,2024,4,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0395,Udarsh Bajwa,prisharajan@example.org,4361721314,37,Male,Vadodara,Kerala,Tier 2,951510,2022-08-09,False,True,True,2022,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0396,Pranav Sangha,pratyush62@example.net,4945147541,54,Male,Pune,Uttar Pradesh,Tier 1,225267,2024-07-28,True,True,True,2024,7,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0397,Isaiah Sane,maanav15@example.org,916557676952,25,Male,Bangalore,Uttar Pradesh,Tier 1,668788,2024-01-14,False,True,True,2024,1,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0398,Leena Chacko,kvyas@example.net,3135030587,57,Female,Kolkata,Chhattisgarh,Tier 1,55247,2024-02-05,False,True,True,2024,2,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0399,Xavier Kade,dakshdevi@example.org,2606501917,37,Female,Hyderabad,Uttarakhand,Tier 1,25213,2022-08-12,True,True,True,2022,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0400,Omaja Doctor,upmadey@example.net,4765704120,34,Male,Hyderabad,Rajasthan,Tier 1,928206,2022-04-30,True,True,True,2022,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0401,Aarna Thaker,utkarsh62@example.com,918623690362,24,Female,Bareilly,Uttarakhand,Tier 3,775662,2023-10-21,False,True,True,2023,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0402,Panini Hayer,ikbal11@example.com,5034281139,45,Female,Kanpur,Andhra Pradesh,Tier 2,383034,2022-03-26,False,True,True,2022,3,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0403,Veda Bath,murtygirik@example.com,915468356521,22,Female,Mumbai,Karnataka,Tier 1,818209,2022-05-13,False,True,True,2022,5,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0404,Baljiwan Mannan,maxsheth@example.org,1332288985,42,Male,Indore,Manipur,Tier 2,545960,2023-08-17,False,True,True,2023,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0405,William Joshi,duawidisha@example.org,912481717524,37,Male,Ahmedabad,Goa,Tier 1,495511,2024-11-26,False,True,True,2024,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0406,Aarna Solanki,riya21@example.net,546692758,44,Female,Ahmedabad,West Bengal,Tier 1,516874,2022-10-06,False,True,True,2022,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0407,Dakshesh Konda,dubeyhenry@example.com,2961367157,22,Male,Delhi,Manipur,Tier 1,112166,2024-11-26,False,True,True,2024,11,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0408,Falguni Bhattacharyya,hema97@example.org,7147082723,36,Male,Chennai,Karnataka,Tier 1,960567,2022-11-06,False,True,True,2022,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0409,Siddharth Bajaj,qmadan@example.net,911214614768,47,Female,Patna,Gujarat,Tier 2,201654,2022-11-28,True,True,True,2022,11,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0410,Ikshita Saini,isoman@example.net,916596089319,35,Male,Kolkata,Punjab,Tier 1,550272,2022-09-13,False,True,True,2022,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0411,Ishaan Ray,aarush72@example.net,9103368296,27,Male,Hyderabad,Gujarat,Tier 1,339055,2024-02-15,False,True,True,2024,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0412,Damyanti Thakkar,tatatamanna@example.com,5586851276,36,Male,Pune,Kerala,Tier 1,892866,2022-01-26,False,True,True,2022,1,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0413,Bhanumati Chaudhary,chawlagaurav@example.net,919617981789,29,Female,Bangalore,Uttar Pradesh,Tier 1,463378,2023-03-19,False,True,True,2023,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0414,Rohan Singh,panchalucchal@example.com,6053844446,33,Male,Vadodara,Sikkim,Tier 2,60002,2023-08-15,False,True,True,2023,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0415,Gautami Garde,jkhurana@example.com,919609626265,20,Female,Hyderabad,Mizoram,Tier 1,631281,2023-08-05,False,True,True,2023,8,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0416,Abha Dutt,samar11@example.org,920981960,26,Male,Moradabad,Telangana,Tier 3,752334,2024-09-07,True,True,True,2024,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0417,Kritika Lad,maharajfitan@example.org,911791124,50,Female,Ahmedabad,Himachal Pradesh,Tier 1,117536,2022-10-29,False,True,True,2022,10,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0418,Anthony Sachdev,surfaraj@example.org,6657224029,46,Male,Jaipur,Rajasthan,Tier 2,155799,2022-06-06,False,True,True,2022,6,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0419,Nathan Vig,jairaj39@example.org,882351305,42,Male,Patna,Chhattisgarh,Tier 2,124473,2024-04-28,False,True,True,2024,4,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0420,Chaitaly Sibal,gsarin@example.com,914234619942,25,Female,Lucknow,Uttar Pradesh,Tier 2,767694,2022-05-23,True,True,True,2022,5,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0421,Leela Sanghvi,iraprakash@example.net,917208496498,42,Male,Jaipur,Kerala,Tier 2,12562,2023-05-11,False,True,True,2023,5,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0422,Elijah Kale,kamya25@example.org,915053795381,24,Female,Indore,Madhya Pradesh,Tier 2,938318,2023-07-10,False,True,True,2023,7,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0423,Oviya Saran,ekaja33@example.org,7046117295,29,Female,Vadodara,Odisha,Tier 2,390409,2023-03-08,False,True,True,2023,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0424,Bhavani Deep,ibansal@example.net,915017164455,33,Male,Chennai,Madhya Pradesh,Tier 1,857906,2022-01-08,True,True,True,2022,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0425,Wakeeta Dara,harshil03@example.org,912156321358,29,Male,Bangalore,Andhra Pradesh,Tier 1,401041,2023-04-09,False,True,True,2023,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0426,Ladli Madan,lakshitsharma@example.org,915296718839,33,Male,Kanpur,Meghalaya,Tier 2,457314,2023-02-14,False,True,True,2023,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0427,Ira Kibe,farasborde@example.com,913037637153,63,Female,Bangalore,Uttarakhand,Tier 1,472812,2023-04-06,False,True,True,2023,4,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0428,Lekha Sethi,mugdhaguha@example.org,6249127113,45,Male,Kolkata,Andhra Pradesh,Tier 1,240787,2022-12-06,False,True,True,2022,12,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0429,Jagat Chad,raagini32@example.com,6850745106,44,Male,Hyderabad,Telangana,Tier 1,343629,2023-07-01,False,True,True,2023,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0430,Zilmil Sant,bediyuvraj@example.org,911009431814,35,Female,Firozabad,Haryana,Tier 3,661347,2023-03-05,False,True,True,2023,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0431,Samar Palan,bhavna01@example.org,9743251225,21,Male,Bhopal,Manipur,Tier 2,76502,2022-11-16,False,True,True,2022,11,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0432,Onkar Andra,urvi90@example.com,917100943882,43,Female,Vadodara,Tripura,Tier 2,114577,2023-02-14,False,True,True,2023,2,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0433,Vidhi Kulkarni,tara05@example.com,5897148026,25,Female,Kanpur,West Bengal,Tier 2,257039,2023-06-29,False,True,True,2023,6,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0434,Jagvi Jhaveri,harikrishna@example.net,914878245569,24,Female,Agra,Maharashtra,Tier 2,430985,2024-12-16,True,True,True,2024,12,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0435,Rachita Sha,bhavya10@example.com,2728498247,23,Male,Bareilly,Jharkhand,Tier 3,407034,2024-08-09,False,True,True,2024,8,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0436,Chatresh Suresh,abdul65@example.net,910425488214,39,Male,Bangalore,Chhattisgarh,Tier 1,691430,2024-07-10,False,True,True,2024,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0437,Yuvraj Raju,grastogi@example.com,9429659234,49,Female,Allahabad,Chhattisgarh,Tier 3,834414,2024-01-06,True,True,True,2024,1,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0438,Qadim Prashad,ichar@example.net,5857567667,26,Male,Bangalore,Andhra Pradesh,Tier 1,612943,2024-05-30,False,True,True,2024,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0439,Joshua Memon,ramaswamyjeremiah@example.com,787010415,28,Male,Jaipur,Punjab,Tier 2,497501,2024-06-20,False,True,True,2024,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0440,Samarth Varty,warhideshpande@example.org,2440793110,29,Female,Kolkata,Chhattisgarh,Tier 1,813317,2024-06-27,False,True,True,2024,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0441,Mahika Bhakta,mitalnidhi@example.com,913849791620,39,Female,Nagpur,Goa,Tier 2,328837,2022-02-08,True,True,True,2022,2,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0442,Bimala Chaudhry,qpillai@example.com,6176620471,34,Male,Chennai,Odisha,Tier 1,94097,2024-01-17,False,True,True,2024,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0443,Liam Sidhu,amalhotra@example.org,8835868122,28,Male,Hyderabad,Kerala,Tier 1,724461,2022-03-08,False,True,True,2022,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0444,Krisha Sodhi,yashicavora@example.com,915995996100,29,Female,Kolkata,West Bengal,Tier 1,311775,2024-09-29,False,True,True,2024,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0445,Henry Ghosh,esalvi@example.org,4101759025,24,Female,Hyderabad,Bihar,Tier 1,629833,2022-12-26,False,True,True,2022,12,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0446,Raksha Mangal,sakshamedwin@example.com,3190130205,44,Female,Firozabad,Tripura,Tier 3,981528,2023-01-28,False,True,True,2023,1,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0447,Sarthak Som,ishanvi98@example.org,917661912841,28,Female,Hyderabad,Bihar,Tier 1,309850,2024-02-10,False,True,True,2024,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0448,Zayan Ramakrishnan,ekansh24@example.org,9389846908,27,Male,Ahmedabad,Tamil Nadu,Tier 1,974005,2022-12-15,False,True,True,2022,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0449,Sai Natt,dewansamarth@example.net,5037199051,56,Female,Lucknow,Maharashtra,Tier 2,872401,2023-10-17,True,True,True,2023,10,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0450,Yashica Kar,raagini74@example.org,910038960870,35,Male,Nagpur,Madhya Pradesh,Tier 2,266821,2022-02-25,False,True,True,2022,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0451,Jhalak Pandey,hemalsarkar@example.org,913190368900,37,Male,Jaipur,West Bengal,Tier 2,10272,2023-11-12,False,True,True,2023,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0452,Dipta Palla,brindadayal@example.net,7111483753,23,Female,Bhopal,Manipur,Tier 2,584384,2023-03-15,True,True,True,2023,3,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0453,Chatura Pal,rsunder@example.org,912834831520,56,Male,Lucknow,Haryana,Tier 2,710704,2023-05-11,False,True,True,2023,5,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0454,Charita Chad,mallickleena@example.com,916670336268,32,Male,Jhansi,Arunachal Pradesh,Tier 3,85095,2023-03-08,False,True,True,2023,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0455,Ayaan Om,ysane@example.net,186487699,37,Female,Kolkata,Tripura,Tier 1,267320,2023-02-12,True,True,True,2023,2,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0456,Frederick Krish,geetika96@example.org,4544901495,34,Female,Lucknow,Uttarakhand,Tier 2,277070,2023-03-13,False,True,True,2023,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0457,Jagrati Srinivasan,nilimabhardwaj@example.net,914985172444,25,Female,Allahabad,West Bengal,Tier 3,232290,2023-12-26,True,True,True,2023,12,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0458,Balvan Gour,cnadig@example.net,3044058093,64,Male,Allahabad,Kerala,Tier 3,187181,2022-12-28,False,True,True,2022,12,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0459,Eshana Prabhu,pbora@example.com,2059556574,60,Female,Varanasi,Punjab,Tier 3,250429,2023-01-04,False,True,True,2023,1,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0460,Siddharth Munshi,tanveer69@example.org,2611398986,35,Male,Mumbai,Nagaland,Tier 1,809788,2022-02-09,False,True,True,2022,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0461,Amruta Hayer,yagnesh53@example.com,917513765158,63,Male,Hyderabad,Mizoram,Tier 1,579376,2023-11-17,False,True,True,2023,11,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0462,Yash Reddy,abhamangat@example.com,1166829732,46,Male,Bareilly,Manipur,Tier 3,216487,2022-12-23,True,True,True,2022,12,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0463,Bahadurjit Sankar,ganesanelijah@example.org,8665268341,25,Male,Delhi,Karnataka,Tier 1,999101,2022-06-06,False,True,True,2022,6,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0464,Nilima Sengupta,wmann@example.com,2298120995,41,Female,Bangalore,Sikkim,Tier 1,657289,2023-07-06,False,True,True,2023,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0465,Vincent Mishra,dom@example.net,8986456522,25,Female,Patna,Arunachal Pradesh,Tier 2,684995,2023-03-10,False,True,True,2023,3,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0466,Bhavani Gandhi,manianusha@example.com,3244913421,33,Male,Surat,Gujarat,Tier 2,90883,2022-06-04,False,True,True,2022,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0467,Atharv Pingle,baghyawatisandhu@example.net,8274117674,24,Male,Bangalore,Assam,Tier 1,415131,2022-01-11,False,True,True,2022,1,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0468,Yashica Nayak,sudiksha81@example.net,5061853800,26,Female,Hyderabad,Haryana,Tier 1,963347,2023-05-24,False,True,True,2023,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0469,Rachit Taneja,karan31@example.net,3061789320,40,Male,Hyderabad,Maharashtra,Tier 1,969357,2022-08-24,False,True,True,2022,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0470,Charita Kata,vedhika76@example.net,8741314675,22,Male,Bhopal,Haryana,Tier 2,127515,2024-04-04,False,True,True,2024,4,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0471,Kabir Sule,rsabharwal@example.org,914483608545,33,Female,Pune,Maharashtra,Tier 1,766404,2024-12-18,False,True,True,2024,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0472,Harinakshi Bath,sara63@example.net,918319952980,24,Female,Hyderabad,Telangana,Tier 1,615581,2024-01-25,False,True,True,2024,1,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0473,Zilmil Kade,rushil28@example.com,3425563830,26,Male,Nagpur,Arunachal Pradesh,Tier 2,818670,2024-10-14,True,True,True,2024,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0474,Charvi Bajwa,yugbandi@example.com,1662411186,36,Male,Patna,Andhra Pradesh,Tier 2,892196,2022-09-01,False,True,True,2022,9,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0475,Ekiya Sandal,mittalanusha@example.com,911497646136,34,Female,Ahmedabad,Nagaland,Tier 1,748836,2022-10-29,False,True,True,2022,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0476,Meera Pradhan,sethiudarsh@example.net,916375791452,42,Female,Chennai,Uttar Pradesh,Tier 1,182379,2022-01-27,True,True,True,2022,1,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0477,Lohit Rau,uvirk@example.net,910746452059,40,Male,Ahmedabad,Punjab,Tier 1,43878,2023-01-24,False,True,True,2023,1,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0478,Warinder Nagy,gsubramanian@example.net,1161620281,34,Male,Mumbai,Goa,Tier 1,710672,2024-02-16,False,True,True,2024,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0479,Logan Sahota,sandra@example.org,4485959224,29,Male,Bangalore,Mizoram,Tier 1,958947,2024-08-30,True,True,True,2024,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0480,Ganga Deshmukh,urvianne@example.com,2271043318,35,Male,Chennai,Manipur,Tier 1,109792,2023-12-21,False,True,True,2023,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0481,Upkaar Pai,hansanvi@example.com,9459648831,32,Male,Surat,Odisha,Tier 2,134249,2022-04-14,False,True,True,2022,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0482,Leela Narayanan,urvashi32@example.org,913192227051,32,Female,Mumbai,Arunachal Pradesh,Tier 1,876754,2022-06-08,False,True,True,2022,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0483,Wridesh Ramaswamy,trajan@example.com,4858193242,44,Female,Pune,Uttarakhand,Tier 1,877418,2024-02-17,False,True,True,2024,2,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0484,Pranav Bakshi,unnati56@example.org,8365203758,29,Male,Mumbai,Gujarat,Tier 1,945154,2023-11-08,False,True,True,2023,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0485,Anjali Bandi,varenya60@example.net,4409079772,22,Female,Varanasi,Meghalaya,Tier 3,50922,2024-02-21,True,True,True,2024,2,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0486,Oni Dar,sawhneydavid@example.com,918439055295,42,Female,Pune,Mizoram,Tier 1,660138,2022-07-24,False,True,True,2022,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0487,Fiyaz Gera,rbasu@example.net,918620448515,31,Female,Nagpur,Manipur,Tier 2,971112,2022-08-18,False,True,True,2022,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0488,Eesha Bahri,advaithkalla@example.net,7134324064,53,Male,Agra,Goa,Tier 2,295633,2022-05-15,False,True,True,2022,5,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0489,Peter Merchant,ria41@example.com,9558720962,34,Female,Indore,Nagaland,Tier 2,654358,2023-02-28,False,True,True,2023,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0490,Gautam Varghese,aarnakamdar@example.com,182727955,34,Male,Bangalore,Odisha,Tier 1,905150,2024-05-06,False,True,True,2024,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0491,Vaishnavi Natt,harish25@example.com,917820797996,18,Male,Chennai,Telangana,Tier 1,734595,2022-09-04,False,True,True,2022,9,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0492,Charita Baria,yashicachokshi@example.com,4969028249,34,Male,Indore,Tamil Nadu,Tier 2,922501,2024-01-20,False,True,True,2024,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0493,Hiral Shanker,dgandhi@example.org,2324412336,29,Male,Chennai,Assam,Tier 1,285072,2023-04-26,False,True,True,2023,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0494,Urishilla Ramesh,urmipuri@example.com,3162526546,23,Female,Patna,Punjab,Tier 2,815790,2023-06-20,False,True,True,2023,6,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0495,Wahab Pillay,harini80@example.net,6132730346,50,Male,Vadodara,Assam,Tier 2,626244,2022-12-11,False,True,True,2022,12,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0496,Bakhshi Lal,kgola@example.com,8171516025,22,Female,Delhi,Chhattisgarh,Tier 1,707660,2023-08-24,False,True,True,2023,8,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0497,Aarna D’Alia,xthakkar@example.com,5851268612,41,Male,Mumbai,Andhra Pradesh,Tier 1,943897,2023-04-16,False,True,True,2023,4,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0498,Ucchal Manda,daravrishti@example.com,954654084,48,Male,Chennai,Goa,Tier 1,560754,2023-11-07,False,True,True,2023,11,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0499,Isaac Parikh,walimeghana@example.org,911812276457,44,Female,Hyderabad,Tamil Nadu,Tier 1,897015,2024-09-14,False,True,True,2024,9,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0500,Manan Chaudhuri,uvala@example.org,4660241613,38,Male,Kanpur,Odisha,Tier 2,498830,2023-08-03,False,True,True,2023,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0501,Tanveer Sarkar,quincy48@example.net,919624406306,38,Male,Bangalore,Sikkim,Tier 1,447951,2023-08-05,False,True,True,2023,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0502,Andrew Nair,devanshmani@example.net,9796958678,58,Female,Mumbai,Andhra Pradesh,Tier 1,555727,2022-12-10,False,True,True,2022,12,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0503,Onkar Ramakrishnan,neha09@example.org,7851385445,31,Male,Nagpur,Manipur,Tier 2,29929,2024-02-15,False,True,True,2024,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0504,Ojasvi Bajaj,vritti36@example.net,916911633194,38,Female,Bareilly,Goa,Tier 3,686536,2023-07-01,False,True,True,2023,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0505,Ekaja Patil,nadkarniyadavi@example.net,6367747226,24,Male,Pune,Jharkhand,Tier 1,857216,2024-07-19,False,True,True,2024,7,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0506,Omya Roy,ayushkapur@example.org,9819960593,46,Male,Ahmedabad,Goa,Tier 1,150968,2024-06-20,False,True,True,2024,6,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0507,Neel Shankar,wriddhish27@example.net,915241039773,54,Female,Surat,Sikkim,Tier 2,327819,2024-03-05,False,True,True,2024,3,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0508,Yash Shere,amblebachittar@example.net,6876164819,24,Male,Lucknow,Rajasthan,Tier 2,770460,2023-05-30,False,True,True,2023,5,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0509,Yasti Sarraf,gdash@example.org,9125652373,55,Female,Nagpur,Himachal Pradesh,Tier 2,517734,2023-07-19,True,True,True,2023,7,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0510,Sai Narayanan,kkuruvilla@example.com,228403595,25,Male,Bhopal,Tamil Nadu,Tier 2,429477,2023-06-16,False,True,True,2023,6,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0511,Mohammed Dave,brindarajagopalan@example.com,3039429045,49,Male,Kanpur,Telangana,Tier 2,792529,2024-11-11,False,True,True,2024,11,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0512,Kavya Radhakrishnan,hgara@example.com,917601534332,34,Male,Bhopal,Himachal Pradesh,Tier 2,357790,2024-02-18,False,True,True,2024,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0513,Samaksh Patla,rastogihardik@example.com,1488810798,59,Male,Kolkata,Haryana,Tier 1,423372,2024-03-25,False,True,True,2024,3,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0514,Arunima Chand,devanshdeo@example.net,333997718,24,Female,Aligarh,Uttar Pradesh,Tier 3,513717,2022-03-04,False,True,True,2022,3,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0515,Rudra Chaudhry,vidhimital@example.net,919617399704,36,Male,Chennai,Tripura,Tier 1,947258,2022-05-10,False,True,True,2022,5,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0516,Chandani Lalla,haritamaharaj@example.net,8471270587,43,Male,Lucknow,Meghalaya,Tier 2,216417,2024-01-21,False,True,True,2024,1,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0517,Rishi Chopra,tanaymohanty@example.net,5871493925,27,Male,Kolkata,Goa,Tier 1,622925,2023-06-16,False,True,True,2023,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0518,Omaja Luthra,adyasodhi@example.com,2455574696,62,Male,Delhi,Tripura,Tier 1,60652,2024-03-13,False,True,True,2024,3,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0519,Anirudh Jain,aahanamenon@example.com,915665883398,30,Male,Allahabad,Manipur,Tier 3,113257,2023-12-11,False,True,True,2023,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0520,Chakradhar Ramakrishnan,rkrish@example.net,6010548574,24,Male,Chennai,Bihar,Tier 1,215622,2024-07-10,False,True,True,2024,7,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0521,Ryan Chakrabarti,ukorpal@example.net,4884021557,31,Male,Kanpur,Telangana,Tier 2,257375,2024-07-05,False,True,True,2024,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0522,Aashi Kumer,deyjagdish@example.net,6670808509,45,Male,Pune,Maharashtra,Tier 1,858749,2023-06-02,False,True,True,2023,6,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0523,Faqid Chanda,walinathan@example.net,919793164772,27,Female,Indore,Rajasthan,Tier 2,129578,2023-06-03,False,True,True,2023,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0524,Ansh Ratti,abeer96@example.org,913562439587,33,Male,Nagpur,Rajasthan,Tier 2,959232,2024-12-11,False,True,True,2024,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0525,Pratyush Chaudhuri,wallabalveer@example.org,5155333426,40,Male,Bangalore,Himachal Pradesh,Tier 1,350271,2022-11-17,False,True,True,2022,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0526,Sachi Joshi,cbawa@example.com,3369112898,37,Male,Lucknow,Bihar,Tier 2,317955,2023-08-06,True,True,True,2023,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0527,Shivansh Chana,vanya48@example.org,66615541,58,Female,Agra,Maharashtra,Tier 2,316704,2023-10-07,False,True,True,2023,10,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0528,Chakradev Dhaliwal,peterandra@example.org,2270093459,45,Male,Pune,Maharashtra,Tier 1,622822,2024-10-02,False,True,True,2024,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0529,Nicholas Balan,tjani@example.com,5495005070,33,Male,Mumbai,Telangana,Tier 1,608698,2023-07-22,False,True,True,2023,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0530,Harish Aurora,udant16@example.org,917768729047,36,Male,Indore,Meghalaya,Tier 2,258591,2022-09-21,False,True,True,2022,9,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0531,Rohan Dass,yutikadayal@example.org,911164913342,34,Male,Mumbai,Telangana,Tier 1,579889,2024-01-13,False,True,True,2024,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0532,Falak Sami,maanav90@example.net,320203265,62,Male,Hyderabad,Andhra Pradesh,Tier 1,753967,2023-02-19,False,True,True,2023,2,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0533,Adya Sarraf,mammenyoshita@example.com,2457871584,44,Female,Indore,Assam,Tier 2,608213,2022-11-30,True,True,True,2022,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0534,Jai Merchant,idikamohanty@example.com,8182683230,24,Male,Delhi,Gujarat,Tier 1,892988,2023-12-12,False,True,True,2023,12,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0535,Victor Wali,kavyadutt@example.org,2932896340,27,Male,Surat,Madhya Pradesh,Tier 2,686775,2022-03-15,False,True,True,2022,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0536,Aadi Borde,devika39@example.net,910622723626,35,Female,Pune,Madhya Pradesh,Tier 1,351342,2022-07-31,False,True,True,2022,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0537,Max Jha,rdhar@example.com,184819737,46,Female,Indore,Jharkhand,Tier 2,897215,2023-09-16,False,True,True,2023,9,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0538,Lakshmi Kumer,shuklapooja@example.net,917438119953,23,Male,Patna,West Bengal,Tier 2,660144,2023-02-27,False,True,True,2023,2,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0539,Oni Krishnamurthy,fiyaz01@example.net,3973964178,19,Male,Mumbai,Punjab,Tier 1,986091,2023-01-26,False,True,True,2023,1,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0540,Girish Dalal,jalsasama@example.com,577980660,43,Female,Pune,Gujarat,Tier 1,51460,2024-07-06,False,True,True,2024,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0541,Jagrati Padmanabhan,yuvraj47@example.org,7423885652,34,Male,Delhi,West Bengal,Tier 1,155983,2023-12-11,False,True,True,2023,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0542,Harrison Chana,nmunshi@example.com,2634755752,51,Male,Agra,Goa,Tier 2,13948,2023-05-07,True,True,True,2023,5,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0543,Pranav Rao,issacgirik@example.org,9642585626,55,Female,Delhi,Bihar,Tier 1,991537,2024-12-23,False,True,True,2024,12,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0544,Mohammed Mahal,talwarudarsh@example.net,913373204309,56,Male,Mumbai,Meghalaya,Tier 1,688936,2022-03-05,False,True,True,2022,3,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0545,Lila Lal,adya65@example.com,915851253892,42,Female,Kanpur,Bihar,Tier 2,851935,2022-10-17,False,True,True,2022,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0546,Udyati Luthra,sharmaraksha@example.com,6120878057,25,Male,Delhi,West Bengal,Tier 1,151494,2024-12-26,False,True,True,2024,12,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0547,Raagini Deol,qkale@example.com,8453986289,52,Male,Pune,Karnataka,Tier 1,905911,2022-02-12,False,True,True,2022,2,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0548,Odika Edwin,yuvrajgola@example.org,917151169666,63,Female,Bangalore,Tamil Nadu,Tier 1,252145,2024-08-11,False,True,True,2024,8,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0549,Zayyan Tata,gourabha@example.com,913515718409,22,Male,Moradabad,Arunachal Pradesh,Tier 3,512080,2022-10-03,False,True,True,2022,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0550,Leena Mohan,prasadekaraj@example.org,919728351295,42,Female,Kolkata,Odisha,Tier 1,728270,2022-01-08,False,True,True,2022,1,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0551,Jai Muni,hritik52@example.net,2173929578,21,Male,Vadodara,Uttarakhand,Tier 2,718153,2024-08-24,False,True,True,2024,8,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0552,Wriddhish Swaminathan,netrabarman@example.com,917918158998,29,Female,Ahmedabad,Mizoram,Tier 1,834527,2023-07-23,False,True,True,2023,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0553,Pooja Raval,fpurohit@example.com,917158796474,38,Male,Indore,Tripura,Tier 2,803149,2022-11-04,False,True,True,2022,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0554,Dipta Bava,battachavvi@example.com,915806882850,40,Male,Vadodara,Gujarat,Tier 2,723513,2024-06-06,True,True,True,2024,6,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0555,Alexander Bath,sjha@example.org,352635602,37,Female,Bhopal,Chhattisgarh,Tier 2,946943,2024-02-09,False,True,True,2024,2,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0556,Nimrat Anne,ysachdev@example.com,917490607231,18,Male,Delhi,Rajasthan,Tier 1,127128,2024-10-11,False,True,True,2024,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0557,Aahana Rao,bhavini49@example.com,911631873280,24,Male,Hyderabad,Meghalaya,Tier 1,113062,2023-05-24,False,True,True,2023,5,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0558,Wyatt Sarin,raksha27@example.net,918335090254,31,Male,Lucknow,Goa,Tier 2,730662,2022-05-10,False,True,True,2022,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0559,Umang Gour,gautamisarna@example.org,1398482285,35,Male,Delhi,Arunachal Pradesh,Tier 1,168809,2023-03-30,False,True,True,2023,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0560,Kamala Barad,hemangkaur@example.org,906913098,30,Male,Hyderabad,Assam,Tier 1,796496,2022-09-21,False,True,True,2022,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0561,Vritti Krishna,suhani72@example.com,5324264250,62,Female,Gwalior,Maharashtra,Tier 3,207683,2023-11-30,True,True,True,2023,11,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0562,Ira Joshi,asama@example.com,7767555628,24,Male,Pune,Gujarat,Tier 1,339395,2023-09-17,False,True,True,2023,9,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0563,Kavya Mohanty,mayadhaliwal@example.com,918749603358,31,Male,Delhi,Goa,Tier 1,862703,2023-12-21,False,True,True,2023,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0564,Anjali Dugal,jhora@example.com,7327599801,27,Male,Delhi,Uttar Pradesh,Tier 1,100051,2023-08-23,False,True,True,2023,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0565,Samaksh Dora,damyantibhatti@example.com,5977524418,26,Male,Kanpur,Goa,Tier 2,261896,2023-05-02,False,True,True,2023,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0566,Avni Krish,dinsai@example.org,912676720957,29,Female,Bareilly,Odisha,Tier 3,707955,2022-09-03,False,True,True,2022,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0567,Ekapad Goel,charitaramesh@example.org,913541597099,29,Female,Kolkata,Maharashtra,Tier 1,543848,2022-05-13,False,True,True,2022,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0568,Eiravati Ganesan,kharedamini@example.com,6504715802,24,Male,Moradabad,West Bengal,Tier 3,904637,2022-02-06,False,True,True,2022,2,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0569,Balendra Madan,xnayak@example.net,6525483744,28,Female,Chennai,Assam,Tier 1,158102,2023-08-14,False,True,True,2023,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0570,Falan Goel,dhruv29@example.org,911005912975,39,Male,Hyderabad,Uttar Pradesh,Tier 1,910231,2022-06-16,False,True,True,2022,6,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0571,Gavin Aggarwal,nkaul@example.org,1658373792,30,Female,Chennai,Meghalaya,Tier 1,907280,2022-10-16,False,True,True,2022,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0572,Rudra Lall,ranbirdasgupta@example.net,913253269496,35,Female,Delhi,Mizoram,Tier 1,364538,2022-05-04,False,True,True,2022,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0573,Baghyawati Edwin,bhatiadev@example.com,961701595,34,Female,Indore,Tamil Nadu,Tier 2,945757,2022-01-11,False,True,True,2022,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0574,Charita Suresh,ranveer39@example.org,915677567772,31,Male,Bhopal,Chhattisgarh,Tier 2,602562,2023-07-30,False,True,True,2023,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0575,Akshay Saraf,matthewgour@example.org,910672453076,43,Male,Surat,Goa,Tier 2,843379,2023-09-13,False,True,True,2023,9,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0576,Radhika Dutta,wbhasin@example.org,915794238736,27,Female,Nagpur,Meghalaya,Tier 2,425496,2024-02-15,False,True,True,2024,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0577,Kai Wagle,harita52@example.com,7107563353,23,Female,Vadodara,West Bengal,Tier 2,748595,2024-08-08,False,True,True,2024,8,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0578,Joshua Nagy,warjaskrish@example.com,7058162951,33,Female,Pune,Mizoram,Tier 1,794176,2024-12-20,False,True,True,2024,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0579,Luke Patla,somyatin@example.org,559782457,43,Male,Lucknow,Karnataka,Tier 2,399140,2022-10-28,False,True,True,2022,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0580,Yuvraj Puri,tapte@example.com,912400615727,37,Male,Jaipur,Rajasthan,Tier 2,829751,2022-10-30,False,True,True,2022,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0581,Anya Hora,kmane@example.net,915010587525,29,Female,Indore,Uttarakhand,Tier 2,806562,2023-03-01,True,True,True,2023,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0582,Barkha Naik,vaidyadaksh@example.net,2711221823,39,Male,Firozabad,Assam,Tier 3,551651,2023-05-23,False,True,True,2023,5,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0583,David Vohra,srandhawa@example.org,1372143308,31,Male,Moradabad,Andhra Pradesh,Tier 3,370033,2024-02-05,False,True,True,2024,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0584,Xiti Nagarajan,lila60@example.net,7068103903,33,Female,Jaipur,Haryana,Tier 2,51958,2022-08-26,False,True,True,2022,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0585,Simon Doshi,mandaamaira@example.net,8623945354,30,Female,Ahmedabad,Madhya Pradesh,Tier 1,470798,2022-09-13,False,True,True,2022,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0586,Qasim Chowdhury,ramhredhaan@example.net,913943945703,29,Male,Jaipur,Odisha,Tier 2,380403,2023-09-23,True,True,True,2023,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0587,Samuel Tata,dnarang@example.com,2778943191,60,Male,Pune,Andhra Pradesh,Tier 1,900404,2022-10-09,False,True,True,2022,10,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0588,Nathaniel Chatterjee,pillaitanveer@example.net,916514604014,28,Male,Bangalore,Chhattisgarh,Tier 1,731072,2023-11-23,False,True,True,2023,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0589,Gabriel Keer,rmahajan@example.org,9712316600,32,Male,Ahmedabad,Meghalaya,Tier 1,762090,2022-01-23,False,True,True,2022,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0590,Avni Manda,zjain@example.com,914337009687,28,Female,Kolkata,Uttar Pradesh,Tier 1,45195,2024-10-17,True,True,True,2024,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0591,Nihal Prakash,madhav55@example.com,919657542786,37,Female,Agra,Kerala,Tier 2,194255,2023-12-10,True,True,True,2023,12,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0592,Shravya Zacharia,brijeshoza@example.net,2958292361,27,Male,Firozabad,Uttarakhand,Tier 3,188081,2024-09-29,True,True,True,2024,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0593,Aachal Gala,gaurikasuresh@example.org,5868639561,59,Male,Lucknow,Haryana,Tier 2,230817,2024-06-12,False,True,True,2024,6,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0594,Damini Khurana,nmitter@example.net,1300041321,37,Male,Bangalore,Assam,Tier 1,716560,2022-08-13,True,True,True,2022,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0595,Hemal Rama,sathvik46@example.net,7990707550,26,Female,Nagpur,Himachal Pradesh,Tier 2,681699,2024-12-20,False,True,True,2024,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0596,Avi Rai,suragabriel@example.com,8113176539,26,Female,Bhopal,Meghalaya,Tier 2,548739,2023-06-30,False,True,True,2023,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0597,Advaith Dave,toorsai@example.org,2749680491,23,Female,Delhi,Tamil Nadu,Tier 1,274204,2023-09-30,True,True,True,2023,9,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0598,Pooja Choudhary,farajissac@example.com,3062604235,32,Male,Kolkata,West Bengal,Tier 1,371122,2024-07-22,False,True,True,2024,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0599,Raksha Taneja,qushi08@example.net,8167046861,37,Female,Jaipur,Assam,Tier 2,457683,2022-07-25,False,True,True,2022,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0600,Arjun Edwin,groverronith@example.com,8584712961,29,Female,Kanpur,Nagaland,Tier 2,332426,2022-08-02,False,True,True,2022,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0601,Darpan Uppal,chowdhuryamaira@example.net,425373377,40,Male,Surat,Meghalaya,Tier 2,126881,2022-01-18,False,True,True,2022,1,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0602,Yashvi Dhillon,sridharyochana@example.org,2365346060,24,Male,Delhi,West Bengal,Tier 1,603567,2022-08-15,False,True,True,2022,8,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0603,Joshua Srinivas,pdugar@example.net,4716906181,39,Male,Bangalore,Tamil Nadu,Tier 1,54647,2024-07-31,False,True,True,2024,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0604,Chavvi Wason,darika78@example.com,9899927517,30,Male,Bangalore,Karnataka,Tier 1,444498,2024-10-06,False,True,True,2024,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0605,Ekiya Khatri,ijayamohan@example.org,8644963924,37,Female,Bhopal,Gujarat,Tier 2,885379,2022-12-20,False,True,True,2022,12,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0606,Jacob Manne,sameshnazareth@example.org,7536749785,24,Male,Ahmedabad,Chhattisgarh,Tier 1,914168,2024-03-18,False,True,True,2024,3,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0607,Ekalinga Gulati,warda78@example.net,8963406791,30,Male,Mumbai,Meghalaya,Tier 1,651221,2023-09-03,True,True,True,2023,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0608,Benjamin Boase,hritik88@example.com,911630900159,60,Male,Surat,Telangana,Tier 2,463339,2023-07-16,False,True,True,2023,7,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0609,Irya Khalsa,arinnadig@example.org,916389021994,31,Female,Indore,Uttar Pradesh,Tier 2,113633,2024-07-26,False,True,True,2024,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0610,Oscar Kannan,hredhaan03@example.net,6996733116,21,Female,Delhi,Tamil Nadu,Tier 1,726960,2023-12-15,False,True,True,2023,12,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0611,Samesh Swamy,vviswanathan@example.com,917896793521,34,Male,Hyderabad,Punjab,Tier 1,263355,2024-04-20,False,True,True,2024,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0612,Yuvraj Mannan,ladlisingh@example.org,9317069556,42,Male,Patna,Andhra Pradesh,Tier 2,676164,2023-09-22,True,True,True,2023,9,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0613,Amruta Peri,varenya22@example.org,8983065031,43,Female,Delhi,Tamil Nadu,Tier 1,198041,2023-06-25,False,True,True,2023,6,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0614,Sneha Dixit,lucky64@example.org,916428131909,22,Female,Surat,Rajasthan,Tier 2,487623,2024-03-26,False,True,True,2024,3,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0615,Faraj Bhavsar,luthrapraneel@example.net,917852282305,23,Female,Mathura,West Bengal,Tier 3,480880,2022-01-27,False,True,True,2022,1,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0616,Oliver Bava,idugal@example.org,5947372132,64,Male,Hyderabad,Rajasthan,Tier 1,162047,2023-09-04,False,True,True,2023,9,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0617,Megha Raval,wvenkatesh@example.net,6486287203,32,Female,Surat,Assam,Tier 2,419666,2024-04-01,False,True,True,2024,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0618,Arjun Murty,wissac@example.org,916279246320,44,Female,Chennai,Haryana,Tier 1,476775,2023-04-11,False,True,True,2023,4,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0619,Kalpit Sagar,korpalmadhav@example.net,914505766194,37,Male,Bhopal,Kerala,Tier 2,71553,2022-11-14,True,True,True,2022,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0620,Advay Chaudhuri,anamikabhasin@example.org,3850765975,26,Male,Chennai,Punjab,Tier 1,450891,2023-04-28,False,True,True,2023,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0621,Rachita Varkey,toorekalinga@example.org,5742231964,34,Male,Hyderabad,Madhya Pradesh,Tier 1,4023,2023-11-13,False,True,True,2023,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0622,Omisha Doshi,nkumer@example.org,912047137271,27,Female,Hyderabad,Assam,Tier 1,595749,2023-10-12,False,True,True,2023,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0623,Eta Vyas,zinalmallick@example.net,913067458476,23,Female,Indore,Arunachal Pradesh,Tier 2,412833,2024-05-17,False,True,True,2024,5,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0624,Michael Chaudhari,nitara66@example.net,4132971506,64,Female,Allahabad,Madhya Pradesh,Tier 3,267055,2023-01-22,True,True,True,2023,1,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0625,Warinder Sur,lrandhawa@example.org,6343925295,27,Female,Agra,Odisha,Tier 2,111102,2022-07-03,False,True,True,2022,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0626,Waida Chanda,charanagate@example.com,910245591024,39,Male,Patna,Karnataka,Tier 2,91090,2024-04-19,False,True,True,2024,4,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0627,Mahika Swaminathan,lokebishakha@example.net,1942179428,31,Male,Hyderabad,Bihar,Tier 1,934065,2022-10-26,False,True,True,2022,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0628,Urvashi Sethi,yashodhara44@example.net,6634533722,23,Male,Jhansi,Arunachal Pradesh,Tier 3,91217,2024-10-30,False,True,True,2024,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0629,Ethan Mandal,ekaja93@example.net,6618943705,30,Female,Varanasi,Goa,Tier 3,351004,2022-07-15,False,True,True,2022,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0630,Widisha Sheth,cnaik@example.org,6592024617,43,Female,Mumbai,Karnataka,Tier 1,23897,2023-08-29,False,True,True,2023,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0631,Pranit Sahni,andrajalsa@example.net,9550178332,38,Male,Ahmedabad,Karnataka,Tier 1,868999,2023-03-08,True,True,True,2023,3,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0632,Balveer Sha,tanmayi04@example.com,916917679935,26,Male,Jaipur,Uttarakhand,Tier 2,744039,2022-11-02,False,True,True,2022,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0633,Alka Agrawal,banjeetkapadia@example.com,916060148860,45,Male,Hyderabad,Mizoram,Tier 1,907938,2023-01-30,False,True,True,2023,1,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0634,Jack Keer,lnarasimhan@example.net,3061537012,33,Male,Lucknow,Telangana,Tier 2,244626,2024-10-24,False,True,True,2024,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0635,Janaki Chatterjee,dayamai88@example.net,911210314217,23,Female,Mumbai,Karnataka,Tier 1,887817,2022-11-14,False,True,True,2022,11,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0636,Fiyaz Parekh,panditpatrick@example.com,918409112252,47,Male,Delhi,Mizoram,Tier 1,750566,2024-11-03,True,True,True,2024,11,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0637,Simon Ganesh,vedabhavsar@example.net,917876553007,26,Female,Aligarh,Gujarat,Tier 3,950556,2022-06-10,True,True,True,2022,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0638,Ubika Chada,gopalverma@example.net,919277885190,25,Female,Nagpur,Uttar Pradesh,Tier 2,348640,2022-01-12,False,True,True,2022,1,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0639,Charita Devan,ladli24@example.com,1851744600,27,Male,Indore,Jharkhand,Tier 2,212899,2022-06-15,False,True,True,2022,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0640,Ishaan Chandran,gauri51@example.org,3913044881,30,Male,Bangalore,Uttar Pradesh,Tier 1,841604,2022-06-05,False,True,True,2022,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0641,Gauri Luthra,devanekapad@example.org,170756814,38,Female,Chennai,Goa,Tier 1,152291,2023-10-15,True,True,True,2023,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0642,Upma Kamdar,omkaarupadhyay@example.org,849378306,24,Male,Ahmedabad,Gujarat,Tier 1,384526,2024-09-06,False,True,True,2024,9,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0643,Bhavna Luthra,jeetsalvi@example.com,9701693429,39,Female,Mumbai,Goa,Tier 1,320330,2024-07-06,False,True,True,2024,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0644,Kiaan Kamdar,isaiah90@example.net,911061537221,24,Male,Pune,West Bengal,Tier 1,566847,2022-04-23,False,True,True,2022,4,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0645,Madhav Jhaveri,mpandit@example.net,3774604067,23,Male,Patna,Goa,Tier 2,78436,2024-10-27,False,True,True,2024,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0646,Lohit Mander,peter60@example.com,1975437347,43,Female,Bangalore,Madhya Pradesh,Tier 1,273720,2022-06-21,True,True,True,2022,6,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0647,Leena Kanda,imaranloyal@example.net,8414846019,24,Male,Mathura,Bihar,Tier 3,443899,2022-12-31,True,True,True,2022,12,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0648,Watika Wadhwa,dixitanmol@example.com,8695073214,32,Female,Indore,Telangana,Tier 2,449369,2024-04-03,False,True,True,2024,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0649,Gopal Rai,phayre@example.com,915573857368,31,Female,Bangalore,Andhra Pradesh,Tier 1,192360,2024-05-28,False,True,True,2024,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0650,Nitara Warrior,chauhanridhi@example.net,913335104096,23,Female,Delhi,Bihar,Tier 1,973153,2022-11-15,False,True,True,2022,11,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0651,Girik Krishna,chaitanyasoni@example.net,8207365118,60,Male,Pune,Odisha,Tier 1,940655,2024-08-08,True,True,True,2024,8,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0652,Avi Chatterjee,maharajreyansh@example.org,913023332470,23,Female,Hyderabad,Sikkim,Tier 1,392013,2023-12-04,False,True,True,2023,12,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0653,Rachana Dube,dutturvi@example.com,912508261123,43,Female,Kanpur,Assam,Tier 2,616324,2023-07-24,False,True,True,2023,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0654,Sneha Dugar,saumyasandal@example.org,7454930364,28,Male,Indore,Madhya Pradesh,Tier 2,191203,2024-03-19,False,True,True,2024,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0655,Varenya Rana,chatreshvasa@example.org,3230898138,28,Male,Patna,Nagaland,Tier 2,588144,2024-12-23,False,True,True,2024,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0656,Pranav Basu,nswaminathan@example.org,911829716815,33,Male,Aligarh,Manipur,Tier 3,450000,2023-05-31,False,True,True,2023,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0657,Azaan Chacko,nitesh91@example.org,3717850902,34,Female,Kanpur,Kerala,Tier 2,618444,2024-10-29,False,True,True,2024,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0658,Manbir Zacharia,fmani@example.net,912248905670,24,Female,Varanasi,Mizoram,Tier 3,700900,2022-09-05,False,True,True,2022,9,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0659,Yatan Purohit,harita15@example.net,4826691362,39,Female,Kolkata,Uttar Pradesh,Tier 1,835505,2024-10-25,False,True,True,2024,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0660,Keya Barman,singhalchatresh@example.com,913699879509,20,Male,Vadodara,Tripura,Tier 2,210401,2023-04-27,False,True,True,2023,4,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0661,Jeet Wadhwa,lalaarna@example.net,918773836381,22,Female,Mumbai,Madhya Pradesh,Tier 1,321269,2023-09-01,False,True,True,2023,9,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0662,Onkar Vig,nikita42@example.org,916258631441,33,Male,Nagpur,Manipur,Tier 2,646255,2024-11-19,False,True,True,2024,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0663,Rachit Rau,jyotioak@example.net,2430176464,34,Female,Delhi,West Bengal,Tier 1,898803,2023-03-28,False,True,True,2023,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0664,Wyatt Tella,anyanarula@example.net,917905040433,33,Male,Hyderabad,Gujarat,Tier 1,538495,2022-06-19,False,True,True,2022,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0665,Tristan Dhaliwal,chanagirindra@example.net,7871809339,30,Female,Jaipur,Assam,Tier 2,732653,2022-07-09,False,True,True,2022,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0666,Bakhshi Bose,tiwariwatika@example.com,1786880023,22,Female,Indore,Uttarakhand,Tier 2,91561,2022-03-02,False,True,True,2022,3,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0667,Agastya Konda,enath@example.net,7449160936,22,Male,Agra,Kerala,Tier 2,201491,2024-05-03,False,True,True,2024,5,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0668,Ikbal Zacharia,upkaar36@example.net,5092632239,36,Male,Ahmedabad,Punjab,Tier 1,137455,2022-07-11,False,True,True,2022,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0669,George Kumer,menonkalpit@example.net,6050537666,24,Female,Patna,Uttar Pradesh,Tier 2,811260,2023-10-12,False,True,True,2023,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0670,Christopher Venkatesh,jalsaramakrishnan@example.com,1062715312,59,Male,Bangalore,Tripura,Tier 1,455068,2022-03-07,False,True,True,2022,3,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0671,Rajata Chopra,bsundaram@example.net,2938440134,25,Male,Bhopal,Nagaland,Tier 2,873543,2024-05-04,False,True,True,2024,5,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0672,Nikita Batra,vivaanprasad@example.net,1015709085,51,Female,Hyderabad,Odisha,Tier 1,449207,2024-01-11,True,True,True,2024,1,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0673,Neha Salvi,jminhas@example.net,9718428596,27,Male,Surat,Rajasthan,Tier 2,259140,2023-02-01,False,True,True,2023,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0674,Robert Gill,hritikgoyal@example.org,2669806908,23,Male,Kanpur,Meghalaya,Tier 2,617607,2024-02-17,False,True,True,2024,2,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0675,Dayamai Kari,eshanapathak@example.net,918280405612,35,Male,Ahmedabad,Tamil Nadu,Tier 1,508269,2022-09-28,False,True,True,2022,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0676,Radha Lata,rajakritika@example.com,1308761238,35,Female,Delhi,Karnataka,Tier 1,143468,2023-07-12,False,True,True,2023,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0677,Deepa Upadhyay,banjeet02@example.com,910086966101,22,Female,Jaipur,Uttarakhand,Tier 2,831139,2022-08-20,False,True,True,2022,8,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0678,Chanakya Bhatti,dwable@example.net,4149150762,30,Male,Ahmedabad,West Bengal,Tier 1,976205,2023-06-05,False,True,True,2023,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0679,Anamika Badal,csastry@example.net,6207266292,34,Female,Agra,Kerala,Tier 2,817760,2022-12-09,False,True,True,2022,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0680,Adya Bajaj,rviswanathan@example.net,1333731255,29,Male,Pune,Tamil Nadu,Tier 1,356178,2022-09-08,False,True,True,2022,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0681,Advaith Jayaraman,harshbrar@example.net,910613638527,23,Male,Hyderabad,Meghalaya,Tier 1,613371,2022-05-03,False,True,True,2022,5,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0682,Damyanti Lalla,gangulyekantika@example.org,916480164403,25,Female,Gwalior,Manipur,Tier 3,416781,2024-11-03,False,True,True,2024,11,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0683,Xalak Varghese,rachitborde@example.org,911798213486,22,Male,Aligarh,Goa,Tier 3,797363,2022-08-09,False,True,True,2022,8,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0684,Ishwar Varma,eiravatirege@example.org,3970798661,29,Female,Agra,Manipur,Tier 2,67368,2024-04-17,True,True,True,2024,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0685,Janya Agate,jzachariah@example.org,2235521650,35,Male,Chennai,Tripura,Tier 1,871469,2022-08-16,False,True,True,2022,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0686,Owen Bora,falakrao@example.com,898436998,35,Male,Ahmedabad,Jharkhand,Tier 1,220509,2022-08-22,False,True,True,2022,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0687,Rachita Krishna,kalpit49@example.com,9881145788,52,Female,Chennai,Manipur,Tier 1,715238,2024-12-10,False,True,True,2024,12,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0688,Madhavi Sridhar,rachitbal@example.net,4619177987,31,Male,Mumbai,Madhya Pradesh,Tier 1,996872,2023-09-16,False,True,True,2023,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0689,Zaitra Hayre,ybarad@example.net,5806235040,49,Female,Agra,Sikkim,Tier 2,669579,2022-07-21,True,True,True,2022,7,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0690,Jeet Ganesh,patrick55@example.com,2867963259,46,Female,Indore,Jharkhand,Tier 2,328946,2022-03-01,True,True,True,2022,3,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0691,Harshil Oak,qgala@example.org,5285725629,27,Male,Jaipur,Goa,Tier 2,933589,2022-12-12,True,True,True,2022,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0692,Harsh Kapoor,ramankala@example.com,917846850957,40,Male,Mathura,Tripura,Tier 3,430349,2024-12-02,False,True,True,2024,12,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0693,Isaiah Srivastava,dgala@example.org,5934015364,33,Female,Meerut,Assam,Tier 3,471553,2022-07-06,False,True,True,2022,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0694,Oscar Pau,onisoni@example.net,1367500942,23,Male,Moradabad,Tamil Nadu,Tier 3,410527,2022-06-16,True,True,True,2022,6,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0695,Urvashi Bhasin,vanyaahuja@example.com,2388856225,23,Female,Surat,Nagaland,Tier 2,605986,2023-08-18,False,True,True,2023,8,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0696,Ati Misra,lakshittailor@example.net,8548596559,27,Male,Moradabad,Jharkhand,Tier 3,824911,2023-11-30,False,True,True,2023,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0697,Gaurangi Bal,abeerbaral@example.org,914539313215,40,Female,Surat,West Bengal,Tier 2,130557,2024-12-12,False,True,True,2024,12,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0698,Pavani Gopal,manderchavvi@example.com,8966997273,23,Male,Hyderabad,Maharashtra,Tier 1,746202,2022-02-22,False,True,True,2022,2,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0699,Jyoti Mani,ekarajvora@example.org,918123123920,25,Male,Kanpur,Rajasthan,Tier 2,910601,2023-07-24,False,True,True,2023,7,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0700,Ojasvi Lala,ndutta@example.net,7508276817,34,Female,Pune,Goa,Tier 1,577545,2024-03-18,False,True,True,2024,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0701,Veda Deshmukh,kdubey@example.org,2918768316,27,Male,Hyderabad,Arunachal Pradesh,Tier 1,717217,2024-05-23,True,True,True,2024,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0702,Rushil Savant,quincybalakrishnan@example.com,912299936216,45,Female,Indore,Uttar Pradesh,Tier 2,914388,2024-12-03,True,True,True,2024,12,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0703,Ojas Nair,yash98@example.org,8446177732,29,Male,Surat,Uttar Pradesh,Tier 2,430954,2022-08-12,False,True,True,2022,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0704,Jackson Gole,asarna@example.org,2712053978,33,Female,Kolkata,Meghalaya,Tier 1,375298,2023-01-30,False,True,True,2023,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0705,Kalpit Dixit,chaudharikrish@example.com,832004879,21,Male,Mathura,Uttar Pradesh,Tier 3,888975,2024-03-17,False,True,True,2024,3,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0706,Kashish Varkey,qasim38@example.com,910304436199,27,Male,Patna,Karnataka,Tier 2,715239,2024-11-27,False,True,True,2024,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0707,Manthan Ganesh,arjun14@example.org,4830930967,19,Female,Bangalore,Assam,Tier 1,971912,2022-05-26,False,True,True,2022,5,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0708,Matthew Doshi,johalnakul@example.org,7672019111,45,Male,Bangalore,Madhya Pradesh,Tier 1,122019,2023-09-10,False,True,True,2023,9,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0709,Laban Oza,mkothari@example.net,3049366538,35,Male,Nagpur,Andhra Pradesh,Tier 2,748124,2022-02-19,False,True,True,2022,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0710,Gautam Mane,ranalogan@example.com,919522946209,22,Female,Mumbai,Gujarat,Tier 1,561039,2022-10-01,False,True,True,2022,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0711,Kabir Taneja,chatterjeeveer@example.com,912436585856,53,Female,Bangalore,Jharkhand,Tier 1,304120,2024-07-15,False,True,True,2024,7,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0712,Chatura Sami,pathakneel@example.com,918740299071,32,Male,Mumbai,Maharashtra,Tier 1,906322,2022-08-07,False,True,True,2022,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0713,Hema Nagarajan,nathan03@example.net,4030109567,30,Male,Surat,Odisha,Tier 2,564915,2023-03-14,False,True,True,2023,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0714,Kamya Mane,pgera@example.com,1247601080,26,Male,Bangalore,Tripura,Tier 1,810306,2023-11-19,False,True,True,2023,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0715,Harish Sengupta,wmajumdar@example.org,2680808157,22,Female,Jhansi,Bihar,Tier 3,901507,2024-05-10,False,True,True,2024,5,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0716,Yashoda Basak,gsethi@example.org,917351045847,31,Female,Hyderabad,Jharkhand,Tier 1,621300,2022-05-12,True,True,True,2022,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0717,Qabil Palla,sanya66@example.net,7031805339,24,Male,Hyderabad,Madhya Pradesh,Tier 1,746662,2024-05-27,False,True,True,2024,5,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0718,Devansh Vohra,lakshitsoman@example.org,910466614590,37,Female,Jaipur,Tripura,Tier 2,107977,2022-05-03,False,True,True,2022,5,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0719,Baljiwan Bahri,warinder88@example.org,9490531520,43,Male,Mathura,Himachal Pradesh,Tier 3,949769,2022-07-13,False,True,True,2022,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0720,Udarsh Bhattacharyya,ubikasarna@example.net,916698416612,54,Male,Ahmedabad,Gujarat,Tier 1,407794,2024-04-02,False,True,True,2024,4,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0721,Owen Naidu,ngoswami@example.net,8994991970,29,Male,Bangalore,Assam,Tier 1,262037,2023-01-21,False,True,True,2023,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0722,Onveer Cherian,roychristopher@example.org,418135998,22,Female,Vadodara,Punjab,Tier 2,211708,2022-03-21,False,True,True,2022,3,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0723,Yashoda Balasubramanian,rastogiabha@example.com,2217588397,64,Female,Vadodara,Mizoram,Tier 2,708200,2024-02-22,True,True,True,2024,2,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0724,Omya Som,urvashi12@example.org,9149611287,27,Female,Indore,Sikkim,Tier 2,296882,2023-02-08,False,True,True,2023,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0725,Vansha Bedi,caleb95@example.org,1419615607,64,Male,Mumbai,Nagaland,Tier 1,274883,2023-12-21,False,True,True,2023,12,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0726,Irya Chhabra,lrao@example.com,964966834,29,Female,Vadodara,Punjab,Tier 2,47842,2023-06-02,False,True,True,2023,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0727,Advay Dua,harsh62@example.org,9364882089,35,Female,Bangalore,Uttar Pradesh,Tier 1,486883,2022-04-11,False,True,True,2022,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0728,Rajata Devan,megha72@example.net,9916091141,21,Female,Allahabad,Gujarat,Tier 3,935923,2024-08-11,False,True,True,2024,8,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0729,Viraj Kala,areddy@example.com,913045881650,35,Male,Lucknow,Goa,Tier 2,447241,2023-09-25,False,True,True,2023,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0730,Pushti Nadkarni,hansbimala@example.com,919661771824,33,Male,Jhansi,Punjab,Tier 3,880678,2024-08-15,False,True,True,2024,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0731,Anita Buch,amadan@example.net,913592664869,26,Male,Delhi,Sikkim,Tier 1,969874,2022-08-14,False,True,True,2022,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0732,Devika Chana,harini94@example.com,119292075,54,Male,Mumbai,Haryana,Tier 1,51171,2024-02-27,True,True,True,2024,2,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0733,Utkarsh Yogi,ajohal@example.com,916218945590,55,Female,Bhopal,Madhya Pradesh,Tier 2,994,2023-10-19,False,True,True,2023,10,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0734,Zashil Gola,memonkrisha@example.com,4896676056,35,Female,Mumbai,Himachal Pradesh,Tier 1,45657,2022-07-31,False,True,True,2022,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0735,Ayush Seshadri,eiravati33@example.net,623546622,47,Female,Agra,Tripura,Tier 2,540165,2023-11-20,False,True,True,2023,11,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0736,Veer Bera,sandalnaveen@example.org,912242767746,30,Male,Bareilly,Chhattisgarh,Tier 3,916011,2024-07-26,False,True,True,2024,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0737,Harish Chanda,yahvi48@example.net,6008017986,25,Female,Bangalore,Meghalaya,Tier 1,823129,2022-10-02,False,True,True,2022,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0738,Sachi Arya,sanaya26@example.com,916121203843,37,Male,Aligarh,Telangana,Tier 3,536596,2024-07-14,False,True,True,2024,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0739,Triya Palla,jyotilanka@example.net,914218385454,56,Female,Bhopal,Arunachal Pradesh,Tier 2,644547,2024-04-06,False,True,True,2024,4,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0740,Ronith Bose,deyrishi@example.org,7489791776,25,Male,Kanpur,Tripura,Tier 2,342720,2023-06-10,False,True,True,2023,6,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0741,Omkaar Bora,tpandya@example.org,8019630453,41,Female,Bangalore,Arunachal Pradesh,Tier 1,935882,2022-10-25,False,True,True,2022,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0742,Ganga Karpe,advik01@example.net,916778481652,64,Female,Pune,Himachal Pradesh,Tier 1,454460,2023-02-19,True,True,True,2023,2,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0743,Janaki Bhatti,ckalla@example.net,1053912878,55,Female,Kanpur,Mizoram,Tier 2,869996,2024-04-06,False,True,True,2024,4,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0744,Darsh Mohan,vasana92@example.com,914724630198,57,Male,Lucknow,Telangana,Tier 2,424238,2024-06-29,False,True,True,2024,6,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0745,Shivani Gaba,wazirchauhan@example.org,918706293288,62,Male,Chennai,Arunachal Pradesh,Tier 1,221010,2024-10-04,False,True,True,2024,10,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0746,Parth Agate,bhatnagarlibni@example.com,6100898761,40,Female,Delhi,Andhra Pradesh,Tier 1,435614,2022-10-15,False,True,True,2022,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0747,Bimala Nagar,frederickuppal@example.org,4682354695,27,Male,Ahmedabad,Uttarakhand,Tier 1,3076,2022-04-06,True,True,True,2022,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0748,Kala Mallick,ladli71@example.com,910666641106,23,Male,Hyderabad,Kerala,Tier 1,113407,2022-10-11,False,True,True,2022,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0749,Harish Rastogi,upasna08@example.net,915836683482,61,Female,Patna,Madhya Pradesh,Tier 2,269708,2024-04-21,False,True,True,2024,4,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0750,Zinal Dani,rwadhwa@example.net,7915059625,34,Male,Pune,Manipur,Tier 1,976093,2022-12-30,False,True,True,2022,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0751,Gagan Deo,dparmer@example.net,9826041809,38,Female,Agra,Kerala,Tier 2,175585,2022-07-16,True,True,True,2022,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0752,Vidhi Shan,gautam27@example.com,9211882419,46,Male,Delhi,Tamil Nadu,Tier 1,264222,2022-07-02,False,True,True,2022,7,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0753,Gaurika Vala,senguptachatresh@example.net,5421854570,23,Male,Aligarh,Karnataka,Tier 3,820922,2024-07-25,False,True,True,2024,7,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0754,Aadi Badami,bhatnagarmohini@example.org,5640723247,34,Female,Patna,Goa,Tier 2,895400,2023-07-25,True,True,True,2023,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0755,Zinal Varughese,naveenlala@example.net,3126168507,36,Male,Kanpur,Assam,Tier 2,580119,2022-05-19,True,True,True,2022,5,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0756,Pranav Sheth,chadhadivya@example.org,1053709230,25,Female,Bareilly,Arunachal Pradesh,Tier 3,169500,2023-08-01,True,True,True,2023,8,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0757,Gabriel Thaman,falak43@example.net,919876989365,26,Male,Delhi,Chhattisgarh,Tier 1,471619,2024-01-22,False,True,True,2024,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0758,Urvi Jain,fitan31@example.org,5025896321,41,Male,Bhopal,Manipur,Tier 2,357483,2024-03-10,False,True,True,2024,3,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0759,Osha Wagle,ravianjali@example.net,673983448,22,Female,Chennai,Mizoram,Tier 1,842536,2023-06-09,False,True,True,2023,6,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0760,Nidra Devi,narayanangaurika@example.org,7406579551,30,Male,Bangalore,Kerala,Tier 1,239209,2024-09-06,False,True,True,2024,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0761,Ekta Chhabra,takdayamai@example.net,919131117861,35,Male,Indore,Punjab,Tier 2,254760,2022-02-22,True,True,True,2022,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0762,Om Bajwa,oprabhakar@example.com,1201227595,28,Male,Bangalore,West Bengal,Tier 1,26015,2024-12-02,False,True,True,2024,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0763,Tanish Goswami,aashi79@example.com,917407173279,30,Male,Hyderabad,Nagaland,Tier 1,595031,2022-06-22,False,True,True,2022,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0764,Maya Mani,dakshaarora@example.org,9104520360,34,Male,Delhi,Mizoram,Tier 1,118491,2022-03-16,False,True,True,2022,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0765,Owen Parmer,yagnesh59@example.com,910561006799,32,Male,Kolkata,Andhra Pradesh,Tier 1,696801,2022-12-10,False,True,True,2022,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0766,Reva Sood,chaitanya37@example.net,2339449530,27,Male,Chennai,Andhra Pradesh,Tier 1,776255,2024-04-29,False,True,True,2024,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0767,Naveen Pall,borawakeeta@example.org,5426241784,23,Male,Indore,Goa,Tier 2,292334,2022-01-13,False,True,True,2022,1,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0768,Ekaraj Aurora,baraloviya@example.net,915308868430,35,Female,Moradabad,Chhattisgarh,Tier 3,166732,2023-05-30,False,True,True,2023,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0769,Baghyawati Natt,wnatt@example.net,8759212996,31,Male,Surat,Jharkhand,Tier 2,603362,2024-08-15,False,True,True,2024,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0770,Tanvi Pingle,rachit14@example.com,920711523,50,Male,Ahmedabad,Tamil Nadu,Tier 1,236219,2022-01-14,True,True,True,2022,1,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0771,Ekansh Pandit,vigvrinda@example.net,915916118638,40,Male,Gwalior,Kerala,Tier 3,881959,2024-10-22,False,True,True,2024,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0772,Oliver Chandra,cvarughese@example.net,915378931869,39,Female,Surat,Chhattisgarh,Tier 2,284540,2023-12-22,True,True,True,2023,12,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0773,Yoshita Devi,vanshagaba@example.org,912839482322,25,Female,Patna,Arunachal Pradesh,Tier 2,144743,2024-10-18,False,True,True,2024,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0774,Dominic Sama,rohan02@example.net,203042322,24,Male,Surat,Tamil Nadu,Tier 2,752135,2022-07-24,False,True,True,2022,7,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0775,Kalpit Thakur,sahnigautami@example.org,4630059377,64,Female,Pune,Manipur,Tier 1,691983,2022-10-29,False,True,True,2022,10,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0776,Arin Edwin,sagarethan@example.com,6902983104,54,Female,Hyderabad,Haryana,Tier 1,196622,2022-07-25,True,True,True,2022,7,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0777,Samaksh Dani,asur@example.net,915685667063,30,Male,Pune,Tamil Nadu,Tier 1,219865,2024-05-31,False,True,True,2024,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0778,Chavvi Mangat,charita07@example.com,3493396504,49,Female,Ahmedabad,Rajasthan,Tier 1,273226,2023-07-16,False,True,True,2023,7,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0779,Jacob Chakrabarti,manan43@example.com,2585421880,31,Male,Jaipur,Nagaland,Tier 2,991962,2022-07-29,True,True,True,2022,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0780,Deepa Chad,olall@example.org,5324725058,42,Female,Kanpur,Haryana,Tier 2,343031,2024-09-20,False,True,True,2024,9,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0781,Xalak Ravi,prakashamara@example.com,6947576945,23,Male,Lucknow,Gujarat,Tier 2,365974,2022-05-03,False,True,True,2022,5,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0782,Yadavi Raja,sankarsathvik@example.com,911254508095,31,Male,Kolkata,Uttarakhand,Tier 1,815269,2023-09-03,False,True,True,2023,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0783,Kamya Raj,cmittal@example.org,913074235914,22,Male,Kanpur,Goa,Tier 2,140489,2022-08-10,True,True,True,2022,8,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0784,Nakul Sagar,mitraedhitha@example.com,910796373100,39,Male,Kanpur,Nagaland,Tier 2,785221,2022-10-31,False,True,True,2022,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0785,Sanya Chanda,eesha23@example.com,4268744701,27,Female,Kolkata,Meghalaya,Tier 1,208652,2022-05-04,False,True,True,2022,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0786,Turvi Sethi,qushiratta@example.net,6337014005,20,Female,Meerut,Uttarakhand,Tier 3,781055,2022-12-12,False,True,True,2022,12,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0787,Balhaar Bakshi,vedagokhale@example.net,911425731609,33,Female,Hyderabad,Jharkhand,Tier 1,913681,2024-10-05,True,True,True,2024,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0788,Bakhshi Issac,horakritika@example.net,5286209297,24,Female,Agra,Uttar Pradesh,Tier 2,525953,2024-02-07,False,True,True,2024,2,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0789,Omkaar Dora,skaran@example.net,918992045735,27,Male,Surat,Haryana,Tier 2,366185,2022-12-31,False,True,True,2022,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0790,Mekhala Chand,sharafchakradev@example.net,916971823601,26,Female,Chennai,Andhra Pradesh,Tier 1,126158,2022-02-23,False,True,True,2022,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0791,Gaurav Tailor,ilala@example.com,7357422332,48,Female,Patna,Chhattisgarh,Tier 2,801944,2022-12-12,False,True,True,2022,12,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0792,Mitesh Gour,iryaravel@example.org,2953506373,28,Male,Bangalore,Assam,Tier 1,804674,2022-08-28,True,True,True,2022,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0793,Abeer Sunder,veer84@example.org,8520136260,50,Male,Agra,Mizoram,Tier 2,639756,2022-06-12,True,True,True,2022,6,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0794,Aradhana Soni,pathakeiravati@example.com,1215164119,45,Male,Surat,Tripura,Tier 2,564091,2022-04-09,False,True,True,2022,4,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0795,Siddharth Nagi,wtaneja@example.org,917020426201,40,Male,Allahabad,Punjab,Tier 3,121241,2024-06-14,False,True,True,2024,6,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0796,Qushi Raval,kwali@example.net,6098731267,37,Male,Jaipur,Meghalaya,Tier 2,192276,2022-11-10,True,True,True,2022,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0797,Triveni Nori,wsalvi@example.org,3943191654,35,Male,Kolkata,Gujarat,Tier 1,895231,2024-11-14,False,True,True,2024,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0798,Nathan Dara,pandeyarjun@example.com,6449747000,29,Male,Kanpur,Chhattisgarh,Tier 2,876448,2022-08-13,False,True,True,2022,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0799,Watika Rattan,sara97@example.com,916365604500,39,Male,Patna,Maharashtra,Tier 2,553730,2024-10-30,False,True,True,2024,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0800,Anita Sandhu,ucchalsastry@example.org,919529635305,35,Female,Bangalore,Odisha,Tier 1,25512,2024-07-03,False,True,True,2024,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0801,Turvi Sachdev,poojamistry@example.org,915948989596,39,Male,Nagpur,Kerala,Tier 2,663454,2024-04-01,False,True,True,2024,4,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0802,Damyanti Kurian,modyjairaj@example.com,9939344974,43,Female,Mumbai,Haryana,Tier 1,640882,2023-03-30,True,True,True,2023,3,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0803,Champak Narasimhan,mdave@example.net,3988941321,37,Female,Gwalior,Andhra Pradesh,Tier 3,202170,2022-08-15,True,True,True,2022,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0804,Charvi Venkataraman,reyansh46@example.com,7922030044,44,Male,Hyderabad,Odisha,Tier 1,461293,2024-01-14,False,True,True,2024,1,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0805,Ayaan Dhaliwal,hredhaan21@example.org,7565896359,31,Male,Nagpur,Karnataka,Tier 2,86199,2024-05-30,False,True,True,2024,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0806,Advika Patel,ranbir45@example.com,3113885034,32,Female,Hyderabad,Goa,Tier 1,622033,2022-12-06,False,True,True,2022,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0807,Brinda Goswami,niharika31@example.org,3796868008,23,Male,Pune,Uttar Pradesh,Tier 1,294690,2023-04-27,False,True,True,2023,4,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0808,Vidhi Sarma,devansh74@example.org,914350238502,30,Female,Agra,Goa,Tier 2,665275,2022-08-26,False,True,True,2022,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0809,Sai Deol,vivaanandra@example.org,912569133030,23,Male,Hyderabad,Haryana,Tier 1,467711,2022-09-05,False,True,True,2022,9,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0810,Tanmayi Patla,sarmaprisha@example.org,9955302453,47,Male,Nagpur,Arunachal Pradesh,Tier 2,239847,2024-11-07,False,True,True,2024,11,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0811,Ayush Kalita,karan02@example.net,7190172224,28,Male,Meerut,Arunachal Pradesh,Tier 3,76487,2022-09-23,False,True,True,2022,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0812,Warhi Nagi,odika19@example.net,914065838727,44,Female,Meerut,Rajasthan,Tier 3,581225,2022-06-07,False,True,True,2022,6,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0813,Hemal Rajan,swalla@example.net,8237337912,39,Female,Indore,Bihar,Tier 2,110187,2024-07-19,False,True,True,2024,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0814,Warinder Pal,qbedi@example.org,740392519,27,Male,Mathura,Punjab,Tier 3,529517,2024-03-08,False,True,True,2024,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0815,Parth Dhar,vrama@example.com,913872205422,40,Female,Mumbai,Bihar,Tier 1,265496,2022-06-08,True,True,True,2022,6,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0816,Aarav Zacharia,samakshmann@example.com,7048878995,26,Male,Patna,Andhra Pradesh,Tier 2,702059,2022-10-26,False,True,True,2022,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0817,Yashica Palla,munshiranveer@example.net,7492663295,38,Male,Gwalior,Maharashtra,Tier 3,427775,2024-11-27,False,True,True,2024,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0818,Jagrati Dube,sahotafaris@example.com,8129205922,49,Male,Agra,Odisha,Tier 2,115630,2022-09-22,True,True,True,2022,9,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0819,Diya Ratti,rajatakonda@example.com,2629420661,27,Female,Bangalore,Karnataka,Tier 1,980851,2022-08-24,False,True,True,2022,8,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0820,Hredhaan Kapoor,bassianjali@example.net,3211221215,39,Male,Bangalore,Telangana,Tier 1,815826,2022-10-30,True,True,True,2022,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0821,Xalak Ratti,abhiram19@example.org,5488064420,41,Male,Kolkata,Arunachal Pradesh,Tier 1,298778,2024-04-24,False,True,True,2024,4,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0822,Dipta Verma,lipika64@example.com,4196234219,27,Male,Kolkata,Chhattisgarh,Tier 1,221320,2024-01-17,False,True,True,2024,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0823,Chakradev Mane,zehaanwali@example.org,914789117972,48,Female,Ahmedabad,Uttarakhand,Tier 1,999949,2023-04-20,False,True,True,2023,4,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0824,Naveen Varkey,indrajitbahri@example.org,916660200053,51,Male,Delhi,Telangana,Tier 1,853863,2024-12-08,False,True,True,2024,12,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0825,Ekanta Batra,praneel43@example.net,918058269299,28,Male,Pune,Arunachal Pradesh,Tier 1,768627,2022-05-30,False,True,True,2022,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0826,Utkarsh Goel,yachanarajan@example.net,913761851862,26,Male,Bangalore,Madhya Pradesh,Tier 1,136841,2023-11-09,False,True,True,2023,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0827,Ranveer Dubey,saikara@example.net,2188352791,32,Male,Gwalior,Mizoram,Tier 3,506776,2022-01-02,False,True,True,2022,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0828,Pahal Prabhakar,abeeryohannan@example.net,914319279761,33,Female,Vadodara,Manipur,Tier 2,596983,2022-05-28,True,True,True,2022,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0829,Inaya Tank,anaydora@example.net,6568629591,18,Male,Nagpur,Chhattisgarh,Tier 2,734989,2024-04-20,False,True,True,2024,4,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0830,Hemal Nanda,anjalisaran@example.net,742990747,42,Male,Bangalore,Chhattisgarh,Tier 1,694179,2024-05-28,False,True,True,2024,5,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0831,Vedhika Bains,shankardamyanti@example.net,7485994641,36,Female,Delhi,Mizoram,Tier 1,984167,2024-08-19,False,True,True,2024,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0832,Tara Venkataraman,samuel69@example.net,1649804450,30,Male,Moradabad,Uttar Pradesh,Tier 3,860521,2023-01-12,True,True,True,2023,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0833,Mohini Dewan,zbaral@example.com,8900824845,19,Male,Kolkata,Mizoram,Tier 1,308898,2022-02-18,False,True,True,2022,2,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0834,Forum Subramanian,warjas99@example.net,4185630275,39,Female,Chennai,Andhra Pradesh,Tier 1,30566,2022-10-23,False,True,True,2022,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0835,Samar Badal,lila41@example.net,9378467908,29,Male,Bhopal,Tripura,Tier 2,18726,2022-06-08,False,True,True,2022,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0836,Azaan Chowdhury,prishapradhan@example.net,910344442990,25,Female,Kanpur,Madhya Pradesh,Tier 2,456865,2024-09-25,False,True,True,2024,9,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0837,Balvan Purohit,jonathandada@example.com,9967256222,41,Female,Hyderabad,Bihar,Tier 1,533470,2022-09-14,False,True,True,2022,9,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0838,Damyanti Srinivasan,imitter@example.com,5593965213,64,Male,Meerut,Nagaland,Tier 3,507124,2023-02-06,False,True,True,2023,2,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0839,Tejas Chaudry,dakshaggarwal@example.net,916221173277,25,Female,Kolkata,Goa,Tier 1,488395,2023-06-02,False,True,True,2023,6,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0840,Ekani Nair,pratyushmody@example.org,5251618575,26,Female,Pune,Punjab,Tier 1,710508,2024-05-13,True,True,True,2024,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0841,Janani Morar,kuruvillasara@example.com,4735352478,35,Male,Patna,Telangana,Tier 2,171594,2024-09-16,False,True,True,2024,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0842,Ryan Lad,samar05@example.org,8803318361,22,Female,Indore,West Bengal,Tier 2,338926,2024-12-27,False,True,True,2024,12,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0843,Yashawini Warrior,ekanshpandit@example.org,8730486251,22,Female,Jaipur,Karnataka,Tier 2,174653,2022-02-28,False,True,True,2022,2,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0844,Vasudha Vala,chaudhuriyauvani@example.net,915673446717,20,Female,Indore,Manipur,Tier 2,296914,2023-05-24,False,True,True,2023,5,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0845,Meghana Deshpande,krisha64@example.com,919999001089,34,Male,Pune,Nagaland,Tier 1,739083,2022-12-15,True,True,True,2022,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0846,Nihal Chandran,zachariahnimrat@example.net,4424648849,37,Male,Bhopal,Tripura,Tier 2,957285,2024-11-28,False,True,True,2024,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0847,Ijaya Venkatesh,zarnachoudhry@example.net,912217978912,27,Female,Indore,Jharkhand,Tier 2,971705,2024-02-01,True,True,True,2024,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0848,Adweta Narasimhan,latasamuel@example.com,2868112303,23,Female,Surat,Mizoram,Tier 2,681193,2024-06-20,True,True,True,2024,6,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0849,Fariq Maharaj,advay09@example.net,9217790552,23,Male,Delhi,Nagaland,Tier 1,693351,2024-08-05,True,True,True,2024,8,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0850,Yamini Yohannan,shettyadvik@example.net,3260119391,34,Male,Hyderabad,Andhra Pradesh,Tier 1,829742,2024-09-02,False,True,True,2024,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0851,Ikshita Dara,poojabasak@example.net,918581810450,22,Male,Hyderabad,Chhattisgarh,Tier 1,373615,2024-10-01,False,True,True,2024,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0852,Samesh Raghavan,cdey@example.org,915896933539,29,Male,Varanasi,Arunachal Pradesh,Tier 3,585615,2024-12-19,False,True,True,2024,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0853,Shravya Koshy,nattlibni@example.com,919792551164,45,Female,Gwalior,Haryana,Tier 3,902837,2024-09-10,True,True,True,2024,9,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0854,Tanmayi Bala,oviyaradhakrishnan@example.com,915342816441,33,Female,Delhi,Uttarakhand,Tier 1,101975,2024-01-26,True,True,True,2024,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0855,Gaurika Wason,nimrat40@example.com,910388027304,26,Female,Hyderabad,Chhattisgarh,Tier 1,636281,2024-09-12,False,True,True,2024,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0856,Anika Setty,wadhwavictor@example.net,3096906764,23,Male,Ahmedabad,Tamil Nadu,Tier 1,922884,2023-02-14,True,True,True,2023,2,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0857,Anamika Nagarajan,isaac35@example.net,7271743068,44,Male,Hyderabad,Nagaland,Tier 1,164034,2024-08-11,False,True,True,2024,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0858,Yashica Tak,upmasavant@example.net,5833364770,42,Male,Delhi,Uttarakhand,Tier 1,130909,2022-11-20,False,True,True,2022,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0859,Reyansh Vala,lbajaj@example.net,916254204123,25,Male,Indore,Assam,Tier 2,577204,2022-06-25,False,True,True,2022,6,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0860,Anmol Bhalla,gmagar@example.net,912453810979,50,Male,Nagpur,Jharkhand,Tier 2,224870,2023-03-11,False,True,True,2023,3,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0861,Matthew Ramakrishnan,niharika32@example.org,1742240432,31,Female,Bangalore,Maharashtra,Tier 1,189003,2024-07-01,False,True,True,2024,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0862,Raagini Chaudhary,dkale@example.com,912867202009,46,Female,Pune,Karnataka,Tier 1,662195,2023-04-20,False,True,True,2023,4,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0863,Azaan Anne,udyati79@example.com,910173259007,23,Female,Vadodara,Gujarat,Tier 2,130722,2022-11-02,True,True,True,2022,11,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0864,Samarth Zachariah,vbarman@example.net,1672210454,25,Male,Bareilly,Telangana,Tier 3,171928,2022-05-26,False,True,True,2022,5,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0865,Abeer Sha,damini36@example.org,913442252160,39,Male,Surat,Chhattisgarh,Tier 2,239412,2022-04-17,False,True,True,2022,4,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0866,Anita Mody,lsom@example.com,326551327,21,Female,Kolkata,Maharashtra,Tier 1,794802,2024-10-28,False,True,True,2024,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0867,Jagrati Zachariah,isaac60@example.org,911915891268,24,Female,Moradabad,Madhya Pradesh,Tier 3,986478,2023-02-24,True,True,True,2023,2,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0868,Jonathan Kala,draghavan@example.org,8447408378,22,Male,Pune,Assam,Tier 1,907499,2023-10-27,False,True,True,2023,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0869,Rajeshri Mital,bedinetra@example.net,8369235348,39,Female,Bhopal,Himachal Pradesh,Tier 2,470821,2022-07-22,False,True,True,2022,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0870,Eiravati Mahal,jgrover@example.net,912123720550,62,Female,Lucknow,Gujarat,Tier 2,88,2022-12-14,False,True,True,2022,12,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0871,Bishakha Rau,lkhatri@example.org,88991141,40,Male,Jaipur,Madhya Pradesh,Tier 2,91692,2023-08-09,False,True,True,2023,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0872,Warda Jaggi,xwali@example.net,7906085481,29,Female,Chennai,West Bengal,Tier 1,746300,2023-01-01,False,True,True,2023,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0873,Theodore Krish,gdani@example.net,917118151985,34,Female,Agra,Tamil Nadu,Tier 2,582942,2022-02-05,True,True,True,2022,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0874,Abha Arora,patilsamar@example.com,914660756999,25,Female,Nagpur,Himachal Pradesh,Tier 2,946672,2022-01-29,False,True,True,2022,1,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0875,Dalbir Devi,amol28@example.org,8223879402,23,Male,Agra,Madhya Pradesh,Tier 2,85817,2022-03-25,False,True,True,2022,3,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0876,Laban Sibal,jagratihans@example.com,2357004129,22,Male,Moradabad,Bihar,Tier 3,851816,2023-02-12,False,True,True,2023,2,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0877,Falak Pal,mangatmitali@example.org,910792304660,26,Male,Pune,Arunachal Pradesh,Tier 1,283827,2022-04-18,False,True,True,2022,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0878,Gaurav Gill,joshuasane@example.org,1204850766,47,Male,Ahmedabad,Tripura,Tier 1,344604,2022-05-15,True,True,True,2022,5,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0879,Maanas Sarraf,okanda@example.com,191530573,38,Male,Ahmedabad,Telangana,Tier 1,724358,2024-10-14,False,True,True,2024,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0880,Vritti Rout,nihalnadkarni@example.org,2726708666,18,Male,Lucknow,Kerala,Tier 2,224197,2023-10-18,False,True,True,2023,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0881,Yashvi Madan,urvashi71@example.net,919035006184,28,Male,Nagpur,Mizoram,Tier 2,422354,2023-09-28,False,True,True,2023,9,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0882,Chatresh Mohanty,jradhakrishnan@example.org,912156495254,58,Male,Indore,Odisha,Tier 2,64411,2022-11-22,True,True,True,2022,11,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0883,Rohan Buch,ubikakrish@example.org,6343594882,32,Female,Chennai,Telangana,Tier 1,884968,2022-06-07,False,True,True,2022,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0884,Nidhi Lad,palanguneet@example.org,912125434123,38,Female,Ahmedabad,West Bengal,Tier 1,160498,2022-02-06,True,True,True,2022,2,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0885,Wriddhish Taneja,harishtiwari@example.com,910320319789,26,Male,Patna,Punjab,Tier 2,114003,2023-10-21,False,True,True,2023,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0886,Jackson Khosla,tanejahardik@example.net,8601625908,28,Male,Moradabad,Himachal Pradesh,Tier 3,947855,2023-04-08,False,True,True,2023,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0887,Faraj Jha,ooak@example.com,2107288780,25,Male,Mumbai,Meghalaya,Tier 1,790371,2022-01-15,False,True,True,2022,1,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0888,Pooja Bala,singhalmohammed@example.org,919964771837,23,Female,Bhopal,Karnataka,Tier 2,76810,2023-10-08,True,True,True,2023,10,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0889,Alexander Peri,udyati80@example.org,914432362216,30,Male,Varanasi,Odisha,Tier 3,696857,2022-10-10,False,True,True,2022,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0890,Urmi Bahri,rsavant@example.net,1691395215,23,Male,Bhopal,Arunachal Pradesh,Tier 2,642610,2023-02-08,False,True,True,2023,2,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0891,Teerth Hora,chakradhar84@example.org,3198392484,35,Female,Surat,Mizoram,Tier 2,300416,2024-01-17,False,True,True,2024,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0892,Alexander Mutti,chakradhardin@example.org,1675864633,59,Male,Indore,Sikkim,Tier 2,348110,2024-07-22,False,True,True,2024,7,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0893,Jagat Majumdar,qsalvi@example.org,8961573855,22,Female,Jaipur,Telangana,Tier 2,281775,2023-05-22,False,True,True,2023,5,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0894,Vivaan Pradhan,gtoor@example.com,4260972360,33,Female,Ahmedabad,Chhattisgarh,Tier 1,465467,2022-06-02,True,True,True,2022,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0895,Balhaar Parmar,satheharsh@example.org,3087156478,41,Male,Kanpur,Rajasthan,Tier 2,703175,2023-12-29,False,True,True,2023,12,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0896,Amol Grewal,eminhas@example.com,5726029254,50,Male,Kanpur,Tripura,Tier 2,862728,2023-04-22,False,True,True,2023,4,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0897,Chakradev Sen,qsangha@example.org,917632713538,54,Female,Firozabad,Madhya Pradesh,Tier 3,625923,2024-03-12,False,True,True,2024,3,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0898,Yamini Soman,rayayushman@example.com,8693205534,61,Male,Moradabad,Andhra Pradesh,Tier 3,89273,2024-04-01,True,True,True,2024,4,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0899,Fiyaz Narang,qsanghvi@example.org,3567078977,40,Female,Pune,Tamil Nadu,Tier 1,542619,2024-06-16,False,True,True,2024,6,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0900,Wyatt Vyas,manan27@example.org,2732022271,47,Female,Bhopal,Bihar,Tier 2,757691,2024-12-30,False,True,True,2024,12,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0901,Pallavi Gala,menonnakul@example.net,5144869830,26,Female,Nagpur,Kerala,Tier 2,169039,2024-02-04,False,True,True,2024,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0902,Ayushman Gole,gatwal@example.com,916471068017,38,Female,Kolkata,Manipur,Tier 1,316370,2022-10-06,False,True,True,2022,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0903,Bachittar Manne,sathvikgoyal@example.com,2446931729,33,Female,Aligarh,Himachal Pradesh,Tier 3,638083,2023-06-16,False,True,True,2023,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0904,Mitali Nair,darsh25@example.net,9851939327,29,Male,Delhi,Tamil Nadu,Tier 1,728129,2024-05-24,False,True,True,2024,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0905,Tristan Pall,misrapushti@example.org,916676527284,31,Female,Indore,Kerala,Tier 2,974995,2022-07-03,False,True,True,2022,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0906,Aadi Tiwari,amitra@example.com,7560208019,46,Female,Hyderabad,Uttarakhand,Tier 1,902215,2022-02-06,False,True,True,2022,2,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0907,Bachittar Mammen,bakhshi93@example.org,915333202351,24,Female,Mumbai,Arunachal Pradesh,Tier 1,555019,2023-04-10,True,True,True,2023,4,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0908,Bhanumati Narasimhan,karanidhi@example.net,8843933324,25,Male,Patna,West Bengal,Tier 2,629620,2022-12-18,False,True,True,2022,12,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0909,Idika Yohannan,jasondate@example.com,1290759659,39,Male,Agra,Punjab,Tier 2,12376,2024-04-14,False,True,True,2024,4,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0910,Vasana Sharaf,kamya42@example.org,916294193759,44,Male,Mumbai,Uttar Pradesh,Tier 1,922671,2022-11-04,False,True,True,2022,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0911,Harish Subramaniam,vincent62@example.com,7528646120,48,Female,Patna,Punjab,Tier 2,173009,2024-12-28,False,True,True,2024,12,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0912,Amruta Murty,anamikabhat@example.org,911153550514,43,Female,Chennai,Gujarat,Tier 1,191430,2024-07-10,False,True,True,2024,7,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0913,Vedhika Shenoy,advikashukla@example.net,915422188345,55,Male,Indore,Tamil Nadu,Tier 2,920487,2024-03-14,False,True,True,2024,3,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0914,Raagini Tailor,nissac@example.org,919986515902,28,Female,Firozabad,Karnataka,Tier 3,846408,2024-02-05,True,True,True,2024,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0915,Rehaan Garg,rajeshri72@example.com,910846729254,36,Female,Hyderabad,Gujarat,Tier 1,519628,2023-06-03,False,True,True,2023,6,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0916,Qadim Palla,cherianqadim@example.com,6247286394,54,Female,Surat,Goa,Tier 2,122341,2022-09-05,False,True,True,2022,9,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0917,Advay Arya,kramesh@example.net,266045095,34,Female,Patna,Maharashtra,Tier 2,217400,2023-03-23,False,True,True,2023,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0918,Chandresh Chad,yatanprabhakar@example.org,9222471193,28,Male,Moradabad,Madhya Pradesh,Tier 3,60827,2022-12-26,False,True,True,2022,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0919,Ekani Ratta,mugdha16@example.org,6264385009,25,Male,Bangalore,Karnataka,Tier 1,723461,2024-01-25,False,True,True,2024,1,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0920,Manan Kapoor,jharudra@example.com,910944164231,34,Male,Pune,Madhya Pradesh,Tier 1,441372,2023-11-22,False,True,True,2023,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0921,Lipika Virk,vansha60@example.com,3494290461,29,Female,Hyderabad,Meghalaya,Tier 1,518870,2023-12-22,True,True,True,2023,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0922,Ranbir Gera,qadim02@example.com,3744417234,29,Male,Bangalore,Kerala,Tier 1,538694,2022-05-15,False,True,True,2022,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0923,Noah Parmer,kala36@example.org,8904723864,38,Male,Nagpur,Assam,Tier 2,95385,2023-11-28,False,True,True,2023,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0924,Vasatika Loyal,gavinraman@example.net,3599009378,43,Male,Kolkata,Assam,Tier 1,604761,2024-08-30,False,True,True,2024,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0925,Tamanna Tiwari,anya37@example.org,6187564672,22,Male,Bangalore,Sikkim,Tier 1,368154,2023-04-02,False,True,True,2023,4,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0926,Zilmil Pradhan,bhasinmanthan@example.com,2910845078,23,Male,Jaipur,Madhya Pradesh,Tier 2,435660,2024-12-14,False,True,True,2024,12,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0927,Vedant Kota,bloke@example.net,3306773067,30,Male,Kolkata,Tamil Nadu,Tier 1,822266,2023-06-09,False,True,True,2023,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0928,Finn Babu,ptrivedi@example.net,5385906739,64,Female,Jaipur,Maharashtra,Tier 2,428987,2024-01-09,False,True,True,2024,1,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0929,Divya Naidu,mittallakshit@example.org,917048618670,38,Male,Mumbai,Maharashtra,Tier 1,320162,2023-09-14,False,True,True,2023,9,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0930,Urvi Handa,yashodharabuch@example.net,8271826533,36,Female,Nagpur,Manipur,Tier 2,708649,2024-06-16,False,True,True,2024,6,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0931,Nidhi Manne,ayushmanjhaveri@example.net,9831354901,54,Female,Kolkata,Jharkhand,Tier 1,996706,2023-02-12,False,True,True,2023,2,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0932,Devansh Oak,agupta@example.com,9824388430,28,Female,Lucknow,Tamil Nadu,Tier 2,178167,2024-07-19,False,True,True,2024,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0933,Libni Puri,tristan15@example.net,9016492815,44,Male,Kolkata,Andhra Pradesh,Tier 1,701709,2024-02-19,True,True,True,2024,2,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0934,Chanchal Basak,nbava@example.org,8081726282,25,Male,Meerut,Punjab,Tier 3,824485,2022-08-31,False,True,True,2022,8,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0935,Tanvi Din,qarin74@example.org,916806919612,59,Male,Bangalore,Uttar Pradesh,Tier 1,662080,2022-02-16,True,True,True,2022,2,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0936,Anay Khatri,shandakshesh@example.net,916344435962,38,Female,Delhi,Rajasthan,Tier 1,587012,2024-04-03,False,True,True,2024,4,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0937,Luke Misra,kashvikale@example.com,912375302,23,Male,Pune,Nagaland,Tier 1,976039,2022-01-18,False,True,True,2022,1,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0938,Aadi Deo,xavier65@example.org,4055364818,43,Female,Firozabad,Uttarakhand,Tier 3,540364,2023-08-09,False,True,True,2023,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0939,Jagat Pandey,ptara@example.net,4662323606,24,Male,Patna,Madhya Pradesh,Tier 2,998649,2024-03-03,False,True,True,2024,3,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0940,Kashish Mukherjee,ighosh@example.net,914298622699,22,Female,Delhi,Chhattisgarh,Tier 1,666179,2022-04-25,False,True,True,2022,4,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0941,Peter Gulati,krishna99@example.net,2998335876,26,Male,Lucknow,Nagaland,Tier 2,779256,2024-06-25,False,True,True,2024,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0942,Jairaj Koshy,orinder08@example.com,3153983912,31,Male,Nagpur,Chhattisgarh,Tier 2,144,2022-01-20,False,True,True,2022,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0943,Mohini Din,modyutkarsh@example.org,9134103897,37,Female,Jaipur,Karnataka,Tier 2,872099,2022-03-19,False,True,True,2022,3,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0944,Falak Rajagopal,nathaniel24@example.org,9208235309,40,Male,Kanpur,Meghalaya,Tier 2,691948,2024-04-19,False,True,True,2024,4,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0945,Jeremiah Bandi,neelima82@example.org,917530796618,43,Male,Delhi,Maharashtra,Tier 1,724043,2024-08-21,True,True,True,2024,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0946,Aarini Dara,eeshakar@example.org,3795610077,31,Male,Vadodara,Meghalaya,Tier 2,217503,2023-04-23,False,True,True,2023,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0947,Praneel Bath,gauribobal@example.net,918733703424,34,Male,Ahmedabad,West Bengal,Tier 1,474890,2023-10-13,False,True,True,2023,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0948,Raagini Bal,awarrior@example.org,915107651917,34,Female,Vadodara,Rajasthan,Tier 2,851732,2023-02-25,True,True,True,2023,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0949,Farhan Loyal,leela34@example.org,1858055811,54,Female,Indore,Karnataka,Tier 2,449653,2024-04-16,False,True,True,2024,4,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0950,Mitali Batta,asolanki@example.org,930454184,58,Female,Kolkata,Andhra Pradesh,Tier 1,982218,2024-07-24,False,True,True,2024,7,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0951,Lavanya Ramesh,balveerkhare@example.net,8864078802,18,Female,Delhi,Madhya Pradesh,Tier 1,295164,2022-02-07,False,True,True,2022,2,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0952,Samuel Jani,hemasahni@example.org,910397440880,28,Female,Bareilly,Tripura,Tier 3,708987,2024-12-11,False,True,True,2024,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0953,Benjamin Dalal,zachariahbaghyawati@example.org,911326611584,31,Female,Kolkata,Nagaland,Tier 1,805263,2022-03-08,False,True,True,2022,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0954,Isaac Rau,merchantsuhani@example.net,2205397077,26,Female,Bangalore,Himachal Pradesh,Tier 1,447082,2022-10-17,True,True,True,2022,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0955,Fariq Sawhney,mannmadhavi@example.net,919953946766,44,Female,Bangalore,Chhattisgarh,Tier 1,235960,2024-09-22,False,True,True,2024,9,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0956,Agastya Devi,vborah@example.net,257870368,64,Male,Varanasi,Madhya Pradesh,Tier 3,506306,2023-07-19,False,True,True,2023,7,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0957,Radha Anand,chaitanya28@example.net,916409891039,22,Male,Hyderabad,Arunachal Pradesh,Tier 1,203025,2023-09-07,False,True,True,2023,9,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0958,Adweta Nori,ryansharma@example.com,7953192600,29,Male,Ahmedabad,Punjab,Tier 1,27574,2022-07-30,False,True,True,2022,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0959,Aarini Mahajan,calebnagar@example.com,8944538118,36,Female,Delhi,Andhra Pradesh,Tier 1,896558,2024-10-24,False,True,True,2024,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0960,Barkha Narayanan,kravi@example.org,5217970566,36,Male,Ahmedabad,Andhra Pradesh,Tier 1,616248,2022-11-25,False,True,True,2022,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0961,Sara Anne,saumya26@example.com,912351585015,30,Male,Lucknow,Gujarat,Tier 2,173167,2023-10-20,False,True,True,2023,10,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0962,Pallavi Bhagat,ria90@example.com,912441339547,27,Male,Mumbai,Odisha,Tier 1,64531,2022-05-26,False,True,True,2022,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0963,Unni Bhagat,triveni19@example.net,918986646936,45,Male,Pune,Karnataka,Tier 1,183359,2024-11-22,False,True,True,2024,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0964,Triveni Randhawa,prasadupadhriti@example.org,913771843019,32,Male,Jhansi,Goa,Tier 3,95673,2024-02-08,False,True,True,2024,2,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0965,Maanas Srinivas,kiaankade@example.net,4402825326,25,Female,Lucknow,Uttar Pradesh,Tier 2,699242,2022-12-04,False,True,True,2022,12,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0966,Warjas Dutta,hamsinidhaliwal@example.org,913209140169,24,Male,Agra,Gujarat,Tier 2,284423,2023-11-14,False,True,True,2023,11,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0967,Ekavir Vohra,adityasubramanian@example.com,1545260756,23,Male,Jhansi,Odisha,Tier 3,383100,2023-04-07,True,True,True,2023,4,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0968,Yatan Kala,qarinsankaran@example.net,2277773316,21,Female,Jaipur,Telangana,Tier 2,664707,2023-09-04,False,True,True,2023,9,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0969,Janaki Ben,kritikabanerjee@example.com,5298424107,53,Female,Kanpur,Uttar Pradesh,Tier 2,27406,2022-01-06,False,True,True,2022,1,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0970,Yashawini Ganesh,asetty@example.org,9062003638,32,Female,Mathura,Sikkim,Tier 3,646149,2024-01-06,False,True,True,2024,1,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0971,Divya Sunder,hemangvirk@example.org,9798491498,42,Female,Chennai,Maharashtra,Tier 1,995504,2023-11-27,False,True,True,2023,11,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0972,Luke Saha,nminhas@example.org,913946121289,33,Male,Ahmedabad,Tamil Nadu,Tier 1,159485,2024-07-16,False,True,True,2024,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0973,Amol Agrawal,gopalshravya@example.com,2239847422,46,Female,Indore,Karnataka,Tier 2,787188,2022-12-21,False,True,True,2022,12,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0974,Kabir Jayaraman,pvora@example.net,7058416806,33,Male,Bangalore,Tamil Nadu,Tier 1,349564,2024-03-28,True,True,True,2024,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0975,Mahika Bakshi,yutika67@example.net,9638309723,38,Female,Bareilly,Madhya Pradesh,Tier 3,80926,2023-12-28,False,True,True,2023,12,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0976,Nandini Deo,chaudharyomya@example.com,5786457865,30,Male,Ahmedabad,Karnataka,Tier 1,751247,2022-05-10,False,True,True,2022,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0977,Abdul Amble,rajusanya@example.com,6824051665,30,Male,Delhi,Himachal Pradesh,Tier 1,122444,2023-11-01,False,True,True,2023,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0978,Chaman Ahluwalia,sakshamjaggi@example.net,8608357017,30,Male,Gwalior,Andhra Pradesh,Tier 3,630944,2022-04-17,False,True,True,2022,4,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0979,Yauvani Sabharwal,ghosechakradev@example.net,898309413,62,Male,Mumbai,Himachal Pradesh,Tier 1,961979,2022-08-28,False,True,True,2022,8,56+,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0980,Krishna Mahajan,michael84@example.org,915694804507,45,Female,Jaipur,Gujarat,Tier 2,674809,2024-01-24,False,True,True,2024,1,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0981,Udant Krishnamurthy,nayarchakradev@example.org,6029442031,25,Female,Lucknow,Kerala,Tier 2,584907,2023-05-16,False,True,True,2023,5,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0982,Mitesh Baria,gopalsarraf@example.net,7486759514,45,Male,Indore,Assam,Tier 2,482308,2022-10-25,False,True,True,2022,10,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0983,Ekaja Venkatesh,zvarkey@example.com,919623326058,33,Male,Gwalior,Madhya Pradesh,Tier 3,276748,2024-03-21,False,True,True,2024,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0984,Sachi Hans,rajagopalanneha@example.org,3151817882,33,Female,Ahmedabad,Jharkhand,Tier 1,655946,2022-11-22,False,True,True,2022,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0985,Osha Dua,kiaansharma@example.net,913717989022,25,Male,Bangalore,Haryana,Tier 1,900654,2024-08-25,False,True,True,2024,8,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0986,Christopher Mand,lsekhon@example.com,4176755398,25,Male,Chennai,Assam,Tier 1,737815,2024-04-22,False,True,True,2024,4,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0987,Ekani Tak,mittalkala@example.net,6268384887,26,Female,Delhi,Maharashtra,Tier 1,802076,2024-06-24,False,True,True,2024,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0988,Wazir Rastogi,goleishwar@example.net,9051881298,32,Male,Ahmedabad,Mizoram,Tier 1,182070,2022-05-04,True,True,True,2022,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0989,Balhaar Dani,shakevin@example.org,2982689334,20,Male,Surat,Tamil Nadu,Tier 2,497035,2023-09-17,False,True,True,2023,9,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0990,Vritti Narang,nvaidya@example.com,3355707731,37,Male,Bangalore,Tripura,Tier 1,315550,2022-03-10,False,True,True,2022,3,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0991,Ria Bali,joshua18@example.com,9384440458,27,Male,Mumbai,Nagaland,Tier 1,114147,2024-11-24,False,True,True,2024,11,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0992,Michael Karan,chandran36@example.net,1568910977,35,Male,Kanpur,Punjab,Tier 2,802344,2022-03-21,False,True,True,2022,3,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0993,Yauvani Manne,nisha79@example.com,913664016329,28,Male,Indore,Karnataka,Tier 2,378315,2023-07-09,False,True,True,2023,7,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0994,Jasmit Sethi,manansarna@example.org,918683029158,48,Male,Mathura,Kerala,Tier 3,233241,2024-06-23,False,True,True,2024,6,46-55,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0995,Ekapad Palan,yug96@example.com,917344674621,43,Female,Kanpur,Kerala,Tier 2,841749,2023-08-07,True,True,True,2023,8,36-45,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0996,Devansh Sathe,nayaragastya@example.org,911816981413,27,Female,Indore,Uttar Pradesh,Tier 2,476094,2022-06-28,False,True,True,2022,6,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0997,Vidhi Sengupta,atharv29@example.net,918643302650,35,Male,Ahmedabad,Odisha,Tier 1,218366,2024-05-23,False,True,True,2024,5,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0998,Jatin Purohit,bsachdev@example.org,912563420222,26,Female,Delhi,Sikkim,Tier 1,499801,2023-12-04,False,True,True,2023,12,26-35,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST0999,Pallavi Kant,wsura@example.net,177915244,24,Male,Pune,Uttarakhand,Tier 1,144092,2022-11-21,False,True,True,2022,11,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
+CUST1000,Inaya Bhatnagar,zmodi@example.com,4260186372,22,Female,Nagpur,Madhya Pradesh,Tier 2,199569,2022-11-25,False,True,True,2022,11,18-25,2026-03-18 15:34:42,CHANAKYA_RAW
