@@ -67,7 +67,7 @@ def load_data():
 
 df_products, df_customers, df_orders, df_order_items = load_data()
 
-# ARTHA setup - Try Streamlit secrets first, then .env
+# ARTHA setup
 try:
     api_key = st.secrets["GROQ_API_KEY"]
 except:
@@ -112,6 +112,91 @@ def ask_artha(question, history):
         max_tokens=1024
     )
     return response.choices[0].message.content
+
+def get_auto_visualization(question):
+    question_lower = question.lower()
+
+    if any(word in question_lower for word in ['revenue', 'trend', 'monthly', 'sales', 'growth']):
+        monthly = delivered.copy()
+        monthly['year_month'] = monthly['order_date'].dt.to_period('M').astype(str)
+        monthly_rev = monthly.groupby('year_month')['revenue'].sum().reset_index()
+        fig = px.area(monthly_rev, x='year_month', y='revenue',
+                     title='Revenue Trend', color_discrete_sequence=['#00D4AA'])
+        fig.update_layout(plot_bgcolor='#1E1E2E', paper_bgcolor='#1E1E2E',
+                         font_color='white', title_font_color='#00D4AA')
+        return fig
+
+    elif any(word in question_lower for word in ['category', 'categories', 'product type', 'segment']):
+        cat_rev = delivered.groupby('category')['revenue'].sum().reset_index()
+        cat_rev = cat_rev.sort_values('revenue', ascending=True)
+        fig = px.bar(cat_rev, x='revenue', y='category', orientation='h',
+                    title='Revenue by Category', color_discrete_sequence=['#00D4AA'])
+        fig.update_layout(plot_bgcolor='#1E1E2E', paper_bgcolor='#1E1E2E',
+                         font_color='white', title_font_color='#00D4AA')
+        return fig
+
+    elif any(word in question_lower for word in ['churn', 'inactive', 'lost', 'retention', 'risk']):
+        reference_date = pd.Timestamp('2026-03-18')
+        last_order = df_orders.groupby('customer_id')['order_date'].max().reset_index()
+        last_order['days_since'] = (reference_date - last_order['order_date']).dt.days
+        last_order['status'] = last_order['days_since'].apply(
+            lambda x: 'High Risk' if x >= 180 else 'Medium Risk' if x >= 90 else 'Active')
+        status_counts = last_order['status'].value_counts().reset_index()
+        fig = px.pie(status_counts, values='count', names='status',
+                    title='Customer Churn Risk Distribution',
+                    color_discrete_sequence=['#4CAF50', '#FF9800', '#F44336'])
+        fig.update_layout(plot_bgcolor='#1E1E2E', paper_bgcolor='#1E1E2E',
+                         font_color='white', title_font_color='#00D4AA')
+        return fig
+
+    elif any(word in question_lower for word in ['product', 'top', 'best', 'selling', 'item']):
+        top_prods = delivered.groupby('product_name')['revenue'].sum().nlargest(10).reset_index()
+        top_prods = top_prods.sort_values('revenue', ascending=True)
+        fig = px.bar(top_prods, x='revenue', y='product_name', orientation='h',
+                    title='Top 10 Products by Revenue',
+                    color_discrete_sequence=['#00D4AA'])
+        fig.update_layout(plot_bgcolor='#1E1E2E', paper_bgcolor='#1E1E2E',
+                         font_color='white', title_font_color='#00D4AA')
+        return fig
+
+    elif any(word in question_lower for word in ['payment', 'upi', 'credit', 'debit', 'cod']):
+        payment_counts = df_orders['payment_method'].value_counts().reset_index()
+        fig = px.pie(payment_counts, values='count', names='payment_method',
+                    title='Payment Method Distribution',
+                    color_discrete_sequence=['#00D4AA','#F44336','#FF9800','#2196F3','#9C27B0','#8BC34A'])
+        fig.update_layout(plot_bgcolor='#1E1E2E', paper_bgcolor='#1E1E2E',
+                         font_color='white', title_font_color='#00D4AA')
+        return fig
+
+    elif any(word in question_lower for word in ['order', 'status', 'delivered', 'cancelled', 'return']):
+        status_counts = df_orders['order_status'].value_counts().reset_index()
+        fig = px.pie(status_counts, values='count', names='order_status',
+                    title='Order Status Distribution',
+                    color_discrete_sequence=['#00D4AA','#F44336','#FF9800','#2196F3','#9C27B0'])
+        fig.update_layout(plot_bgcolor='#1E1E2E', paper_bgcolor='#1E1E2E',
+                         font_color='white', title_font_color='#00D4AA')
+        return fig
+
+    elif any(word in question_lower for word in ['customer', 'tier', 'city', 'location']):
+        tier_counts = df_customers['tier'].value_counts().reset_index()
+        fig = px.pie(tier_counts, values='count', names='tier',
+                    title='Customers by City Tier',
+                    color_discrete_sequence=['#00D4AA','#2196F3','#FF9800'])
+        fig.update_layout(plot_bgcolor='#1E1E2E', paper_bgcolor='#1E1E2E',
+                         font_color='white', title_font_color='#00D4AA')
+        return fig
+
+    elif any(word in question_lower for word in ['insight', 'overview', 'summary', 'performance', 'increase']):
+        cat_rev = delivered.groupby('category')['revenue'].sum().reset_index()
+        cat_rev = cat_rev.sort_values('revenue', ascending=True)
+        fig = px.bar(cat_rev, x='revenue', y='category', orientation='h',
+                    title='Business Performance Overview',
+                    color_discrete_sequence=['#00D4AA'])
+        fig.update_layout(plot_bgcolor='#1E1E2E', paper_bgcolor='#1E1E2E',
+                         font_color='white', title_font_color='#00D4AA')
+        return fig
+
+    return None
 
 # ============================================================
 # SIDEBAR
@@ -262,7 +347,7 @@ elif page == "ARTHA AI":
         st.markdown("""<div style='background:#0D1117; padding:12px; border-radius:8px;
         border:1px solid #00D4AA; text-align:center;'>
         <p style='color:#00D4AA; margin:0; font-size:20px;'>📊</p>
-        <p style='color:white; margin:0; font-size:12px; font-weight:bold;'>Real Data Analysis</p>
+        <p style='color:white; margin:0; font-size:12px; font-weight:bold;'>Auto Visualizations</p>
         </div>""", unsafe_allow_html=True)
     with col4:
         st.markdown("""<div style='background:#0D1117; padding:12px; border-radius:8px;
@@ -281,6 +366,8 @@ elif page == "ARTHA AI":
             st.write(chat["user"])
         with st.chat_message("assistant", avatar="⚡"):
             st.write(chat["assistant"])
+            if "viz" in chat and chat["viz"] is not None:
+                st.plotly_chart(chat["viz"], use_container_width=True)
 
     st.markdown("**Quick Questions:**")
     col1, col2, col3 = st.columns(3)
@@ -289,27 +376,31 @@ elif page == "ARTHA AI":
             question = "What are the top 3 business insights from CHANAKYA data?"
             with st.spinner("ARTHA is thinking..."):
                 answer = ask_artha(question, st.session_state.chat_history)
-            st.session_state.chat_history.append({"user": question, "assistant": answer})
+                viz = get_auto_visualization(question)
+            st.session_state.chat_history.append({"user": question, "assistant": answer, "viz": viz})
             st.rerun()
     with col2:
         if st.button("Churn Risk Analysis"):
             question = "Which customers are at highest churn risk?"
             with st.spinner("ARTHA is thinking..."):
                 answer = ask_artha(question, st.session_state.chat_history)
-            st.session_state.chat_history.append({"user": question, "assistant": answer})
+                viz = get_auto_visualization(question)
+            st.session_state.chat_history.append({"user": question, "assistant": answer, "viz": viz})
             st.rerun()
     with col3:
         if st.button("Revenue Optimization"):
             question = "How can we increase revenue by 20%?"
             with st.spinner("ARTHA is thinking..."):
                 answer = ask_artha(question, st.session_state.chat_history)
-            st.session_state.chat_history.append({"user": question, "assistant": answer})
+                viz = get_auto_visualization(question)
+            st.session_state.chat_history.append({"user": question, "assistant": answer, "viz": viz})
             st.rerun()
 
     if prompt := st.chat_input("Ask ARTHA anything about CHANAKYA data..."):
         with st.spinner("ARTHA is thinking..."):
             answer = ask_artha(prompt, st.session_state.chat_history)
-        st.session_state.chat_history.append({"user": prompt, "assistant": answer})
+            viz = get_auto_visualization(prompt)
+        st.session_state.chat_history.append({"user": prompt, "assistant": answer, "viz": viz})
         st.rerun()
 
     if st.button("Clear Chat"):
