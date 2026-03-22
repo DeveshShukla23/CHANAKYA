@@ -1,26 +1,28 @@
 <div align="center">
 
-<img src="layer12_streamlit_api/chanakya_logo.png" alt="CHANAKYA Logo" width="600"/>
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1a1a2e,100:028090&height=200&section=header&text=CHANAKYA&fontSize=60&fontColor=00D4AA&fontAlignY=38&desc=AI%20Commerce%20Intelligence%20Platform%20%7C%2012%20Layers%20%7C%20End-to-End%20Data%20Science&descAlignY=58&descSize=16&descColor=a0aec0&animation=fadeIn)
 
-# CHANAKYA — AI Commerce Intelligence Platform
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D4AA&center=true&vCenter=true&width=850&lines=ETL+Pipeline+%7C+SQL+Warehouse+%7C+EDA+%7C+RFM+Segmentation;ML+Forecasting+%7C+Deep+Learning+%7C+Churn+Prediction;Power+BI+%7C+Agentic+AI+%7C+Streamlit+Deployed+%F0%9F%9A%80;100%25+Original+Dataset+%7C+No+Kaggle+%7C+No+Shortcuts+%E2%9C%85)](https://git.io/typing-svg)
 
-### *"Data is the new Arthashastra. CHANAKYA masters both."*
+<br>
 
-<br/>
+<img src="layer12_streamlit_api/chanakya_logo.png" alt="CHANAKYA Logo" width="500"/>
+
+<br>
 
 [![Live App](https://img.shields.io/badge/🚀%20LIVE%20APP-chanakya--ai.streamlit.app-00D4AA?style=for-the-badge)](https://chanakya-ai.streamlit.app)
-[![GitHub](https://img.shields.io/badge/GitHub-DeveshShukla23-black?style=for-the-badge&logo=github)](https://github.com/DeveshShukla23)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Devesh%20Shukla-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/devesh-shukla23)
+[![GitHub](https://img.shields.io/badge/GitHub-DeveshShukla23-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DeveshShukla23)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Devesh%20Shukla-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devesh-shukla23)
 
-<br/>
+<br>
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat&logo=python)
-![MySQL](https://img.shields.io/badge/MySQL-Star%20Schema-orange?style=flat&logo=mysql)
-![PowerBI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?style=flat&logo=powerbi)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-LSTM-orange?style=flat&logo=tensorflow)
-![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red?style=flat&logo=streamlit)
-![Groq](https://img.shields.io/badge/Groq-LLaMA%203.3%2070B-green?style=flat)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-blue?style=flat&logo=scikit-learn)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-Star%20Schema-F29111?style=for-the-badge&logo=mysql&logoColor=white)
+![PowerBI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-LSTM-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-LLaMA%203.3%2070B-00A67E?style=for-the-badge)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 </div>
 
@@ -34,6 +36,8 @@ Just **raw Python**, **real business logic**, and **12 layers** of pure Data Sci
 
 That's **CHANAKYA** — a 100% original end-to-end AI Commerce Intelligence Platform built on a **synthetically generated Indian e-commerce dataset** with real brands, real cities, real business patterns.
 
+> 💡 *"Most people download a dataset. I built one."*
+
 ---
 
 ## 📊 The Numbers Speak
@@ -41,10 +45,32 @@ That's **CHANAKYA** — a 100% original end-to-end AI Commerce Intelligence Plat
 <div align="center">
 
 | 🛒 Orders | 👥 Customers | 💰 Revenue | 📦 Products | 🏙️ Cities |
-|-----------|-------------|-----------|------------|----------|
+|:---:|:---:|:---:|:---:|:---:|
 | **5,010** | **1,000** | **₹2.67 Crore** | **50 Indian Brands** | **28 Cities** |
 
 </div>
+
+---
+
+## 🏗️ 12 Layers of Pure Data Science
+```
+┌─────────────────────────────────────────────────────────────┐
+│                     CHANAKYA ECOSYSTEM                       │
+├──────┬──────────────────────────┬───────────────────────────┤
+│ L1   │ Data Source + Simulation │ 5,010 live orders         │
+│ L2   │ ETL Pipeline             │ Production-grade logging  │
+│ L3   │ SQL Data Warehouse       │ Star Schema + 7 queries   │
+│ L4   │ EDA                      │ 16 professional charts    │
+│ L5   │ RFM Segmentation         │ 9 segments + animation 🎬 │
+│ L6   │ Anomaly Detection        │ 34 frauds caught          │
+│ L7   │ ML Demand Forecasting    │ Gradient Boosting wins    │
+│ L8   │ Deep Learning LSTM       │ Time series forecasting   │
+│ L9   │ Churn Prediction         │ 477 at-risk customers     │
+│ L10  │ Power BI Dashboard       │ Dark theme + DAX measures │
+│ L11  │ ARTHA Agentic AI         │ LLaMA 3.3 70B via Groq    │
+│ L12  │ Streamlit Deployment     │ Live on the internet      │
+└──────┴──────────────────────────┴───────────────────────────┘
+```
 
 ---
 
@@ -72,52 +98,52 @@ ARTHA doesn't just answer questions. It **thinks**, **analyzes**, and **visualiz
 
 ---
 
-## 📈 Exploratory Data Analysis — Layer 4
+## 📈 Layer 4 — Exploratory Data Analysis
 
 > 16 professional charts revealing real business insights
 
 ![Revenue Analysis](layer4_eda/01_revenue_analysis.png)
-
 ![Customer Analysis](layer4_eda/02_customer_analysis.png)
-
 ![Order Analysis](layer4_eda/03_order_analysis.png)
-
 ![Product Analysis](layer4_eda/04_product_analysis.png)
 
 ---
 
-## 🎬 RFM Customer Segmentation — Layer 5
+## 🎬 Layer 5 — RFM Customer Segmentation
 
 > 9 customer segments | Animated visualization
 
 ![RFM Animated](layer5_rfm_segmentation/rfm_bar_animated.gif)
-
 ![RFM Segments](layer5_rfm_segmentation/05_rfm_segmentation.png)
 
 ---
 
-## 🚨 Anomaly Detection — Layer 6
+## 🚨 Layer 6 — Anomaly Detection
 
 > 34 fraud accounts caught using Z-Score + Isolation Forest
 
 ![Revenue Anomaly](layer6_anomaly_detection/06_revenue_anomaly.png)
-
 ![Isolation Forest](layer6_anomaly_detection/07_isolation_forest.png)
 
 ---
 
-## 🤖 ML Demand Forecasting — Layer 7
+## 🤖 Layer 7 — ML Demand Forecasting
 
 > 4 models compared | Gradient Boosting wins with R2: 0.2891
 
 ![ML Forecasting](layer7_ml_forecasting/08_ml_forecasting.png)
-Note: R2 scores are moderate due to limited monthly data (37 points).
-In production with daily transaction data, accuracy will significantly improve.
-This demonstrates honest ML evaluation — not overfitting to small datasets.
+```
+Linear Regression    → R2: 0.2652
+Decision Tree        → R2: 0.0780
+Random Forest        → R2: 0.2522
+Gradient Boosting    → R2: 0.2891 ✅ WINNER
+```
+
+> 📝 R2 scores are moderate due to limited monthly data (37 points). In production with daily transaction data, accuracy will significantly improve. This demonstrates honest ML evaluation — not overfitting to small datasets.
 
 ---
 
-## 🧠 Deep Learning LSTM — Layer 8
+## 🧠 Layer 8 — Deep Learning LSTM
 
 > Time series revenue forecasting with TensorFlow
 
@@ -125,11 +151,15 @@ This demonstrates honest ML evaluation — not overfitting to small datasets.
 
 ---
 
-## 📉 Churn Prediction — Layer 9
+## 📉 Layer 9 — Churn Prediction
 
 > 477 at-risk customers identified | Data leakage detected & fixed
 
 ![Churn Prediction](layer9_churn_prediction/10_churn_prediction.png)
+```
+v1 with days_since_last  → 100% accuracy ❌ (LEAKAGE!)
+v2 without leakage       → 67% accuracy  ✅ (HONEST)
+```
 
 ---
 
@@ -141,28 +171,6 @@ This demonstrates honest ML evaluation — not overfitting to small datasets.
 📉  477 customers predicted to churn — before they actually left
 🎯  November is peak month — festive season spike clearly visible
 💳  UPI dominates at 34.9% — Digital India is real
-```
-
----
-
-## 🏗️ 12 Layers of Pure Data Science
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     CHANAKYA ECOSYSTEM                       │
-├──────┬──────────────────────────┬───────────────────────────┤
-│ L1   │ Data Source + Simulation │ 5,010 live orders         │
-│ L2   │ ETL Pipeline             │ Production-grade logging  │
-│ L3   │ SQL Data Warehouse       │ Star Schema + 7 queries   │
-│ L4   │ EDA                      │ 16 professional charts    │
-│ L5   │ RFM Segmentation         │ 9 segments + animation 🎬 │
-│ L6   │ Anomaly Detection        │ 34 frauds caught          │
-│ L7   │ ML Demand Forecasting    │ Gradient Boosting wins    │
-│ L8   │ Deep Learning LSTM       │ Time series forecasting   │
-│ L9   │ Churn Prediction         │ 477 at-risk customers     │
-│ L10  │ Power BI Dashboard       │ Dark theme + DAX measures │
-│ L11  │ ARTHA Agentic AI         │ LLaMA 3.3 70B via Groq    │
-│ L12  │ Streamlit Deployment     │ Live on the internet      │
-└──────┴──────────────────────────┴───────────────────────────┘
 ```
 
 ---
@@ -179,19 +187,18 @@ WITH customer_ltv AS (
 SELECT * FROM customer_ltv ORDER BY lifetime_value DESC;
 ```
 
-### ML — 4 Models Compared
-```
-Linear Regression    → R2: 0.2652
-Decision Tree        → R2: 0.0780
-Random Forest        → R2: 0.2522
-Gradient Boosting    → R2: 0.2891 ✅ WINNER
-```
+### Skills Demonstrated
 
-### Data Leakage — Detected & Fixed
-```
-v1 with days_since_last  → 100% accuracy ❌ (LEAKAGE!)
-v2 without leakage       → 67% accuracy  ✅ (HONEST)
-```
+<div align="center">
+
+| Data Engineering | Machine Learning | Business Analytics |
+|:---:|:---:|:---:|
+| ✅ ETL Pipeline | ✅ 4 ML Models Compared | ✅ RFM Segmentation |
+| ✅ Star Schema Design | ✅ Deep Learning LSTM | ✅ Anomaly Detection |
+| ✅ Feature Engineering | ✅ Churn Prediction | ✅ Power BI DAX |
+| ✅ Data Validation | ✅ Data Leakage Detection | ✅ Agentic AI |
+
+</div>
 
 ---
 
@@ -232,20 +239,16 @@ streamlit run app.py
 
 *6 months internship experience | Passionate about turning data into decisions*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/devesh-shukla23)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/DeveshShukla23)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devesh-shukla23)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DeveshShukla23)
 [![Live App](https://img.shields.io/badge/🚀%20Try%20CHANAKYA-Live-00D4AA?style=for-the-badge)](https://chanakya-ai.streamlit.app)
 
-</div>
+<br>
 
----
+*"Data is the new Arthashastra. CHANAKYA masters both."* 🏛️
 
-<div align="center">
+⭐ **Star this repo if you found it useful!** ⭐
 
-*"Most people download a dataset. I built one."*
-
-**CHANAKYA** — Built with passion, data, and Arthashastra wisdom 🏛️
-
-⭐ Star this repo if you found it useful!
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0D1117&height=120&section=footer&animation=fadeIn)
 
 </div>
