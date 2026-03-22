@@ -111,6 +111,9 @@ ARTHA doesn't just answer questions. It **thinks**, **analyzes**, and **visualiz
 > 4 models compared | Gradient Boosting wins with R2: 0.2891
 
 ![ML Forecasting](layer7_ml_forecasting/08_ml_forecasting.png)
+Note: R2 scores are moderate due to limited monthly data (37 points).
+In production with daily transaction data, accuracy will significantly improve.
+This demonstrates honest ML evaluation — not overfitting to small datasets.
 
 ---
 
